@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Minnetonka",
+  "slug": "MINNETONKA",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 17033,
+          "id": "349262"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 11355,
+          "id": "655208"
+        },
+        {
+          "area_sqft": 5678,
+          "id": "655209"
+        }
+      ],
+      "confidence": 0.67
+    }
+  ],
+  "by_id": {
+    "655208": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.67,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "349262"
+        }
+      ]
+    },
+    "655209": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.67,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "349262"
+        }
+      ]
+    },
+    "349262": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.67,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655208"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "655209"
+        }
+      ]
+    }
+  }
+}

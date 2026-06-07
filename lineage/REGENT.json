@@ -1,0 +1,115 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "Regent",
+  "slug": "REGENT",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "replacement",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 19299,
+          "roll": "09010476740"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 125108,
+          "roll": "04007264200"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 77820,
+          "roll": "04007261480"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 43650,
+          "roll": "04007271125"
+        },
+        {
+          "area_sqft": 34170,
+          "roll": "04007271130"
+        }
+      ],
+      "confidence": 0.56
+    }
+  ],
+  "by_roll": {
+    "04007264200": {
+      "snapshot": "2025-02-26",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "09010476740"
+        }
+      ]
+    },
+    "09010476740": {
+      "snapshot": "2023-11-13",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "04007264200"
+        }
+      ]
+    },
+    "04007271125": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.56,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "04007261480"
+        }
+      ]
+    },
+    "04007271130": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.56,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "04007261480"
+        }
+      ]
+    },
+    "04007261480": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 0.56,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "04007271125"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "04007271130"
+        }
+      ]
+    }
+  }
+}

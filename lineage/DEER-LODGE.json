@@ -1,0 +1,134 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "Deer Lodge",
+  "slug": "DEER-LODGE",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 4997,
+          "roll": "07040216000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2498,
+          "roll": "07569139565"
+        },
+        {
+          "area_sqft": 2498,
+          "roll": "07569139560"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 4797,
+          "roll": "07051362000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2399,
+          "roll": "07569139570"
+        },
+        {
+          "area_sqft": 2399,
+          "roll": "07569139575"
+        }
+      ],
+      "confidence": 0.5
+    }
+  ],
+  "by_roll": {
+    "07569139565": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "07040216000"
+        }
+      ]
+    },
+    "07569139560": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "07040216000"
+        }
+      ]
+    },
+    "07040216000": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "07569139565"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "07569139560"
+        }
+      ]
+    },
+    "07569139570": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "07051362000"
+        }
+      ]
+    },
+    "07569139575": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "07051362000"
+        }
+      ]
+    },
+    "07051362000": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "07569139570"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "07569139575"
+        }
+      ]
+    }
+  }
+}

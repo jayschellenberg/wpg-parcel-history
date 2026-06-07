@@ -1,0 +1,155 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Booth",
+  "slug": "BOOTH",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 14288,
+          "id": "322705"
+        },
+        {
+          "area_sqft": 4761,
+          "id": "322725"
+        },
+        {
+          "area_sqft": 4163,
+          "id": "322727"
+        },
+        {
+          "area_sqft": 4164,
+          "id": "322732"
+        },
+        {
+          "area_sqft": 4165,
+          "id": "322735"
+        },
+        {
+          "area_sqft": 4165,
+          "id": "322736"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 34542,
+          "id": "655218"
+        }
+      ],
+      "confidence": 0.97
+    }
+  ],
+  "by_id": {
+    "655218": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 0.97,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "322705"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "322725"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "322727"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "322732"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "322735"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "322736"
+        }
+      ]
+    },
+    "322705": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 0.97,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655218"
+        }
+      ]
+    },
+    "322725": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 0.97,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655218"
+        }
+      ]
+    },
+    "322727": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 0.97,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655218"
+        }
+      ]
+    },
+    "322732": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 0.97,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655218"
+        }
+      ]
+    },
+    "322735": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 0.97,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655218"
+        }
+      ]
+    },
+    "322736": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 0.97,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655218"
+        }
+      ]
+    }
+  }
+}

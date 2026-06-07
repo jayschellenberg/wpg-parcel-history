@@ -1,0 +1,210 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Southland Park",
+  "slug": "SOUTHLAND-PARK",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "reconfiguration",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 12018,
+          "id": "395142"
+        },
+        {
+          "area_sqft": 276799,
+          "id": "395126"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 98288,
+          "id": "657684"
+        },
+        {
+          "area_sqft": 288807,
+          "id": "656308"
+        },
+        {
+          "area_sqft": 38072,
+          "id": "657687"
+        },
+        {
+          "area_sqft": 61008,
+          "id": "657685"
+        },
+        {
+          "area_sqft": 54023,
+          "id": "657686"
+        },
+        {
+          "area_sqft": 37416,
+          "id": "657688"
+        }
+      ],
+      "confidence": 0.87
+    }
+  ],
+  "by_id": {
+    "657684": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.87,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "395142"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "395126"
+        }
+      ]
+    },
+    "656308": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.87,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "395142"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "395126"
+        }
+      ]
+    },
+    "657687": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.87,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "395142"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "395126"
+        }
+      ]
+    },
+    "657685": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.87,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "395142"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "395126"
+        }
+      ]
+    },
+    "657686": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.87,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "395142"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "395126"
+        }
+      ]
+    },
+    "657688": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.87,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "395142"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "395126"
+        }
+      ]
+    },
+    "395142": {
+      "snapshot": "2025-03-14",
+      "type": "reconfiguration",
+      "confidence": 0.87,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657684"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656308"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "657687"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "657685"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "657686"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "657688"
+        }
+      ]
+    },
+    "395126": {
+      "snapshot": "2025-03-14",
+      "type": "reconfiguration",
+      "confidence": 0.87,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657684"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656308"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "657687"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "657685"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "657686"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "657688"
+        }
+      ]
+    }
+  }
+}

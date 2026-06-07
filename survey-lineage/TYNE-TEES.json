@@ -1,0 +1,197 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Tyne-Tees",
+  "slug": "TYNE-TEES",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 79546,
+          "id": "291122"
+        },
+        {
+          "area_sqft": 222262,
+          "id": "291085"
+        },
+        {
+          "area_sqft": 454520,
+          "id": "291123"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 754999,
+          "id": "656317"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 48987,
+          "id": "290894"
+        },
+        {
+          "area_sqft": 25766,
+          "id": "290914"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 74753,
+          "id": "657670"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 311652,
+          "id": "647415"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 311652,
+          "id": "657669"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_id": {
+    "656317": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 0.99,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "291122"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "291085"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "291123"
+        }
+      ]
+    },
+    "291122": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 0.99,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656317"
+        }
+      ]
+    },
+    "291085": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 0.99,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656317"
+        }
+      ]
+    },
+    "291123": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 0.99,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656317"
+        }
+      ]
+    },
+    "657670": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "290894"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "290914"
+        }
+      ]
+    },
+    "290894": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657670"
+        }
+      ]
+    },
+    "290914": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657670"
+        }
+      ]
+    },
+    "657669": {
+      "snapshot": "2026-06-07",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "647415"
+        }
+      ]
+    },
+    "647415": {
+      "snapshot": "2025-03-14",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657669"
+        }
+      ]
+    }
+  }
+}

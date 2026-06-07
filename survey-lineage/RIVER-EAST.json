@@ -1,0 +1,163 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "River East",
+  "slug": "RIVER-EAST",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "reconfiguration",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 799,
+          "id": "206132"
+        },
+        {
+          "area_sqft": 11405,
+          "id": "206166"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 6224,
+          "id": "656637"
+        },
+        {
+          "area_sqft": 5980,
+          "id": "656636"
+        }
+      ],
+      "confidence": 0.51
+    },
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 10138,
+          "id": "206835"
+        },
+        {
+          "area_sqft": 12002,
+          "id": "206826"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 22141,
+          "id": "657690"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_id": {
+    "656637": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.51,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "206132"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "206166"
+        }
+      ]
+    },
+    "656636": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.51,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "206132"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "206166"
+        }
+      ]
+    },
+    "206132": {
+      "snapshot": "2025-03-14",
+      "type": "reconfiguration",
+      "confidence": 0.51,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656637"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656636"
+        }
+      ]
+    },
+    "206166": {
+      "snapshot": "2025-03-14",
+      "type": "reconfiguration",
+      "confidence": 0.51,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656637"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656636"
+        }
+      ]
+    },
+    "657690": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "206835"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "206826"
+        }
+      ]
+    },
+    "206835": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657690"
+        }
+      ]
+    },
+    "206826": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657690"
+        }
+      ]
+    }
+  }
+}

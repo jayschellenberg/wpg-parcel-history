@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Daniel McIntyre",
+  "slug": "DANIEL-MCINTYRE",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 6586,
+          "id": "303674"
+        },
+        {
+          "area_sqft": 2506,
+          "id": "303682"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 8928,
+          "id": "655165"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "by_id": {
+    "655165": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 0.98,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "303674"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "303682"
+        }
+      ]
+    },
+    "303674": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 0.98,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655165"
+        }
+      ]
+    },
+    "303682": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 0.98,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655165"
+        }
+      ]
+    }
+  }
+}

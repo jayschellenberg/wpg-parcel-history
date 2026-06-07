@@ -1,0 +1,194 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "Rosser-Old Kildonan",
+  "slug": "ROSSER-OLD-KILDONAN",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "replacement",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 172742,
+          "roll": "05009433625"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 691530,
+          "roll": "05009439090"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 1822835,
+          "roll": "05003950100"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 184913,
+          "roll": "05009439385"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 1780256,
+          "roll": "05009433635"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 324185,
+          "roll": "05009439095"
+        },
+        {
+          "area_sqft": 653217,
+          "roll": "05009439100"
+        },
+        {
+          "area_sqft": 304917,
+          "roll": "05009439105"
+        },
+        {
+          "area_sqft": 1511146,
+          "roll": "05009439390"
+        }
+      ],
+      "confidence": 0.51
+    }
+  ],
+  "by_roll": {
+    "05009439090": {
+      "snapshot": "2025-02-26",
+      "type": "replacement",
+      "confidence": 0.92,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "05009433625"
+        }
+      ]
+    },
+    "05009433625": {
+      "snapshot": "2023-11-13",
+      "type": "replacement",
+      "confidence": 0.92,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "05009439090"
+        }
+      ]
+    },
+    "05009439385": {
+      "snapshot": "2025-02-26",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "05003950100"
+        }
+      ]
+    },
+    "05003950100": {
+      "snapshot": "2023-11-13",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "05009439385"
+        }
+      ]
+    },
+    "05009439095": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.51,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "05009433635"
+        }
+      ]
+    },
+    "05009439100": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.51,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "05009433635"
+        }
+      ]
+    },
+    "05009439105": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.51,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "05009433635"
+        }
+      ]
+    },
+    "05009439390": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.51,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "05009433635"
+        }
+      ]
+    },
+    "05009433635": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 0.51,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "05009439095"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "05009439100"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "05009439105"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "05009439390"
+        }
+      ]
+    }
+  }
+}

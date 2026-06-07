@@ -1,0 +1,416 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "Templeton-Sinclair",
+  "slug": "TEMPLETON-SINCLAIR",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 67424,
+          "roll": "05009423510"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 19563,
+          "roll": "05009442700"
+        },
+        {
+          "area_sqft": 19563,
+          "roll": "05009442705"
+        },
+        {
+          "area_sqft": 19563,
+          "roll": "05009442710"
+        },
+        {
+          "area_sqft": 19563,
+          "roll": "05009442715"
+        },
+        {
+          "area_sqft": 19563,
+          "roll": "05009442720"
+        },
+        {
+          "area_sqft": 19563,
+          "roll": "05009442725"
+        },
+        {
+          "area_sqft": 19563,
+          "roll": "05009442730"
+        },
+        {
+          "area_sqft": 19563,
+          "roll": "05009442735"
+        },
+        {
+          "area_sqft": 19563,
+          "roll": "05009442740"
+        },
+        {
+          "area_sqft": 19563,
+          "roll": "05009442745"
+        },
+        {
+          "area_sqft": 19563,
+          "roll": "05009442750"
+        },
+        {
+          "area_sqft": 19563,
+          "roll": "05009442755"
+        },
+        {
+          "area_sqft": 19563,
+          "roll": "05009442760"
+        },
+        {
+          "area_sqft": 19563,
+          "roll": "05009442765"
+        },
+        {
+          "area_sqft": 19563,
+          "roll": "05009442770"
+        },
+        {
+          "area_sqft": 19563,
+          "roll": "05009442775"
+        },
+        {
+          "area_sqft": 19563,
+          "roll": "05009442780"
+        },
+        {
+          "area_sqft": 19563,
+          "roll": "05009442785"
+        },
+        {
+          "area_sqft": 19563,
+          "roll": "05009442790"
+        },
+        {
+          "area_sqft": 19563,
+          "roll": "05009442795"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_roll": {
+    "05009442700": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "05009423510"
+        }
+      ]
+    },
+    "05009442705": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "05009423510"
+        }
+      ]
+    },
+    "05009442710": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "05009423510"
+        }
+      ]
+    },
+    "05009442715": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "05009423510"
+        }
+      ]
+    },
+    "05009442720": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "05009423510"
+        }
+      ]
+    },
+    "05009442725": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "05009423510"
+        }
+      ]
+    },
+    "05009442730": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "05009423510"
+        }
+      ]
+    },
+    "05009442735": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "05009423510"
+        }
+      ]
+    },
+    "05009442740": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "05009423510"
+        }
+      ]
+    },
+    "05009442745": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "05009423510"
+        }
+      ]
+    },
+    "05009442750": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "05009423510"
+        }
+      ]
+    },
+    "05009442755": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "05009423510"
+        }
+      ]
+    },
+    "05009442760": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "05009423510"
+        }
+      ]
+    },
+    "05009442765": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "05009423510"
+        }
+      ]
+    },
+    "05009442770": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "05009423510"
+        }
+      ]
+    },
+    "05009442775": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "05009423510"
+        }
+      ]
+    },
+    "05009442780": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "05009423510"
+        }
+      ]
+    },
+    "05009442785": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "05009423510"
+        }
+      ]
+    },
+    "05009442790": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "05009423510"
+        }
+      ]
+    },
+    "05009442795": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "05009423510"
+        }
+      ]
+    },
+    "05009423510": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "05009442700"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "05009442705"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "05009442710"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "05009442715"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "05009442720"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "05009442725"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "05009442730"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "05009442735"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "05009442740"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "05009442745"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "05009442750"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "05009442755"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "05009442760"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "05009442765"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "05009442770"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "05009442775"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "05009442780"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "05009442785"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "05009442790"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "05009442795"
+        }
+      ]
+    }
+  }
+}

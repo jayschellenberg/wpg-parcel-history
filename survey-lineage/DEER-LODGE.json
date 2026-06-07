@@ -1,0 +1,115 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Deer Lodge",
+  "slug": "DEER-LODGE",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 6000,
+          "id": "338984"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 3000,
+          "id": "656861"
+        },
+        {
+          "area_sqft": 3000,
+          "id": "656862"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 7999,
+          "id": "346556"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 7597,
+          "id": "657162"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "by_id": {
+    "656861": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "338984"
+        }
+      ]
+    },
+    "656862": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "338984"
+        }
+      ]
+    },
+    "338984": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656861"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656862"
+        }
+      ]
+    },
+    "657162": {
+      "snapshot": "2026-06-07",
+      "type": "replacement",
+      "confidence": 0.95,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "346556"
+        }
+      ]
+    },
+    "346556": {
+      "snapshot": "2025-03-14",
+      "type": "replacement",
+      "confidence": 0.95,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657162"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Rossmere-A",
+  "slug": "ROSSMERE-A",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 6515,
+          "id": "224823"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 3258,
+          "id": "657153"
+        },
+        {
+          "area_sqft": 3257,
+          "id": "657152"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 27856,
+          "id": "645927"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 29262,
+          "id": "656629"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 4777,
+          "id": "232248"
+        },
+        {
+          "area_sqft": 34677,
+          "id": "645926"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 37999,
+          "id": "656628"
+        }
+      ],
+      "confidence": 0.7
+    }
+  ],
+  "by_id": {
+    "657153": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "224823"
+        }
+      ]
+    },
+    "657152": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "224823"
+        }
+      ]
+    },
+    "224823": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657153"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "657152"
+        }
+      ]
+    },
+    "656629": {
+      "snapshot": "2026-06-07",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "645927"
+        }
+      ]
+    },
+    "645927": {
+      "snapshot": "2025-03-14",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656629"
+        }
+      ]
+    },
+    "656628": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 0.7,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "232248"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "645926"
+        }
+      ]
+    },
+    "232248": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 0.7,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656628"
+        }
+      ]
+    },
+    "645926": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 0.7,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656628"
+        }
+      ]
+    }
+  }
+}

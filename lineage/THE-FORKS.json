@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "The Forks",
+  "slug": "THE-FORKS",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "reconfiguration",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 1065155,
+          "roll": "12097756000"
+        },
+        {
+          "area_sqft": 1065155,
+          "roll": "12097809340"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 1065155,
+          "roll": "12097809745"
+        },
+        {
+          "area_sqft": 1065155,
+          "roll": "12097809750"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_roll": {
+    "12097809745": {
+      "snapshot": "2025-02-26",
+      "type": "reconfiguration",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "12097756000"
+        },
+        {
+          "snapshot": "2023-11-13",
+          "roll": "12097809340"
+        }
+      ]
+    },
+    "12097809750": {
+      "snapshot": "2025-02-26",
+      "type": "reconfiguration",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "12097756000"
+        },
+        {
+          "snapshot": "2023-11-13",
+          "roll": "12097809340"
+        }
+      ]
+    },
+    "12097756000": {
+      "snapshot": "2023-11-13",
+      "type": "reconfiguration",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "12097809745"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "12097809750"
+        }
+      ]
+    },
+    "12097809340": {
+      "snapshot": "2023-11-13",
+      "type": "reconfiguration",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "12097809745"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "12097809750"
+        }
+      ]
+    }
+  }
+}

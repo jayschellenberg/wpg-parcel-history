@@ -1,0 +1,1986 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "North St. Boniface",
+  "slug": "NORTH-ST-BONIFACE",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "replacement",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 4039,
+          "roll": "06060302000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 8077,
+          "roll": "06060301000"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 39337,
+          "roll": "06060142000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 39337,
+          "roll": "06093477935"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093477940"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093477945"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093477950"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093477955"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093477960"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093477965"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093477970"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093477975"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093477980"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093477985"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093477990"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093477995"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478000"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478005"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478010"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478015"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478020"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478025"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478030"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478035"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478040"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478045"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478050"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478055"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478060"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478065"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478070"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478075"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478080"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478085"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478090"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478095"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478100"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478105"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478110"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478115"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478120"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478125"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478130"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478135"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478140"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478145"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478150"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478155"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478160"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478165"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478170"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478175"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478180"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478185"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478190"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478195"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478200"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478205"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478210"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478215"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478220"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478225"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478230"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478235"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478240"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478245"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478250"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478255"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478260"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478265"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478270"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478275"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478280"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478285"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478290"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478295"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478300"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478305"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478310"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478315"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478320"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478325"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478330"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478335"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478340"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478345"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478350"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478355"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478360"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478365"
+        },
+        {
+          "area_sqft": 39337,
+          "roll": "06093478370"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 144,
+          "roll": "06060177500"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 20359,
+          "roll": "06093480160"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "consolidation",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 3189,
+          "roll": "06060337000"
+        },
+        {
+          "area_sqft": 4044,
+          "roll": "06060338000"
+        },
+        {
+          "area_sqft": 12111,
+          "roll": "06093124800"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 19344,
+          "roll": "06093480175"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 39,
+          "roll": "06060171500"
+        },
+        {
+          "area_sqft": 19267,
+          "roll": "06060181000"
+        },
+        {
+          "area_sqft": 7702,
+          "roll": "06093124000"
+        },
+        {
+          "area_sqft": 262,
+          "roll": "06093387000"
+        },
+        {
+          "area_sqft": 20359,
+          "roll": "06093480160"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 47629,
+          "roll": "06093480760"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_roll": {
+    "06060301000": {
+      "snapshot": "2025-02-26",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060302000"
+        }
+      ]
+    },
+    "06060302000": {
+      "snapshot": "2023-11-13",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06060301000"
+        }
+      ]
+    },
+    "06093477935": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093477940": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093477945": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093477950": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093477955": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093477960": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093477965": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093477970": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093477975": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093477980": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093477985": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093477990": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093477995": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478000": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478005": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478010": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478015": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478020": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478025": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478030": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478035": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478040": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478045": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478050": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478055": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478060": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478065": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478070": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478075": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478080": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478085": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478090": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478095": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478100": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478105": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478110": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478115": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478120": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478125": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478130": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478135": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478140": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478145": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478150": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478155": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478160": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478165": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478170": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478175": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478180": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478185": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478190": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478195": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478200": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478205": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478210": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478215": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478220": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478225": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478230": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478235": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478240": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478245": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478250": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478255": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478260": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478265": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478270": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478275": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478280": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478285": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478290": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478295": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478300": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478305": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478310": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478315": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478320": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478325": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478330": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478335": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478340": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478345": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478350": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478355": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478360": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478365": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06093478370": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060142000"
+        }
+      ]
+    },
+    "06060142000": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093477935"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093477940"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093477945"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093477950"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093477955"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093477960"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093477965"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093477970"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093477975"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093477980"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093477985"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093477990"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093477995"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478000"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478005"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478010"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478015"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478020"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478025"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478030"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478035"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478040"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478045"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478050"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478055"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478060"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478065"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478070"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478075"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478080"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478085"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478090"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478095"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478100"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478105"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478110"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478115"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478120"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478125"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478130"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478135"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478140"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478145"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478150"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478155"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478160"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478165"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478170"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478175"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478180"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478185"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478190"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478195"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478200"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478205"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478210"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478215"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478220"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478225"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478230"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478235"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478240"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478245"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478250"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478255"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478260"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478265"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478270"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478275"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478280"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478285"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478290"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478295"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478300"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478305"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478310"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478315"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478320"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478325"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478330"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478335"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478340"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478345"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478350"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478355"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478360"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478365"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093478370"
+        }
+      ]
+    },
+    "06093480160": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060177500"
+        }
+      ],
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "06093480760"
+        }
+      ]
+    },
+    "06060177500": {
+      "snapshot": "2023-11-13",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093480160"
+        }
+      ]
+    },
+    "06093480175": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060337000"
+        },
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06060338000"
+        },
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06093124800"
+        }
+      ]
+    },
+    "06060337000": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093480175"
+        }
+      ]
+    },
+    "06060338000": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093480175"
+        }
+      ]
+    },
+    "06093124800": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093480175"
+        }
+      ]
+    },
+    "06093480760": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06060171500"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06060181000"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093124000"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093387000"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093480160"
+        }
+      ]
+    },
+    "06060171500": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "06093480760"
+        }
+      ]
+    },
+    "06060181000": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "06093480760"
+        }
+      ]
+    },
+    "06093124000": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "06093480760"
+        }
+      ]
+    },
+    "06093387000": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "06093480760"
+        }
+      ]
+    }
+  }
+}

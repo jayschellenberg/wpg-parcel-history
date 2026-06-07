@@ -1,0 +1,153 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "King Edward",
+  "slug": "KING-EDWARD",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 5040,
+          "id": "338853"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2520,
+          "id": "656925"
+        },
+        {
+          "area_sqft": 2520,
+          "id": "656924"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 9735,
+          "id": "598214"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 3245,
+          "id": "655924"
+        },
+        {
+          "area_sqft": 3245,
+          "id": "655923"
+        },
+        {
+          "area_sqft": 3245,
+          "id": "655925"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_id": {
+    "656925": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "338853"
+        }
+      ]
+    },
+    "656924": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "338853"
+        }
+      ]
+    },
+    "338853": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656925"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656924"
+        }
+      ]
+    },
+    "655924": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "598214"
+        }
+      ]
+    },
+    "655923": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "598214"
+        }
+      ]
+    },
+    "655925": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "598214"
+        }
+      ]
+    },
+    "598214": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655924"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "655923"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "655925"
+        }
+      ]
+    }
+  }
+}

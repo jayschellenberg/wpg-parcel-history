@@ -1,0 +1,315 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "Varennes",
+  "slug": "VARENNES",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 5139,
+          "roll": "08000551000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2570,
+          "roll": "08081226590"
+        },
+        {
+          "area_sqft": 2569,
+          "roll": "08081226585"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 6553,
+          "roll": "08001659000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 3389,
+          "roll": "08081226670"
+        },
+        {
+          "area_sqft": 3164,
+          "roll": "08081226675"
+        }
+      ],
+      "confidence": 0.52
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 6781,
+          "roll": "08001650500"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 3390,
+          "roll": "08081226715"
+        },
+        {
+          "area_sqft": 3390,
+          "roll": "08081226710"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 5174,
+          "roll": "08001859500"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2587,
+          "roll": "08081226610"
+        },
+        {
+          "area_sqft": 2587,
+          "roll": "08081226615"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 4820,
+          "roll": "08001622000"
+        },
+        {
+          "area_sqft": 10868,
+          "roll": "08001622500"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 15689,
+          "roll": "08081226925"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_roll": {
+    "08081226590": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "08000551000"
+        }
+      ]
+    },
+    "08081226585": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "08000551000"
+        }
+      ]
+    },
+    "08000551000": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08081226590"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08081226585"
+        }
+      ]
+    },
+    "08081226670": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.52,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "08001659000"
+        }
+      ]
+    },
+    "08081226675": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.52,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "08001659000"
+        }
+      ]
+    },
+    "08001659000": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 0.52,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08081226670"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08081226675"
+        }
+      ]
+    },
+    "08081226715": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "08001650500"
+        }
+      ]
+    },
+    "08081226710": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "08001650500"
+        }
+      ]
+    },
+    "08001650500": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08081226715"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08081226710"
+        }
+      ]
+    },
+    "08081226610": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "08001859500"
+        }
+      ]
+    },
+    "08081226615": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "08001859500"
+        }
+      ]
+    },
+    "08001859500": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08081226610"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08081226615"
+        }
+      ]
+    },
+    "08081226925": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08001622000"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08001622500"
+        }
+      ]
+    },
+    "08001622000": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "08081226925"
+        }
+      ]
+    },
+    "08001622500": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "08081226925"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "Silver Heights",
+  "slug": "SILVER-HEIGHTS",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 7907,
+          "roll": "07060561000"
+        },
+        {
+          "area_sqft": 1317,
+          "roll": "07060801700"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 9223,
+          "roll": "07569139610"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_roll": {
+    "07569139610": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "07060561000"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "07060801700"
+        }
+      ]
+    },
+    "07060561000": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "07569139610"
+        }
+      ]
+    },
+    "07060801700": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "07569139610"
+        }
+      ]
+    }
+  }
+}

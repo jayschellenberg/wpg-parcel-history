@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Chevrier",
+  "slug": "CHEVRIER",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 4261,
+          "id": "421177"
+        },
+        {
+          "area_sqft": 4261,
+          "id": "421180"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 8523,
+          "id": "657665"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_id": {
+    "657665": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "421177"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "421180"
+        }
+      ]
+    },
+    "421177": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657665"
+        }
+      ]
+    },
+    "421180": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657665"
+        }
+      ]
+    }
+  }
+}

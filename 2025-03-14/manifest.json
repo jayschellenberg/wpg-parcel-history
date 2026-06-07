@@ -1,0 +1,1207 @@
+{
+  "schema": 2,
+  "snapshot_id": "2025-03-14",
+  "generated": "2026-06-07T15:35:47-0500",
+  "generator": {
+    "script": "build_historical_shards.R",
+    "commit": "fe66faa",
+    "crs": "EPSG:4326",
+    "shard_key": "official Winnipeg neighbourhood (representative-point-in-polygon)",
+    "simplify_tolerance_deg": 3e-05,
+    "simplify_min_area_m2": 10000,
+    "geometry_note": "Display geometry: lots < 1 ha kept exact; larger parcels simplified ~2-3 m. NOT survey-accurate — resolve boundary/area evidence to the archived source-of-record (layers[].source_file / sha256)."
+  },
+  "disclaimer": "Historical assessment + survey overlays are an investigative aid as of the source date; verify against the registered plan / title / by-law and the current winnipegassessment.com record. Not a legal survey or determination.",
+  "layers": {
+    "survey": {
+      "source_file": "SurveyParcels_20250314.gpkg",
+      "source_date": "2025-03-14",
+      "retrieved_at": "2026-06-07T13:26:46-0500",
+      "retrieved_at_inferred": true,
+      "source_crs": "EPSG:4326 (WGS 84)",
+      "sha256": "714c3a0ff83a5942d53f5b876e8caa2d9e2bdf5b006c205c1ebedecb5c281a6f",
+      "bytes": 482754560,
+      "source_url": "https://data.winnipeg.ca/resource/sjjm-nj47",
+      "license": "City of Winnipeg Open Data — verify current terms",
+      "neighbourhoods": 235,
+      "features": 262006
+    }
+  },
+  "neighbourhoods": {
+    "RIVERBEND": {
+      "name": "Riverbend",
+      "parcels": 0,
+      "survey": 2117
+    },
+    "THE-MAPLES": {
+      "name": "The Maples",
+      "parcels": 0,
+      "survey": 3193
+    },
+    "SEVEN-OAKS": {
+      "name": "Seven Oaks",
+      "parcels": 0,
+      "survey": 1744
+    },
+    "ROSSER-OLD-KILDONAN": {
+      "name": "Rosser-Old Kildonan",
+      "parcels": 0,
+      "survey": 1429
+    },
+    "CENTRAL-ST-BONIFACE": {
+      "name": "Central St. Boniface",
+      "parcels": 0,
+      "survey": 1610
+    },
+    "DUFRESNE": {
+      "name": "Dufresne",
+      "parcels": 0,
+      "survey": 230
+    },
+    "BRIDGWATER-FOREST": {
+      "name": "Bridgwater Forest",
+      "parcels": 0,
+      "survey": 1277
+    },
+    "WESTON": {
+      "name": "Weston",
+      "parcels": 0,
+      "survey": 2699
+    },
+    "MANDALAY-WEST": {
+      "name": "Mandalay West",
+      "parcels": 0,
+      "survey": 1632
+    },
+    "CHALMERS": {
+      "name": "Chalmers",
+      "parcels": 0,
+      "survey": 3888
+    },
+    "ST-VITAL-PERIMETER-SOUTH": {
+      "name": "St. Vital Perimeter South",
+      "parcels": 0,
+      "survey": 841
+    },
+    "CENTENNIAL": {
+      "name": "Centennial",
+      "parcels": 0,
+      "survey": 962
+    },
+    "EBBY-WENTWORTH": {
+      "name": "Ebby-Wentworth",
+      "parcels": 0,
+      "survey": 534
+    },
+    "AMBER-TRAILS": {
+      "name": "Amber Trails",
+      "parcels": 0,
+      "survey": 2229
+    },
+    "RIVERGROVE": {
+      "name": "Rivergrove",
+      "parcels": 0,
+      "survey": 678
+    },
+    "LEILA-MCPHILLIPS-TRIANGLE": {
+      "name": "Leila-McPhillips Triangle",
+      "parcels": 0,
+      "survey": 649
+    },
+    "SOUTH-PORTAGE": {
+      "name": "South Portage",
+      "parcels": 0,
+      "survey": 617
+    },
+    "ST-JAMES-INDUSTRIAL": {
+      "name": "St. James Industrial",
+      "parcels": 0,
+      "survey": 1171
+    },
+    "TRANSCONA-YARDS": {
+      "name": "Transcona Yards",
+      "parcels": 0,
+      "survey": 45
+    },
+    "TYNDALL-PARK": {
+      "name": "Tyndall Park",
+      "parcels": 0,
+      "survey": 4004
+    },
+    "BROOKLANDS": {
+      "name": "Brooklands",
+      "parcels": 0,
+      "survey": 1731
+    },
+    "ROSSMERE-A": {
+      "name": "Rossmere-A",
+      "parcels": 0,
+      "survey": 3794
+    },
+    "SOUTH-POINTE": {
+      "name": "South Pointe",
+      "parcels": 0,
+      "survey": 2030
+    },
+    "NORWOOD-WEST": {
+      "name": "Norwood West",
+      "parcels": 0,
+      "survey": 1126
+    },
+    "INKSTER-FARADAY": {
+      "name": "Inkster-Faraday",
+      "parcels": 0,
+      "survey": 1653
+    },
+    "MINNETONKA": {
+      "name": "Minnetonka",
+      "parcels": 0,
+      "survey": 1867
+    },
+    "WAVERLEY-HEIGHTS": {
+      "name": "Waverley Heights",
+      "parcels": 0,
+      "survey": 1682
+    },
+    "BROADWAY-ASSINIBOINE": {
+      "name": "Broadway-Assiniboine",
+      "parcels": 0,
+      "survey": 272
+    },
+    "KERN-PARK": {
+      "name": "Kern Park",
+      "parcels": 0,
+      "survey": 912
+    },
+    "CLOUTIER-DRIVE": {
+      "name": "Cloutier Drive",
+      "parcels": 0,
+      "survey": 92
+    },
+    "JEFFERSON": {
+      "name": "Jefferson",
+      "parcels": 0,
+      "survey": 3460
+    },
+    "RIVER-PARK-SOUTH": {
+      "name": "River Park South",
+      "parcels": 0,
+      "survey": 3986
+    },
+    "DAKOTA-CROSSING": {
+      "name": "Dakota Crossing",
+      "parcels": 0,
+      "survey": 3462
+    },
+    "INKSTER-GARDENS": {
+      "name": "Inkster Gardens",
+      "parcels": 0,
+      "survey": 1588
+    },
+    "GRASSIE": {
+      "name": "Grassie",
+      "parcels": 0,
+      "survey": 1410
+    },
+    "WEST-ALEXANDER": {
+      "name": "West Alexander",
+      "parcels": 0,
+      "survey": 1971
+    },
+    "BROCKVILLE": {
+      "name": "Brockville",
+      "parcels": 0,
+      "survey": 265
+    },
+    "BRIDGWATER-TRAILS": {
+      "name": "Bridgwater Trails",
+      "parcels": 0,
+      "survey": 1338
+    },
+    "UNASSIGNED": {
+      "name": "UNASSIGNED",
+      "parcels": 0,
+      "survey": 219
+    },
+    "ELMHURST": {
+      "name": "Elmhurst",
+      "parcels": 0,
+      "survey": 1683
+    },
+    "WORTHINGTON": {
+      "name": "Worthington",
+      "parcels": 0,
+      "survey": 1607
+    },
+    "PULBERRY": {
+      "name": "Pulberry",
+      "parcels": 0,
+      "survey": 1478
+    },
+    "MAYBANK": {
+      "name": "Maybank",
+      "parcels": 0,
+      "survey": 1213
+    },
+    "RIDGEWOOD-SOUTH": {
+      "name": "Ridgewood South",
+      "parcels": 0,
+      "survey": 980
+    },
+    "VALHALLA": {
+      "name": "Valhalla",
+      "parcels": 0,
+      "survey": 83
+    },
+    "SARGENT-PARK": {
+      "name": "Sargent Park",
+      "parcels": 0,
+      "survey": 2779
+    },
+    "MISSION-GARDENS": {
+      "name": "Mission Gardens",
+      "parcels": 0,
+      "survey": 1594
+    },
+    "ASSINIBOIA-DOWNS": {
+      "name": "Assiniboia Downs",
+      "parcels": 0,
+      "survey": 324
+    },
+    "MEADOWS": {
+      "name": "Meadows",
+      "parcels": 0,
+      "survey": 2115
+    },
+    "BURROWS-CENTRAL": {
+      "name": "Burrows Central",
+      "parcels": 0,
+      "survey": 2221
+    },
+    "KILDONAN-PARK": {
+      "name": "Kildonan Park",
+      "parcels": 0,
+      "survey": 286
+    },
+    "ST-BONIFACE-INDUSTRIAL-PARK": {
+      "name": "St. Boniface Industrial Park",
+      "parcels": 0,
+      "survey": 552
+    },
+    "TALBOT-GREY": {
+      "name": "Talbot-Grey",
+      "parcels": 0,
+      "survey": 1125
+    },
+    "TYNE-TEES": {
+      "name": "Tyne-Tees",
+      "parcels": 0,
+      "survey": 190
+    },
+    "WILLIAM-WHYTE": {
+      "name": "William Whyte",
+      "parcels": 0,
+      "survey": 2323
+    },
+    "POLO-PARK": {
+      "name": "Polo Park",
+      "parcels": 0,
+      "survey": 172
+    },
+    "CANTERBURY-PARK": {
+      "name": "Canterbury Park",
+      "parcels": 0,
+      "survey": 2996
+    },
+    "EARL-GREY": {
+      "name": "Earl Grey",
+      "parcels": 0,
+      "survey": 1886
+    },
+    "WEST-WOLSELEY": {
+      "name": "West Wolseley",
+      "parcels": 0,
+      "survey": 149
+    },
+    "WINDSOR-PARK": {
+      "name": "Windsor Park",
+      "parcels": 0,
+      "survey": 3413
+    },
+    "TUXEDO-INDUSTRIAL": {
+      "name": "Tuxedo Industrial",
+      "parcels": 0,
+      "survey": 176
+    },
+    "MISSION-INDUSTRIAL": {
+      "name": "Mission Industrial",
+      "parcels": 0,
+      "survey": 686
+    },
+    "EAST-ELMWOOD": {
+      "name": "East Elmwood",
+      "parcels": 0,
+      "survey": 1330
+    },
+    "RIVER-EAST": {
+      "name": "River East",
+      "parcels": 0,
+      "survey": 3580
+    },
+    "WEST-KILDONAN-INDUSTRIAL": {
+      "name": "West Kildonan Industrial",
+      "parcels": 0,
+      "survey": 986
+    },
+    "MUNROE-EAST": {
+      "name": "Munroe East",
+      "parcels": 0,
+      "survey": 2967
+    },
+    "ROBLIN-PARK": {
+      "name": "Roblin Park",
+      "parcels": 0,
+      "survey": 410
+    },
+    "MURRAY-INDUSTRIAL-PARK": {
+      "name": "Murray Industrial Park",
+      "parcels": 0,
+      "survey": 97
+    },
+    "WHYTE-RIDGE": {
+      "name": "Whyte Ridge",
+      "parcels": 0,
+      "survey": 2536
+    },
+    "INKSTER-INDUSTRIAL-PARK": {
+      "name": "Inkster Industrial Park",
+      "parcels": 0,
+      "survey": 333
+    },
+    "TEMPLETON-SINCLAIR": {
+      "name": "Templeton-Sinclair",
+      "parcels": 0,
+      "survey": 1815
+    },
+    "NORMAND-PARK": {
+      "name": "Normand Park",
+      "parcels": 0,
+      "survey": 482
+    },
+    "SPRINGFIELD-NORTH": {
+      "name": "Springfield North",
+      "parcels": 0,
+      "survey": 2095
+    },
+    "MONTCALM": {
+      "name": "Montcalm",
+      "parcels": 0,
+      "survey": 162
+    },
+    "AGASSIZ": {
+      "name": "Agassiz",
+      "parcels": 0,
+      "survey": 229
+    },
+    "SPRINGFIELD-SOUTH": {
+      "name": "Springfield South",
+      "parcels": 0,
+      "survey": 544
+    },
+    "ST-JOHNS": {
+      "name": "St. John's",
+      "parcels": 0,
+      "survey": 2822
+    },
+    "GLENWOOD": {
+      "name": "Glenwood",
+      "parcels": 0,
+      "survey": 2684
+    },
+    "LEILA-NORTH": {
+      "name": "Leila North",
+      "parcels": 0,
+      "survey": 658
+    },
+    "BIRCHWOOD": {
+      "name": "Birchwood",
+      "parcels": 0,
+      "survey": 415
+    },
+    "ROSLYN": {
+      "name": "Roslyn",
+      "parcels": 0,
+      "survey": 111
+    },
+    "NORWOOD-EAST": {
+      "name": "Norwood East",
+      "parcels": 0,
+      "survey": 1740
+    },
+    "LORD-ROBERTS": {
+      "name": "Lord Roberts",
+      "parcels": 0,
+      "survey": 2626
+    },
+    "HOLDEN": {
+      "name": "Holden",
+      "parcels": 0,
+      "survey": 198
+    },
+    "KING-EDWARD": {
+      "name": "King Edward",
+      "parcels": 0,
+      "survey": 3338
+    },
+    "NORTH-INKSTER-INDUSTRIAL": {
+      "name": "North Inkster Industrial",
+      "parcels": 0,
+      "survey": 858
+    },
+    "NORTH-RIVER-HEIGHTS": {
+      "name": "North River Heights",
+      "parcels": 0,
+      "survey": 2433
+    },
+    "MEADOWOOD": {
+      "name": "Meadowood",
+      "parcels": 0,
+      "survey": 2021
+    },
+    "LA-BARRIERE": {
+      "name": "La Barriere",
+      "parcels": 0,
+      "survey": 46
+    },
+    "MUNROE-WEST": {
+      "name": "Munroe West",
+      "parcels": 0,
+      "survey": 1317
+    },
+    "BRIDGWATER-LAKES": {
+      "name": "Bridgwater Lakes",
+      "parcels": 0,
+      "survey": 1308
+    },
+    "CHEVRIER": {
+      "name": "Chevrier",
+      "parcels": 0,
+      "survey": 432
+    },
+    "KILDONAN-DRIVE": {
+      "name": "Kildonan Drive",
+      "parcels": 0,
+      "survey": 1813
+    },
+    "AIRPORT": {
+      "name": "Airport",
+      "parcels": 0,
+      "survey": 4874
+    },
+    "OAK-POINT-HIGHWAY": {
+      "name": "Oak Point Highway",
+      "parcels": 0,
+      "survey": 207
+    },
+    "BURROWS-KEEWATIN": {
+      "name": "Burrows-Keewatin",
+      "parcels": 0,
+      "survey": 460
+    },
+    "PARKER": {
+      "name": "Parker",
+      "parcels": 0,
+      "survey": 611
+    },
+    "FORT-RICHMOND": {
+      "name": "Fort Richmond",
+      "parcels": 0,
+      "survey": 3037
+    },
+    "SAGE-CREEK": {
+      "name": "Sage Creek",
+      "parcels": 0,
+      "survey": 3118
+    },
+    "VICTORIA-CRESCENT": {
+      "name": "Victoria Crescent",
+      "parcels": 0,
+      "survey": 304
+    },
+    "NIAKWA-PLACE": {
+      "name": "Niakwa Place",
+      "parcels": 0,
+      "survey": 749
+    },
+    "MINTO": {
+      "name": "Minto",
+      "parcels": 0,
+      "survey": 2598
+    },
+    "PARC-LA-SALLE": {
+      "name": "Parc La Salle",
+      "parcels": 0,
+      "survey": 855
+    },
+    "RIVER-OSBORNE": {
+      "name": "River-Osborne",
+      "parcels": 0,
+      "survey": 654
+    },
+    "MARGARET-PARK": {
+      "name": "Margaret Park",
+      "parcels": 0,
+      "survey": 769
+    },
+    "DANIEL-MCINTYRE": {
+      "name": "Daniel McIntyre",
+      "parcels": 0,
+      "survey": 2993
+    },
+    "FAIRFIELD-PARK": {
+      "name": "Fairfield Park",
+      "parcels": 0,
+      "survey": 795
+    },
+    "ROSSMERE-B": {
+      "name": "Rossmere-B",
+      "parcels": 0,
+      "survey": 2059
+    },
+    "MELROSE": {
+      "name": "Melrose",
+      "parcels": 0,
+      "survey": 946
+    },
+    "TISSOT": {
+      "name": "Tissot",
+      "parcels": 0,
+      "survey": 85
+    },
+    "GARDEN-CITY": {
+      "name": "Garden City",
+      "parcels": 0,
+      "survey": 2152
+    },
+    "VALLEY-GARDENS": {
+      "name": "Valley Gardens",
+      "parcels": 0,
+      "survey": 2188
+    },
+    "GLENELM": {
+      "name": "Glenelm",
+      "parcels": 0,
+      "survey": 980
+    },
+    "UNIVERSITY": {
+      "name": "University",
+      "parcels": 0,
+      "survey": 65
+    },
+    "POINT-ROAD": {
+      "name": "Point Road",
+      "parcels": 0,
+      "survey": 827
+    },
+    "DEER-LODGE": {
+      "name": "Deer Lodge",
+      "parcels": 0,
+      "survey": 2085
+    },
+    "ERIC-COY": {
+      "name": "Eric Coy",
+      "parcels": 0,
+      "survey": 996
+    },
+    "WOLSELEY": {
+      "name": "Wolseley",
+      "parcels": 0,
+      "survey": 2880
+    },
+    "RICHMOND-LAKES": {
+      "name": "Richmond Lakes",
+      "parcels": 0,
+      "survey": 625
+    },
+    "PEGUIS": {
+      "name": "Peguis",
+      "parcels": 0,
+      "survey": 2731
+    },
+    "WILKES-SOUTH": {
+      "name": "Wilkes South",
+      "parcels": 0,
+      "survey": 605
+    },
+    "RICHMOND-WEST": {
+      "name": "Richmond West",
+      "parcels": 0,
+      "survey": 2267
+    },
+    "SILVER-HEIGHTS": {
+      "name": "Silver Heights",
+      "parcels": 0,
+      "survey": 1841
+    },
+    "VIALOUX": {
+      "name": "Vialoux",
+      "parcels": 0,
+      "survey": 360
+    },
+    "ROBERTSON": {
+      "name": "Robertson",
+      "parcels": 0,
+      "survey": 2150
+    },
+    "WEST-BROADWAY": {
+      "name": "West Broadway",
+      "parcels": 0,
+      "survey": 889
+    },
+    "JAMESWOOD": {
+      "name": "Jameswood",
+      "parcels": 0,
+      "survey": 548
+    },
+    "MYNARSKI": {
+      "name": "Mynarski",
+      "parcels": 0,
+      "survey": 430
+    },
+    "DUFFERIN": {
+      "name": "Dufferin",
+      "parcels": 0,
+      "survey": 746
+    },
+    "VARSITY-VIEW": {
+      "name": "Varsity View",
+      "parcels": 0,
+      "survey": 1390
+    },
+    "NORTH-POINT-DOUGLAS": {
+      "name": "North Point Douglas",
+      "parcels": 0,
+      "survey": 1210
+    },
+    "GRANT-PARK": {
+      "name": "Grant Park",
+      "parcels": 0,
+      "survey": 794
+    },
+    "CRESCENTWOOD": {
+      "name": "Crescentwood",
+      "parcels": 0,
+      "survey": 1190
+    },
+    "THE-FORKS": {
+      "name": "The Forks",
+      "parcels": 0,
+      "survey": 129
+    },
+    "KILDARE-REDONDA": {
+      "name": "Kildare-Redonda",
+      "parcels": 0,
+      "survey": 2407
+    },
+    "SOUTH-TUXEDO": {
+      "name": "South Tuxedo",
+      "parcels": 0,
+      "survey": 879
+    },
+    "CENTRAL-PARK": {
+      "name": "Central Park",
+      "parcels": 0,
+      "survey": 232
+    },
+    "ROYALWOOD": {
+      "name": "Royalwood",
+      "parcels": 0,
+      "survey": 1778
+    },
+    "SPENCE": {
+      "name": "Spence",
+      "parcels": 0,
+      "survey": 950
+    },
+    "PEMBINA-STRIP": {
+      "name": "Pembina Strip",
+      "parcels": 0,
+      "survey": 70
+    },
+    "BEAUMONT": {
+      "name": "Beaumont",
+      "parcels": 0,
+      "survey": 1424
+    },
+    "RIVER-WEST-PARK": {
+      "name": "River West Park",
+      "parcels": 0,
+      "survey": 534
+    },
+    "BETSWORTH": {
+      "name": "Betsworth",
+      "parcels": 0,
+      "survey": 1795
+    },
+    "NORTH-ST-BONIFACE": {
+      "name": "North St. Boniface",
+      "parcels": 0,
+      "survey": 833
+    },
+    "NORBERRY": {
+      "name": "Norberry",
+      "parcels": 0,
+      "survey": 619
+    },
+    "MARLTON": {
+      "name": "Marlton",
+      "parcels": 0,
+      "survey": 242
+    },
+    "LUXTON": {
+      "name": "Luxton",
+      "parcels": 0,
+      "survey": 1044
+    },
+    "RADISSON": {
+      "name": "Radisson",
+      "parcels": 0,
+      "survey": 1893
+    },
+    "SIR-JOHN-FRANKLIN": {
+      "name": "Sir John Franklin",
+      "parcels": 0,
+      "survey": 1611
+    },
+    "OMANDS-CREEK-INDUSTRIAL": {
+      "name": "Omand's Creek Industrial",
+      "parcels": 0,
+      "survey": 262
+    },
+    "MCLEOD-INDUSTRIAL": {
+      "name": "McLeod Industrial",
+      "parcels": 0,
+      "survey": 90
+    },
+    "KIL-CONA-PARK": {
+      "name": "Kil-Cona Park",
+      "parcels": 0,
+      "survey": 139
+    },
+    "SHAUGHNESSY-PARK": {
+      "name": "Shaughnessy Park",
+      "parcels": 0,
+      "survey": 1054
+    },
+    "ST-JOHNS-PARK": {
+      "name": "St. John's Park",
+      "parcels": 0,
+      "survey": 216
+    },
+    "NORTH-TRANSCONA-YARDS": {
+      "name": "North Transcona Yards",
+      "parcels": 0,
+      "survey": 124
+    },
+    "BOOTH": {
+      "name": "Booth",
+      "parcels": 0,
+      "survey": 1280
+    },
+    "EAGLEMERE": {
+      "name": "Eaglemere",
+      "parcels": 0,
+      "survey": 457
+    },
+    "TRANSCONA-NORTH": {
+      "name": "Transcona North",
+      "parcels": 0,
+      "survey": 688
+    },
+    "VICTORIA-WEST": {
+      "name": "Victoria West",
+      "parcels": 0,
+      "survey": 1578
+    },
+    "LORD-SELKIRK-PARK": {
+      "name": "Lord Selkirk Park",
+      "parcels": 0,
+      "survey": 387
+    },
+    "DUFFERIN-INDUSTRIAL": {
+      "name": "Dufferin Industrial",
+      "parcels": 0,
+      "survey": 195
+    },
+    "CRESCENT-PARK": {
+      "name": "Crescent Park",
+      "parcels": 0,
+      "survey": 971
+    },
+    "ST-VITAL-CENTRE": {
+      "name": "St. Vital Centre",
+      "parcels": 0,
+      "survey": 106
+    },
+    "GLENDALE": {
+      "name": "Glendale",
+      "parcels": 0,
+      "survey": 333
+    },
+    "CIVIC-CENTRE": {
+      "name": "Civic Centre",
+      "parcels": 0,
+      "survey": 173
+    },
+    "SOUTH-POINT-DOUGLAS": {
+      "name": "South Point Douglas",
+      "parcels": 0,
+      "survey": 472
+    },
+    "KENSINGTON": {
+      "name": "Kensington",
+      "parcels": 0,
+      "survey": 155
+    },
+    "WEST-FORT-GARRY-INDUSTRIAL": {
+      "name": "West Fort Garry Industrial",
+      "parcels": 0,
+      "survey": 147
+    },
+    "LINDEN-RIDGE": {
+      "name": "Linden Ridge",
+      "parcels": 0,
+      "survey": 424
+    },
+    "LINDEN-WOODS": {
+      "name": "Linden Woods",
+      "parcels": 0,
+      "survey": 2826
+    },
+    "ELM-PARK": {
+      "name": "Elm Park",
+      "parcels": 0,
+      "survey": 806
+    },
+    "LOGAN-CPR": {
+      "name": "Logan-C.P.R.",
+      "parcels": 0,
+      "survey": 807
+    },
+    "BRIDGWATER-CENTRE": {
+      "name": "Bridgwater Centre",
+      "parcels": 0,
+      "survey": 292
+    },
+    "WESTON-SHOPS": {
+      "name": "Weston Shops",
+      "parcels": 0,
+      "survey": 72
+    },
+    "MCMILLAN": {
+      "name": "McMillan",
+      "parcels": 0,
+      "survey": 748
+    },
+    "WILDWOOD": {
+      "name": "Wildwood",
+      "parcels": 0,
+      "survey": 494
+    },
+    "MAGINOT": {
+      "name": "Maginot",
+      "parcels": 0,
+      "survey": 521
+    },
+    "ISLAND-LAKES": {
+      "name": "Island Lakes",
+      "parcels": 0,
+      "survey": 2253
+    },
+    "EXCHANGE-DISTRICT": {
+      "name": "Exchange District",
+      "parcels": 0,
+      "survey": 385
+    },
+    "WOODHAVEN": {
+      "name": "Woodhaven",
+      "parcels": 0,
+      "survey": 389
+    },
+    "ROCKWOOD": {
+      "name": "Rockwood",
+      "parcels": 0,
+      "survey": 1430
+    },
+    "ST-GEORGE": {
+      "name": "St. George",
+      "parcels": 0,
+      "survey": 1390
+    },
+    "ST-NORBERT": {
+      "name": "St. Norbert",
+      "parcels": 0,
+      "survey": 568
+    },
+    "TRAPPISTES": {
+      "name": "Trappistes",
+      "parcels": 0,
+      "survey": 69
+    },
+    "SYMINGTON-YARDS": {
+      "name": "Symington Yards",
+      "parcels": 0,
+      "survey": 82
+    },
+    "TRANSCONA-SOUTH": {
+      "name": "Transcona South",
+      "parcels": 0,
+      "survey": 1297
+    },
+    "KIRKFIELD": {
+      "name": "Kirkfield",
+      "parcels": 0,
+      "survey": 989
+    },
+    "PACIFIC-INDUSTRIAL": {
+      "name": "Pacific Industrial",
+      "parcels": 0,
+      "survey": 194
+    },
+    "GRIFFIN": {
+      "name": "Griffin",
+      "parcels": 0,
+      "survey": 46
+    },
+    "SOUTHDALE": {
+      "name": "Southdale",
+      "parcels": 0,
+      "survey": 2036
+    },
+    "VARENNES": {
+      "name": "Varennes",
+      "parcels": 0,
+      "survey": 555
+    },
+    "REGENT": {
+      "name": "Regent",
+      "parcels": 0,
+      "survey": 155
+    },
+    "ST-MATTHEWS": {
+      "name": "St. Matthews",
+      "parcels": 0,
+      "survey": 1920
+    },
+    "BUFFALO": {
+      "name": "Buffalo",
+      "parcels": 0,
+      "survey": 197
+    },
+    "SASKATCHEWAN-NORTH": {
+      "name": "Saskatchewan North",
+      "parcels": 0,
+      "survey": 145
+    },
+    "CENTRAL-RIVER-HEIGHTS": {
+      "name": "Central River Heights",
+      "parcels": 0,
+      "survey": 1542
+    },
+    "WELLINGTON-CRESCENT": {
+      "name": "Wellington Crescent",
+      "parcels": 0,
+      "survey": 730
+    },
+    "MATHERS": {
+      "name": "Mathers",
+      "parcels": 0,
+      "survey": 578
+    },
+    "RIVERVIEW": {
+      "name": "Riverview",
+      "parcels": 0,
+      "survey": 1786
+    },
+    "CHINA-TOWN": {
+      "name": "China Town",
+      "parcels": 0,
+      "survey": 71
+    },
+    "BRUCE-PARK": {
+      "name": "Bruce Park",
+      "parcels": 0,
+      "survey": 809
+    },
+    "COLONY": {
+      "name": "Colony",
+      "parcels": 0,
+      "survey": 122
+    },
+    "WESTDALE": {
+      "name": "Westdale",
+      "parcels": 0,
+      "survey": 1494
+    },
+    "PORTAGE-ELLICE": {
+      "name": "Portage-Ellice",
+      "parcels": 0,
+      "survey": 137
+    },
+    "STOCK-YARDS": {
+      "name": "Stock Yards",
+      "parcels": 0,
+      "survey": 359
+    },
+    "J-B-MITCHELL": {
+      "name": "J. B. Mitchell",
+      "parcels": 0,
+      "survey": 585
+    },
+    "DUGALD": {
+      "name": "Dugald",
+      "parcels": 0,
+      "survey": 83
+    },
+    "PORTAGE-MAIN": {
+      "name": "Portage & Main",
+      "parcels": 0,
+      "survey": 223
+    },
+    "FRAIPONT": {
+      "name": "Fraipont",
+      "parcels": 0,
+      "survey": 1308
+    },
+    "KILDONAN-CROSSING": {
+      "name": "Kildonan Crossing",
+      "parcels": 0,
+      "survey": 46
+    },
+    "PERRAULT": {
+      "name": "Perrault",
+      "parcels": 0,
+      "survey": 59
+    },
+    "EDGELAND": {
+      "name": "Edgeland",
+      "parcels": 0,
+      "survey": 103
+    },
+    "VISTA": {
+      "name": "Vista",
+      "parcels": 0,
+      "survey": 604
+    },
+    "OLD-TUXEDO": {
+      "name": "Old Tuxedo",
+      "parcels": 0,
+      "survey": 436
+    },
+    "WAVERLEY-WEST-B": {
+      "name": "Waverley West B",
+      "parcels": 0,
+      "survey": 685
+    },
+    "NIAKWA-PARK": {
+      "name": "Niakwa Park",
+      "parcels": 0,
+      "survey": 173
+    },
+    "LEGISLATURE": {
+      "name": "Legislature",
+      "parcels": 0,
+      "survey": 78
+    },
+    "THE-MINT": {
+      "name": "The Mint",
+      "parcels": 0,
+      "survey": 8
+    },
+    "ARCHWOOD": {
+      "name": "Archwood",
+      "parcels": 0,
+      "survey": 584
+    },
+    "BUCHANAN": {
+      "name": "Buchanan",
+      "parcels": 0,
+      "survey": 1373
+    },
+    "PRAIRIE-POINTE": {
+      "name": "Prairie Pointe",
+      "parcels": 0,
+      "survey": 2169
+    },
+    "SOUTH-RIVER-HEIGHTS": {
+      "name": "South River Heights",
+      "parcels": 0,
+      "survey": 1197
+    },
+    "TURNBULL-DRIVE": {
+      "name": "Turnbull Drive",
+      "parcels": 0,
+      "survey": 74
+    },
+    "ARMSTRONG-POINT": {
+      "name": "Armstrong Point",
+      "parcels": 0,
+      "survey": 140
+    },
+    "TUXEDO": {
+      "name": "Tuxedo",
+      "parcels": 0,
+      "survey": 1061
+    },
+    "WESTWOOD": {
+      "name": "Westwood",
+      "parcels": 0,
+      "survey": 2979
+    },
+    "RIDGEDALE": {
+      "name": "Ridgedale",
+      "parcels": 0,
+      "survey": 315
+    },
+    "SOUTHLAND-PARK": {
+      "name": "Southland Park",
+      "parcels": 0,
+      "survey": 491
+    },
+    "LAVALEE": {
+      "name": "Lavalee",
+      "parcels": 0,
+      "survey": 345
+    },
+    "ASSINIBOINE-PARK": {
+      "name": "Assiniboine Park",
+      "parcels": 0,
+      "survey": 230
+    },
+    "SOUTHBOINE": {
+      "name": "Southboine",
+      "parcels": 0,
+      "survey": 318
+    },
+    "ALPINE-PLACE": {
+      "name": "Alpine Place",
+      "parcels": 0,
+      "survey": 70
+    },
+    "KINGSTON-CRESCENT": {
+      "name": "Kingston Crescent",
+      "parcels": 0,
+      "survey": 315
+    },
+    "WEST-PERIMETER-SOUTH": {
+      "name": "West Perimeter South",
+      "parcels": 0,
+      "survey": 50
+    },
+    "MAPLE-GROVE-PARK": {
+      "name": "Maple Grove Park",
+      "parcels": 0,
+      "survey": 31
+    }
+  }
+}

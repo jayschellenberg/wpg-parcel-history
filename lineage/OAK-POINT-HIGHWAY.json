@@ -1,0 +1,156 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "Oak Point Highway",
+  "slug": "OAK-POINT-HIGHWAY",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "replacement",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 896258,
+          "roll": "14100046000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 908069,
+          "roll": "14100132680"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 237220,
+          "roll": "14096344100"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 225414,
+          "roll": "14100132695"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 4138,
+          "roll": "14100132675"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 3758,
+          "roll": "14100133235"
+        },
+        {
+          "area_sqft": 380,
+          "roll": "14100133240"
+        }
+      ],
+      "confidence": 0.91
+    }
+  ],
+  "by_roll": {
+    "14100132680": {
+      "snapshot": "2025-02-26",
+      "type": "replacement",
+      "confidence": 0.98,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "14100046000"
+        }
+      ]
+    },
+    "14100046000": {
+      "snapshot": "2023-11-13",
+      "type": "replacement",
+      "confidence": 0.98,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "14100132680"
+        }
+      ]
+    },
+    "14100132695": {
+      "snapshot": "2025-02-26",
+      "type": "replacement",
+      "confidence": 0.88,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "14096344100"
+        }
+      ]
+    },
+    "14096344100": {
+      "snapshot": "2023-11-13",
+      "type": "replacement",
+      "confidence": 0.88,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "14100132695"
+        }
+      ]
+    },
+    "14100133235": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.91,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "14100132675"
+        }
+      ]
+    },
+    "14100133240": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.91,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "14100132675"
+        }
+      ]
+    },
+    "14100132675": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.91,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "14100133235"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "14100133240"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "South Portage",
+  "slug": "SOUTH-PORTAGE",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "consolidation",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 130945,
+          "roll": "12093205200"
+        },
+        {
+          "area_sqft": 130945,
+          "roll": "12097648600"
+        },
+        {
+          "area_sqft": 130945,
+          "roll": "12097648800"
+        },
+        {
+          "area_sqft": 130945,
+          "roll": "12097651600"
+        },
+        {
+          "area_sqft": 130945,
+          "roll": "12097740300"
+        },
+        {
+          "area_sqft": 130945,
+          "roll": "12097740400"
+        },
+        {
+          "area_sqft": 130945,
+          "roll": "12097790900"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 130945,
+          "roll": "12097809630"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_roll": {
+    "12097809630": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "12093205200"
+        },
+        {
+          "snapshot": "2023-11-13",
+          "roll": "12097648600"
+        },
+        {
+          "snapshot": "2023-11-13",
+          "roll": "12097648800"
+        },
+        {
+          "snapshot": "2023-11-13",
+          "roll": "12097651600"
+        },
+        {
+          "snapshot": "2023-11-13",
+          "roll": "12097740300"
+        },
+        {
+          "snapshot": "2023-11-13",
+          "roll": "12097740400"
+        },
+        {
+          "snapshot": "2023-11-13",
+          "roll": "12097790900"
+        }
+      ]
+    },
+    "12093205200": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "12097809630"
+        }
+      ]
+    },
+    "12097648600": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "12097809630"
+        }
+      ]
+    },
+    "12097648800": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "12097809630"
+        }
+      ]
+    },
+    "12097651600": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "12097809630"
+        }
+      ]
+    },
+    "12097740300": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "12097809630"
+        }
+      ]
+    },
+    "12097740400": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "12097809630"
+        }
+      ]
+    },
+    "12097790900": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "12097809630"
+        }
+      ]
+    }
+  }
+}

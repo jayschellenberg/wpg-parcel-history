@@ -1,0 +1,175 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "Seven Oaks",
+  "slug": "SEVEN-OAKS",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 8604,
+          "roll": "11000051000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 4302,
+          "roll": "11051798560"
+        },
+        {
+          "area_sqft": 4302,
+          "roll": "11051798555"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 5013,
+          "roll": "11001206000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2507,
+          "roll": "11051798565"
+        },
+        {
+          "area_sqft": 2507,
+          "roll": "11051798570"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 6789,
+          "roll": "11000627000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 11217,
+          "roll": "11051798590"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_roll": {
+    "11051798560": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "11000051000"
+        }
+      ]
+    },
+    "11051798555": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "11000051000"
+        }
+      ]
+    },
+    "11000051000": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "11051798560"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "11051798555"
+        }
+      ]
+    },
+    "11051798565": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "11001206000"
+        }
+      ]
+    },
+    "11051798570": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "11001206000"
+        }
+      ]
+    },
+    "11001206000": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "11051798565"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "11051798570"
+        }
+      ]
+    },
+    "11051798590": {
+      "snapshot": "2026-06-07",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "11000627000"
+        }
+      ]
+    },
+    "11000627000": {
+      "snapshot": "2025-02-26",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "11051798590"
+        }
+      ]
+    }
+  }
+}

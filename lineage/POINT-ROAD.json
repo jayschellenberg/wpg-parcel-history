@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "Point Road",
+  "slug": "POINT-ROAD",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 6951,
+          "roll": "03090845000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 3910,
+          "roll": "03093018785"
+        },
+        {
+          "area_sqft": 3041,
+          "roll": "03093018780"
+        }
+      ],
+      "confidence": 0.56
+    }
+  ],
+  "by_roll": {
+    "03093018785": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.56,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "03090845000"
+        }
+      ]
+    },
+    "03093018780": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.56,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "03090845000"
+        }
+      ]
+    },
+    "03090845000": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.56,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "03093018785"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "03093018780"
+        }
+      ]
+    }
+  }
+}

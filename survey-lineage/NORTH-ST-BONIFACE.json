@@ -1,0 +1,176 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "North St. Boniface",
+  "slug": "NORTH-ST-BONIFACE",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 6114,
+          "id": "315502"
+        },
+        {
+          "area_sqft": 6001,
+          "id": "315511"
+        },
+        {
+          "area_sqft": 491,
+          "id": "495904"
+        },
+        {
+          "area_sqft": 500,
+          "id": "495905"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 13106,
+          "id": "656296"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 5992,
+          "id": "302312"
+        },
+        {
+          "area_sqft": 4794,
+          "id": "302313"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 10786,
+          "id": "655197"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_id": {
+    "656296": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "315502"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "315511"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "495904"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "495905"
+        }
+      ]
+    },
+    "315502": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656296"
+        }
+      ]
+    },
+    "315511": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656296"
+        }
+      ]
+    },
+    "495904": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656296"
+        }
+      ]
+    },
+    "495905": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656296"
+        }
+      ]
+    },
+    "655197": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "302312"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "302313"
+        }
+      ]
+    },
+    "302312": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655197"
+        }
+      ]
+    },
+    "302313": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655197"
+        }
+      ]
+    }
+  }
+}

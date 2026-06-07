@@ -1,0 +1,254 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "Kern Park",
+  "slug": "KERN-PARK",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 5400,
+          "roll": "09000434000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2700,
+          "roll": "09010480655"
+        },
+        {
+          "area_sqft": 2700,
+          "roll": "09010480660"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 5400,
+          "roll": "09000515000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2700,
+          "roll": "09010480665"
+        },
+        {
+          "area_sqft": 2700,
+          "roll": "09010480670"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 5667,
+          "roll": "09001126000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2833,
+          "roll": "09010480680"
+        },
+        {
+          "area_sqft": 2833,
+          "roll": "09010480675"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 7999,
+          "roll": "09000693000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 4000,
+          "roll": "09010480685"
+        },
+        {
+          "area_sqft": 4000,
+          "roll": "09010480690"
+        }
+      ],
+      "confidence": 0.5
+    }
+  ],
+  "by_roll": {
+    "09010480655": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "09000434000"
+        }
+      ]
+    },
+    "09010480660": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "09000434000"
+        }
+      ]
+    },
+    "09000434000": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "09010480655"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "09010480660"
+        }
+      ]
+    },
+    "09010480665": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "09000515000"
+        }
+      ]
+    },
+    "09010480670": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "09000515000"
+        }
+      ]
+    },
+    "09000515000": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "09010480665"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "09010480670"
+        }
+      ]
+    },
+    "09010480680": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "09001126000"
+        }
+      ]
+    },
+    "09010480675": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "09001126000"
+        }
+      ]
+    },
+    "09001126000": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "09010480680"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "09010480675"
+        }
+      ]
+    },
+    "09010480685": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "09000693000"
+        }
+      ]
+    },
+    "09010480690": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "09000693000"
+        }
+      ]
+    },
+    "09000693000": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "09010480685"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "09010480690"
+        }
+      ]
+    }
+  }
+}

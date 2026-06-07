@@ -1,0 +1,157 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "Eric Coy",
+  "slug": "ERIC-COY",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "replacement",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 18710,
+          "roll": "01002732200"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 12728,
+          "roll": "01009606780"
+        }
+      ],
+      "confidence": 0.68
+    },
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 42608,
+          "roll": "01002422500"
+        },
+        {
+          "area_sqft": 12303,
+          "roll": "01002422800"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 48760,
+          "roll": "01009606920"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 21304,
+          "roll": "01002423000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 27455,
+          "roll": "01009606925"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_roll": {
+    "01009606780": {
+      "snapshot": "2025-02-26",
+      "type": "replacement",
+      "confidence": 0.68,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "01002732200"
+        }
+      ]
+    },
+    "01002732200": {
+      "snapshot": "2023-11-13",
+      "type": "replacement",
+      "confidence": 0.68,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "01009606780"
+        }
+      ]
+    },
+    "01009606920": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "01002422500"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "01002422800"
+        }
+      ]
+    },
+    "01002422500": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "01009606920"
+        }
+      ]
+    },
+    "01002422800": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "01009606920"
+        }
+      ]
+    },
+    "01009606925": {
+      "snapshot": "2026-06-07",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "01002423000"
+        }
+      ]
+    },
+    "01002423000": {
+      "snapshot": "2025-02-26",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "01009606925"
+        }
+      ]
+    }
+  }
+}

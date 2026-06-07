@@ -1,0 +1,115 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "St. Vital Perimeter South",
+  "slug": "ST-VITAL-PERIMETER-SOUTH",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 567680,
+          "id": "284955"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 373174,
+          "id": "656870"
+        },
+        {
+          "area_sqft": 344647,
+          "id": "656869"
+        }
+      ],
+      "confidence": 0.56
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 1138194,
+          "id": "284963"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 988052,
+          "id": "656871"
+        }
+      ],
+      "confidence": 0.87
+    }
+  ],
+  "by_id": {
+    "656870": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.56,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "284955"
+        }
+      ]
+    },
+    "656869": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.56,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "284955"
+        }
+      ]
+    },
+    "284955": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.56,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656870"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656869"
+        }
+      ]
+    },
+    "656871": {
+      "snapshot": "2026-06-07",
+      "type": "replacement",
+      "confidence": 0.87,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "284963"
+        }
+      ]
+    },
+    "284963": {
+      "snapshot": "2025-03-14",
+      "type": "replacement",
+      "confidence": 0.87,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656871"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "St. Boniface Industrial Park",
+  "slug": "ST-BONIFACE-INDUSTRIAL-PARK",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 1804927,
+          "id": "628280"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 264373,
+          "id": "656875"
+        },
+        {
+          "area_sqft": 320541,
+          "id": "656876"
+        },
+        {
+          "area_sqft": 392484,
+          "id": "656879"
+        },
+        {
+          "area_sqft": 435491,
+          "id": "656877"
+        },
+        {
+          "area_sqft": 392038,
+          "id": "656878"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_id": {
+    "656875": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "628280"
+        }
+      ]
+    },
+    "656876": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "628280"
+        }
+      ]
+    },
+    "656879": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "628280"
+        }
+      ]
+    },
+    "656877": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "628280"
+        }
+      ]
+    },
+    "656878": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "628280"
+        }
+      ]
+    },
+    "628280": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656875"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656876"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656879"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656877"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656878"
+        }
+      ]
+    }
+  }
+}

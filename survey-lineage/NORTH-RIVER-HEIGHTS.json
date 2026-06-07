@@ -1,0 +1,255 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "North River Heights",
+  "slug": "NORTH-RIVER-HEIGHTS",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 7212,
+          "id": "364446"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 3606,
+          "id": "656318"
+        },
+        {
+          "area_sqft": 3606,
+          "id": "656319"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 4199,
+          "id": "376500"
+        },
+        {
+          "area_sqft": 2999,
+          "id": "376522"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 7198,
+          "id": "655203"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 5996,
+          "id": "365059"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2998,
+          "id": "657434"
+        },
+        {
+          "area_sqft": 2998,
+          "id": "657433"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 5161,
+          "id": "375677"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2581,
+          "id": "656681"
+        },
+        {
+          "area_sqft": 2580,
+          "id": "656682"
+        }
+      ],
+      "confidence": 0.5
+    }
+  ],
+  "by_id": {
+    "656318": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "364446"
+        }
+      ]
+    },
+    "656319": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "364446"
+        }
+      ]
+    },
+    "364446": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656318"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656319"
+        }
+      ]
+    },
+    "655203": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "376500"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "376522"
+        }
+      ]
+    },
+    "376500": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655203"
+        }
+      ]
+    },
+    "376522": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655203"
+        }
+      ]
+    },
+    "657434": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "365059"
+        }
+      ]
+    },
+    "657433": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "365059"
+        }
+      ]
+    },
+    "365059": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657434"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "657433"
+        }
+      ]
+    },
+    "656681": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "375677"
+        }
+      ]
+    },
+    "656682": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "375677"
+        }
+      ]
+    },
+    "375677": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656681"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656682"
+        }
+      ]
+    }
+  }
+}

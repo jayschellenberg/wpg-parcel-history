@@ -1,0 +1,267 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Transcona North",
+  "slug": "TRANSCONA-NORTH",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 10897,
+          "id": "646727"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2536,
+          "id": "656676"
+        },
+        {
+          "area_sqft": 2406,
+          "id": "656680"
+        },
+        {
+          "area_sqft": 1985,
+          "id": "656678"
+        },
+        {
+          "area_sqft": 1985,
+          "id": "656677"
+        },
+        {
+          "area_sqft": 1985,
+          "id": "656679"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 12084,
+          "id": "646728"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2199,
+          "id": "656303"
+        },
+        {
+          "area_sqft": 2199,
+          "id": "656306"
+        },
+        {
+          "area_sqft": 2676,
+          "id": "656307"
+        },
+        {
+          "area_sqft": 2199,
+          "id": "656305"
+        },
+        {
+          "area_sqft": 2811,
+          "id": "656302"
+        },
+        {
+          "area_sqft": 2199,
+          "id": "656304"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_id": {
+    "656676": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "646727"
+        }
+      ]
+    },
+    "656680": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "646727"
+        }
+      ]
+    },
+    "656678": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "646727"
+        }
+      ]
+    },
+    "656677": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "646727"
+        }
+      ]
+    },
+    "656679": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "646727"
+        }
+      ]
+    },
+    "646727": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656676"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656680"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656678"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656677"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656679"
+        }
+      ]
+    },
+    "656303": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "646728"
+        }
+      ]
+    },
+    "656306": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "646728"
+        }
+      ]
+    },
+    "656307": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "646728"
+        }
+      ]
+    },
+    "656305": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "646728"
+        }
+      ]
+    },
+    "656302": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "646728"
+        }
+      ]
+    },
+    "656304": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "646728"
+        }
+      ]
+    },
+    "646728": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656303"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656306"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656307"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656305"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656302"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656304"
+        }
+      ]
+    }
+  }
+}

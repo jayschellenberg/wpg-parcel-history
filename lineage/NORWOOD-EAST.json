@@ -1,0 +1,276 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "Norwood East",
+  "slug": "NORWOOD-EAST",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 6588,
+          "roll": "06081064000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 3294,
+          "roll": "06093479050"
+        },
+        {
+          "area_sqft": 3294,
+          "roll": "06093479055"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "consolidation",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 6922,
+          "roll": "06081865000"
+        },
+        {
+          "area_sqft": 4984,
+          "roll": "06081866000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 11906,
+          "roll": "06093479090"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 5997,
+          "roll": "06081260000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2998,
+          "roll": "06093479105"
+        },
+        {
+          "area_sqft": 2998,
+          "roll": "06093479100"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 22191,
+          "roll": "06081311100"
+        },
+        {
+          "area_sqft": 4798,
+          "roll": "06081420000"
+        },
+        {
+          "area_sqft": 4796,
+          "roll": "06081421000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 31351,
+          "roll": "06093480780"
+        }
+      ],
+      "confidence": 0.99
+    }
+  ],
+  "by_roll": {
+    "06093479050": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06081064000"
+        }
+      ]
+    },
+    "06093479055": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06081064000"
+        }
+      ]
+    },
+    "06081064000": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093479050"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093479055"
+        }
+      ]
+    },
+    "06093479090": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06081865000"
+        },
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06081866000"
+        }
+      ]
+    },
+    "06081865000": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093479090"
+        }
+      ]
+    },
+    "06081866000": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093479090"
+        }
+      ]
+    },
+    "06093479105": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06081260000"
+        }
+      ]
+    },
+    "06093479100": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06081260000"
+        }
+      ]
+    },
+    "06081260000": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093479105"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093479100"
+        }
+      ]
+    },
+    "06093480780": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 0.99,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06081311100"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06081420000"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06081421000"
+        }
+      ]
+    },
+    "06081311100": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 0.99,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "06093480780"
+        }
+      ]
+    },
+    "06081420000": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 0.99,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "06093480780"
+        }
+      ]
+    },
+    "06081421000": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 0.99,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "06093480780"
+        }
+      ]
+    }
+  }
+}

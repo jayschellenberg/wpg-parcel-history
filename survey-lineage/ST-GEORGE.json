@@ -1,0 +1,135 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "St. George",
+  "slug": "ST-GEORGE",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 7647,
+          "id": "404078"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 3832,
+          "id": "656327"
+        },
+        {
+          "area_sqft": 3814,
+          "id": "656328"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 2491,
+          "id": "404935"
+        },
+        {
+          "area_sqft": 2491,
+          "id": "404941"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 4982,
+          "id": "657693"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_id": {
+    "656327": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "404078"
+        }
+      ]
+    },
+    "656328": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "404078"
+        }
+      ]
+    },
+    "404078": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656327"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656328"
+        }
+      ]
+    },
+    "657693": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "404935"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "404941"
+        }
+      ]
+    },
+    "404935": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657693"
+        }
+      ]
+    },
+    "404941": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657693"
+        }
+      ]
+    }
+  }
+}

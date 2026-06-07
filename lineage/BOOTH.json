@@ -1,0 +1,78 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "Booth",
+  "slug": "BOOTH",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "replacement",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 803276,
+          "roll": "07071516000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 803276,
+          "roll": "07071516100"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 803276,
+          "roll": "07071516100"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 803276,
+          "roll": "07071516000"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_roll": {
+    "07071516100": {
+      "snapshot": "2025-02-26",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "07071516000"
+        }
+      ],
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "07071516000"
+        }
+      ]
+    },
+    "07071516000": {
+      "snapshot": "2026-06-07",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "07071516100"
+        }
+      ]
+    }
+  }
+}

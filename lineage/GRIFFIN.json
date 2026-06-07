@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "Griffin",
+  "slug": "GRIFFIN",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 621065,
+          "roll": "09004872500"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 21309,
+          "roll": "09010480640"
+        },
+        {
+          "area_sqft": 21309,
+          "roll": "09010480645"
+        },
+        {
+          "area_sqft": 21309,
+          "roll": "09010480650"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_roll": {
+    "09010480640": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "09004872500"
+        }
+      ]
+    },
+    "09010480645": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "09004872500"
+        }
+      ]
+    },
+    "09010480650": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "09004872500"
+        }
+      ]
+    },
+    "09004872500": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "09010480640"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "09010480645"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "09010480650"
+        }
+      ]
+    }
+  }
+}

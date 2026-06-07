@@ -1,0 +1,196 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "North Inkster Industrial",
+  "slug": "NORTH-INKSTER-INDUSTRIAL",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 204289,
+          "id": "597028"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 204289,
+          "id": "657698"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 108521,
+          "id": "513251"
+        },
+        {
+          "area_sqft": 180044,
+          "id": "513252"
+        },
+        {
+          "area_sqft": 89347,
+          "id": "597029"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 377913,
+          "id": "657696"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 333509,
+          "id": "638276"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 309017,
+          "id": "655155"
+        },
+        {
+          "area_sqft": 9928,
+          "id": "655156"
+        }
+      ],
+      "confidence": 0.93
+    }
+  ],
+  "by_id": {
+    "657698": {
+      "snapshot": "2026-06-07",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "597028"
+        }
+      ]
+    },
+    "597028": {
+      "snapshot": "2025-03-14",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657698"
+        }
+      ]
+    },
+    "657696": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "513251"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "513252"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "597029"
+        }
+      ]
+    },
+    "513251": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657696"
+        }
+      ]
+    },
+    "513252": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657696"
+        }
+      ]
+    },
+    "597029": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657696"
+        }
+      ]
+    },
+    "655155": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.93,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "638276"
+        }
+      ]
+    },
+    "655156": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.93,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "638276"
+        }
+      ]
+    },
+    "638276": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.93,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655155"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "655156"
+        }
+      ]
+    }
+  }
+}

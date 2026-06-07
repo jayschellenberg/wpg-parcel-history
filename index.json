@@ -1,0 +1,52 @@
+{
+  "dataset": "wpg-parcel-history",
+  "schema": 2,
+  "generated": "2026-06-07T15:37:55-0500",
+  "cdn": "https://cdn.jsdelivr.net/gh/jayschellenberg/wpg-parcel-history@main",
+  "snapshots": {
+    "2026-06-07": {
+      "snapshot_id": "2026-06-07",
+      "layers": {
+        "parcels": {
+          "source_date": "2026-06-07",
+          "features": 245059
+        },
+        "survey": {
+          "source_date": "2026-06-07",
+          "features": 262542
+        }
+      },
+      "neighbourhood_count": 235
+    },
+    "2025-03-14": {
+      "snapshot_id": "2025-03-14",
+      "layers": {
+        "survey": {
+          "source_date": "2025-03-14",
+          "features": 262006
+        }
+      },
+      "neighbourhood_count": 235
+    },
+    "2025-02-26": {
+      "snapshot_id": "2025-02-26",
+      "layers": {
+        "parcels": {
+          "source_date": "2025-02-26",
+          "features": 244007
+        }
+      },
+      "neighbourhood_count": 235
+    },
+    "2023-11-13": {
+      "snapshot_id": "2023-11-13",
+      "layers": {
+        "parcels": {
+          "source_date": "2023-11-13",
+          "features": 241306
+        }
+      },
+      "neighbourhood_count": 235
+    }
+  }
+}

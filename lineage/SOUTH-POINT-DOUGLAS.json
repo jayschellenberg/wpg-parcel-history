@@ -1,0 +1,184 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "South Point Douglas",
+  "slug": "SOUTH-POINT-DOUGLAS",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "replacement",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 2230,
+          "roll": "13091851000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 43640,
+          "roll": "13091206500"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 85307,
+          "roll": "13091406200"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 91035,
+          "roll": "13091512000"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "reconfiguration",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 31768,
+          "roll": "13096017000"
+        },
+        {
+          "area_sqft": 4357,
+          "roll": "13091822000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 24652,
+          "roll": "13099072615"
+        },
+        {
+          "area_sqft": 11473,
+          "roll": "13099072620"
+        }
+      ],
+      "confidence": 0.62
+    }
+  ],
+  "by_roll": {
+    "13091206500": {
+      "snapshot": "2025-02-26",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "13091851000"
+        }
+      ]
+    },
+    "13091851000": {
+      "snapshot": "2023-11-13",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "13091206500"
+        }
+      ]
+    },
+    "13091512000": {
+      "snapshot": "2025-02-26",
+      "type": "replacement",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "13091406200"
+        }
+      ]
+    },
+    "13091406200": {
+      "snapshot": "2023-11-13",
+      "type": "replacement",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "13091512000"
+        }
+      ]
+    },
+    "13099072615": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.62,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "13096017000"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "13091822000"
+        }
+      ]
+    },
+    "13099072620": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.62,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "13096017000"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "13091822000"
+        }
+      ]
+    },
+    "13096017000": {
+      "snapshot": "2025-02-26",
+      "type": "reconfiguration",
+      "confidence": 0.62,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "13099072615"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "13099072620"
+        }
+      ]
+    },
+    "13091822000": {
+      "snapshot": "2025-02-26",
+      "type": "reconfiguration",
+      "confidence": 0.62,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "13099072615"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "13099072620"
+        }
+      ]
+    }
+  }
+}

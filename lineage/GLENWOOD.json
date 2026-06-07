@@ -1,0 +1,1176 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "Glenwood",
+  "slug": "GLENWOOD",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 5096,
+          "roll": "08081222900"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2548,
+          "roll": "08081226570"
+        },
+        {
+          "area_sqft": 2548,
+          "roll": "08081226565"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 3822,
+          "roll": "08000728000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2548,
+          "roll": "08081226595"
+        }
+      ],
+      "confidence": 0.67
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 3823,
+          "roll": "08000728500"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2548,
+          "roll": "08081226605"
+        },
+        {
+          "area_sqft": 2548,
+          "roll": "08081226600"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 5098,
+          "roll": "08000666000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2549,
+          "roll": "08081226650"
+        },
+        {
+          "area_sqft": 2549,
+          "roll": "08081226655"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 5100,
+          "roll": "08000673000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2550,
+          "roll": "08081226660"
+        },
+        {
+          "area_sqft": 2550,
+          "roll": "08081226665"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 5107,
+          "roll": "08000235500"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2553,
+          "roll": "08081226695"
+        },
+        {
+          "area_sqft": 2553,
+          "roll": "08081226690"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 5098,
+          "roll": "08000664500"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2549,
+          "roll": "08081226725"
+        },
+        {
+          "area_sqft": 2549,
+          "roll": "08081226720"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 5071,
+          "roll": "08000159500"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2536,
+          "roll": "08081226765"
+        },
+        {
+          "area_sqft": 2535,
+          "roll": "08081226770"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 5796,
+          "roll": "08001671500"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2898,
+          "roll": "08081226780"
+        },
+        {
+          "area_sqft": 2898,
+          "roll": "08081226775"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 5125,
+          "roll": "08000371500"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2562,
+          "roll": "08081226790"
+        },
+        {
+          "area_sqft": 2562,
+          "roll": "08081226785"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 5385,
+          "roll": "08000167500"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2937,
+          "roll": "08081226805"
+        },
+        {
+          "area_sqft": 2448,
+          "roll": "08081226810"
+        }
+      ],
+      "confidence": 0.55
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 7643,
+          "roll": "08000640000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2548,
+          "roll": "08081226730"
+        },
+        {
+          "area_sqft": 2548,
+          "roll": "08081226735"
+        },
+        {
+          "area_sqft": 2548,
+          "roll": "08081226740"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 6148,
+          "roll": "08000053000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 3074,
+          "roll": "08081226815"
+        },
+        {
+          "area_sqft": 3074,
+          "roll": "08081226820"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 5170,
+          "roll": "08000119000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2585,
+          "roll": "08081226830"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 5127,
+          "roll": "08000285500"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2563,
+          "roll": "08081226840"
+        },
+        {
+          "area_sqft": 2563,
+          "roll": "08081226835"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 5004,
+          "roll": "08000259000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2502,
+          "roll": "08081226875"
+        },
+        {
+          "area_sqft": 2502,
+          "roll": "08081226880"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 5100,
+          "roll": "08000618500"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2550,
+          "roll": "08081226885"
+        },
+        {
+          "area_sqft": 2550,
+          "roll": "08081226890"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 5094,
+          "roll": "08000600500"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2547,
+          "roll": "08081226900"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 6186,
+          "roll": "08000804500"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 3375,
+          "roll": "08081226905"
+        },
+        {
+          "area_sqft": 2811,
+          "roll": "08081226910"
+        }
+      ],
+      "confidence": 0.55
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 5095,
+          "roll": "08000603000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2547,
+          "roll": "08081226915"
+        },
+        {
+          "area_sqft": 2547,
+          "roll": "08081226920"
+        }
+      ],
+      "confidence": 0.5
+    }
+  ],
+  "by_roll": {
+    "08081226570": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "08081222900"
+        }
+      ]
+    },
+    "08081226565": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "08081222900"
+        }
+      ]
+    },
+    "08081222900": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08081226570"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08081226565"
+        }
+      ]
+    },
+    "08081226595": {
+      "snapshot": "2025-02-26",
+      "type": "replacement",
+      "confidence": 0.67,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "08000728000"
+        }
+      ]
+    },
+    "08000728000": {
+      "snapshot": "2023-11-13",
+      "type": "replacement",
+      "confidence": 0.67,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08081226595"
+        }
+      ]
+    },
+    "08081226605": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "08000728500"
+        }
+      ]
+    },
+    "08081226600": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "08000728500"
+        }
+      ]
+    },
+    "08000728500": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08081226605"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08081226600"
+        }
+      ]
+    },
+    "08081226650": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "08000666000"
+        }
+      ]
+    },
+    "08081226655": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "08000666000"
+        }
+      ]
+    },
+    "08000666000": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08081226650"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08081226655"
+        }
+      ]
+    },
+    "08081226660": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "08000673000"
+        }
+      ]
+    },
+    "08081226665": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "08000673000"
+        }
+      ]
+    },
+    "08000673000": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08081226660"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08081226665"
+        }
+      ]
+    },
+    "08081226695": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "08000235500"
+        }
+      ]
+    },
+    "08081226690": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "08000235500"
+        }
+      ]
+    },
+    "08000235500": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08081226695"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08081226690"
+        }
+      ]
+    },
+    "08081226725": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "08000664500"
+        }
+      ]
+    },
+    "08081226720": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "08000664500"
+        }
+      ]
+    },
+    "08000664500": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08081226725"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08081226720"
+        }
+      ]
+    },
+    "08081226765": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "08000159500"
+        }
+      ]
+    },
+    "08081226770": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "08000159500"
+        }
+      ]
+    },
+    "08000159500": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08081226765"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08081226770"
+        }
+      ]
+    },
+    "08081226780": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "08001671500"
+        }
+      ]
+    },
+    "08081226775": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "08001671500"
+        }
+      ]
+    },
+    "08001671500": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08081226780"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08081226775"
+        }
+      ]
+    },
+    "08081226790": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "08000371500"
+        }
+      ]
+    },
+    "08081226785": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "08000371500"
+        }
+      ]
+    },
+    "08000371500": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08081226790"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08081226785"
+        }
+      ]
+    },
+    "08081226805": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "08000167500"
+        }
+      ]
+    },
+    "08081226810": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "08000167500"
+        }
+      ]
+    },
+    "08000167500": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08081226805"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08081226810"
+        }
+      ]
+    },
+    "08081226730": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "08000640000"
+        }
+      ]
+    },
+    "08081226735": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "08000640000"
+        }
+      ]
+    },
+    "08081226740": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "08000640000"
+        }
+      ]
+    },
+    "08000640000": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08081226730"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08081226735"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08081226740"
+        }
+      ]
+    },
+    "08081226815": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08000053000"
+        }
+      ]
+    },
+    "08081226820": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08000053000"
+        }
+      ]
+    },
+    "08000053000": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "08081226815"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "08081226820"
+        }
+      ]
+    },
+    "08081226830": {
+      "snapshot": "2026-06-07",
+      "type": "replacement",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08000119000"
+        }
+      ]
+    },
+    "08000119000": {
+      "snapshot": "2025-02-26",
+      "type": "replacement",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "08081226830"
+        }
+      ]
+    },
+    "08081226840": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08000285500"
+        }
+      ]
+    },
+    "08081226835": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08000285500"
+        }
+      ]
+    },
+    "08000285500": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "08081226840"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "08081226835"
+        }
+      ]
+    },
+    "08081226875": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08000259000"
+        }
+      ]
+    },
+    "08081226880": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08000259000"
+        }
+      ]
+    },
+    "08000259000": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "08081226875"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "08081226880"
+        }
+      ]
+    },
+    "08081226885": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08000618500"
+        }
+      ]
+    },
+    "08081226890": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08000618500"
+        }
+      ]
+    },
+    "08000618500": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "08081226885"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "08081226890"
+        }
+      ]
+    },
+    "08081226900": {
+      "snapshot": "2026-06-07",
+      "type": "replacement",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08000600500"
+        }
+      ]
+    },
+    "08000600500": {
+      "snapshot": "2025-02-26",
+      "type": "replacement",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "08081226900"
+        }
+      ]
+    },
+    "08081226905": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08000804500"
+        }
+      ]
+    },
+    "08081226910": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08000804500"
+        }
+      ]
+    },
+    "08000804500": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "08081226905"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "08081226910"
+        }
+      ]
+    },
+    "08081226915": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08000603000"
+        }
+      ]
+    },
+    "08081226920": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08000603000"
+        }
+      ]
+    },
+    "08000603000": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "08081226915"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "08081226920"
+        }
+      ]
+    }
+  }
+}

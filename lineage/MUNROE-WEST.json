@@ -1,0 +1,134 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "Munroe West",
+  "slug": "MUNROE-WEST",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 5297,
+          "roll": "02041038000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2680,
+          "roll": "02062808065"
+        },
+        {
+          "area_sqft": 2617,
+          "roll": "02062808070"
+        }
+      ],
+      "confidence": 0.51
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 6397,
+          "roll": "02041055000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 3045,
+          "roll": "02062808075"
+        },
+        {
+          "area_sqft": 3045,
+          "roll": "02062808080"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_roll": {
+    "02062808065": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.51,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "02041038000"
+        }
+      ]
+    },
+    "02062808070": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.51,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "02041038000"
+        }
+      ]
+    },
+    "02041038000": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 0.51,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02062808065"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02062808070"
+        }
+      ]
+    },
+    "02062808075": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "02041055000"
+        }
+      ]
+    },
+    "02062808080": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "02041055000"
+        }
+      ]
+    },
+    "02041055000": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02062808075"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02062808080"
+        }
+      ]
+    }
+  }
+}

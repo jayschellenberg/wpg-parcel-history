@@ -1,0 +1,134 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Varennes",
+  "slug": "VARENNES",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 5123,
+          "id": "383861"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2561,
+          "id": "657444"
+        },
+        {
+          "area_sqft": 2561,
+          "id": "657445"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 5120,
+          "id": "384028"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2448,
+          "id": "657675"
+        },
+        {
+          "area_sqft": 2448,
+          "id": "657676"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_id": {
+    "657444": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "383861"
+        }
+      ]
+    },
+    "657445": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "383861"
+        }
+      ]
+    },
+    "383861": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657444"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "657445"
+        }
+      ]
+    },
+    "657675": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "384028"
+        }
+      ]
+    },
+    "657676": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "384028"
+        }
+      ]
+    },
+    "384028": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657675"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "657676"
+        }
+      ]
+    }
+  }
+}

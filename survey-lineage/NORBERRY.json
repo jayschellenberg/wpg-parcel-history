@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Norberry",
+  "slug": "NORBERRY",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 6475,
+          "id": "407375"
+        },
+        {
+          "area_sqft": 6063,
+          "id": "407377"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 12537,
+          "id": "655152"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_id": {
+    "655152": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "407375"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "407377"
+        }
+      ]
+    },
+    "407375": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655152"
+        }
+      ]
+    },
+    "407377": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655152"
+        }
+      ]
+    }
+  }
+}

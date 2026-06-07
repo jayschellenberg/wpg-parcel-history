@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Worthington",
+  "slug": "WORTHINGTON",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 25444,
+          "id": "412969"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 47550,
+          "id": "656887"
+        }
+      ],
+      "confidence": 0.94
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 73744,
+          "id": "412923"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 50329,
+          "id": "656888"
+        }
+      ],
+      "confidence": 0.66
+    }
+  ],
+  "by_id": {
+    "656887": {
+      "snapshot": "2026-06-07",
+      "type": "replacement",
+      "confidence": 0.94,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "412969"
+        }
+      ]
+    },
+    "412969": {
+      "snapshot": "2025-03-14",
+      "type": "replacement",
+      "confidence": 0.94,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656887"
+        }
+      ]
+    },
+    "656888": {
+      "snapshot": "2026-06-07",
+      "type": "replacement",
+      "confidence": 0.66,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "412923"
+        }
+      ]
+    },
+    "412923": {
+      "snapshot": "2025-03-14",
+      "type": "replacement",
+      "confidence": 0.66,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656888"
+        }
+      ]
+    }
+  }
+}

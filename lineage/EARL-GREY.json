@@ -1,0 +1,228 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "Earl Grey",
+  "slug": "EARL-GREY",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "consolidation",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 4983,
+          "roll": "12021489100"
+        },
+        {
+          "area_sqft": 4147,
+          "roll": "12097521200"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 11970,
+          "roll": "12097809705"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 6430,
+          "roll": "12015353000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 3958,
+          "roll": "12097809825"
+        },
+        {
+          "area_sqft": 2472,
+          "roll": "12097809830"
+        }
+      ],
+      "confidence": 0.62
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 4947,
+          "roll": "12015291500"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2474,
+          "roll": "12097809845"
+        },
+        {
+          "area_sqft": 2474,
+          "roll": "12097809850"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 4616,
+          "roll": "12022373000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2309,
+          "roll": "12097810080"
+        },
+        {
+          "area_sqft": 2307,
+          "roll": "12097810075"
+        }
+      ],
+      "confidence": 0.5
+    }
+  ],
+  "by_roll": {
+    "12021489100": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 0.92,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "12097809705"
+        }
+      ]
+    },
+    "12097809825": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.62,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "12015353000"
+        }
+      ]
+    },
+    "12097809830": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.62,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "12015353000"
+        }
+      ]
+    },
+    "12015353000": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 0.62,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "12097809825"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "12097809830"
+        }
+      ]
+    },
+    "12097809845": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "12015291500"
+        }
+      ]
+    },
+    "12097809850": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "12015291500"
+        }
+      ]
+    },
+    "12015291500": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "12097809845"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "12097809850"
+        }
+      ]
+    },
+    "12097810080": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "12022373000"
+        }
+      ]
+    },
+    "12097810075": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "12022373000"
+        }
+      ]
+    },
+    "12022373000": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "12097810080"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "12097810075"
+        }
+      ]
+    }
+  }
+}

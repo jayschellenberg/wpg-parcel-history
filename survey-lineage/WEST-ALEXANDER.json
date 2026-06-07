@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "West Alexander",
+  "slug": "WEST-ALEXANDER",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 3938,
+          "id": "280619"
+        },
+        {
+          "area_sqft": 4037,
+          "id": "280627"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 7583,
+          "id": "655151"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "by_id": {
+    "655151": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 0.95,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "280619"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "280627"
+        }
+      ]
+    },
+    "280619": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 0.95,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655151"
+        }
+      ]
+    },
+    "280627": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 0.95,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655151"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Centennial",
+  "slug": "CENTENNIAL",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 11492,
+          "id": "302794"
+        },
+        {
+          "area_sqft": 4338,
+          "id": "302812"
+        },
+        {
+          "area_sqft": 4339,
+          "id": "302817"
+        },
+        {
+          "area_sqft": 2917,
+          "id": "302836"
+        },
+        {
+          "area_sqft": 2917,
+          "id": "302847"
+        },
+        {
+          "area_sqft": 2917,
+          "id": "302855"
+        },
+        {
+          "area_sqft": 2917,
+          "id": "302864"
+        },
+        {
+          "area_sqft": 5966,
+          "id": "302884"
+        },
+        {
+          "area_sqft": 5965,
+          "id": "302898"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 43769,
+          "id": "655164"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_id": {
+    "655164": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "302794"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "302812"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "302817"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "302836"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "302847"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "302855"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "302864"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "302884"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "302898"
+        }
+      ]
+    },
+    "302794": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655164"
+        }
+      ]
+    },
+    "302812": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655164"
+        }
+      ]
+    },
+    "302817": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655164"
+        }
+      ]
+    },
+    "302836": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655164"
+        }
+      ]
+    },
+    "302847": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655164"
+        }
+      ]
+    },
+    "302855": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655164"
+        }
+      ]
+    },
+    "302864": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655164"
+        }
+      ]
+    },
+    "302884": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655164"
+        }
+      ]
+    },
+    "302898": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655164"
+        }
+      ]
+    }
+  }
+}

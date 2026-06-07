@@ -1,0 +1,134 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Lord Roberts",
+  "slug": "LORD-ROBERTS",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 5728,
+          "id": "384676"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2865,
+          "id": "655172"
+        },
+        {
+          "area_sqft": 2863,
+          "id": "655173"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 203317,
+          "id": "581997"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 121573,
+          "id": "657674"
+        },
+        {
+          "area_sqft": 81744,
+          "id": "657673"
+        }
+      ],
+      "confidence": 0.6
+    }
+  ],
+  "by_id": {
+    "655172": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "384676"
+        }
+      ]
+    },
+    "655173": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "384676"
+        }
+      ]
+    },
+    "384676": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655172"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "655173"
+        }
+      ]
+    },
+    "657674": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.6,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "581997"
+        }
+      ]
+    },
+    "657673": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.6,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "581997"
+        }
+      ]
+    },
+    "581997": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.6,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657674"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "657673"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "Sargent Park",
+  "slug": "SARGENT-PARK",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "consolidation",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 16429,
+          "roll": "13010945000"
+        },
+        {
+          "area_sqft": 2082,
+          "roll": "13010952000"
+        },
+        {
+          "area_sqft": 2082,
+          "roll": "13010953000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 20592,
+          "roll": "13099072565"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_roll": {
+    "13099072565": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "13010945000"
+        },
+        {
+          "snapshot": "2023-11-13",
+          "roll": "13010952000"
+        },
+        {
+          "snapshot": "2023-11-13",
+          "roll": "13010953000"
+        }
+      ]
+    },
+    "13010945000": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "13099072565"
+        }
+      ]
+    },
+    "13010952000": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "13099072565"
+        }
+      ]
+    },
+    "13010953000": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "13099072565"
+        }
+      ]
+    }
+  }
+}

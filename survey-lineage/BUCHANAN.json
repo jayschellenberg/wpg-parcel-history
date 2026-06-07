@@ -1,0 +1,177 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Buchanan",
+  "slug": "BUCHANAN",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 2562,
+          "id": "323422"
+        },
+        {
+          "area_sqft": 2562,
+          "id": "323429"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 6404,
+          "id": "657689"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 2561,
+          "id": "323747"
+        },
+        {
+          "area_sqft": 2561,
+          "id": "323759"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 3842,
+          "id": "656414"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 2561,
+          "id": "323765"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 3841,
+          "id": "656413"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_id": {
+    "657689": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "323422"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "323429"
+        }
+      ]
+    },
+    "323422": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657689"
+        }
+      ]
+    },
+    "323429": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657689"
+        }
+      ]
+    },
+    "656414": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "323747"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "323759"
+        }
+      ]
+    },
+    "323747": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656414"
+        }
+      ]
+    },
+    "323759": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656414"
+        }
+      ]
+    },
+    "656413": {
+      "snapshot": "2026-06-07",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "323765"
+        }
+      ]
+    },
+    "323765": {
+      "snapshot": "2025-03-14",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656413"
+        }
+      ]
+    }
+  }
+}

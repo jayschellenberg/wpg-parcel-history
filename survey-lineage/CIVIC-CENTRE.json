@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Civic Centre",
+  "slug": "CIVIC-CENTRE",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "reconfiguration",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 26667,
+          "id": "647523"
+        },
+        {
+          "area_sqft": 26808,
+          "id": "647522"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 42798,
+          "id": "656866"
+        },
+        {
+          "area_sqft": 10677,
+          "id": "656865"
+        }
+      ],
+      "confidence": 0.6
+    }
+  ],
+  "by_id": {
+    "656866": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.6,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "647523"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "647522"
+        }
+      ]
+    },
+    "656865": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.6,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "647523"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "647522"
+        }
+      ]
+    },
+    "647523": {
+      "snapshot": "2025-03-14",
+      "type": "reconfiguration",
+      "confidence": 0.6,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656866"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656865"
+        }
+      ]
+    },
+    "647522": {
+      "snapshot": "2025-03-14",
+      "type": "reconfiguration",
+      "confidence": 0.6,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656866"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656865"
+        }
+      ]
+    }
+  }
+}

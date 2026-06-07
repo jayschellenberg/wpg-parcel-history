@@ -1,0 +1,134 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "Robertson",
+  "slug": "ROBERTSON",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 5000,
+          "roll": "14051524000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2500,
+          "roll": "14100132725"
+        },
+        {
+          "area_sqft": 2500,
+          "roll": "14100132720"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 4997,
+          "roll": "14051526000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2499,
+          "roll": "14100132735"
+        },
+        {
+          "area_sqft": 2498,
+          "roll": "14100132730"
+        }
+      ],
+      "confidence": 0.5
+    }
+  ],
+  "by_roll": {
+    "14100132725": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "14051524000"
+        }
+      ]
+    },
+    "14100132720": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "14051524000"
+        }
+      ]
+    },
+    "14051524000": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "14100132725"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "14100132720"
+        }
+      ]
+    },
+    "14100132735": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "14051526000"
+        }
+      ]
+    },
+    "14100132730": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "14051526000"
+        }
+      ]
+    },
+    "14051526000": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "14100132735"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "14100132730"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Wilkes South",
+  "slug": "WILKES-SOUTH",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 714495,
+          "id": "429617"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 408583,
+          "id": "656951"
+        },
+        {
+          "area_sqft": 137172,
+          "id": "656950"
+        },
+        {
+          "area_sqft": 107570,
+          "id": "656952"
+        }
+      ],
+      "confidence": 0.57
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 714732,
+          "id": "429613"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 357473,
+          "id": "656946"
+        },
+        {
+          "area_sqft": 137333,
+          "id": "656948"
+        },
+        {
+          "area_sqft": 137253,
+          "id": "656949"
+        },
+        {
+          "area_sqft": 137413,
+          "id": "656947"
+        }
+      ],
+      "confidence": 0.5
+    }
+  ],
+  "by_id": {
+    "656951": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.57,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "429617"
+        }
+      ]
+    },
+    "656950": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.57,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "429617"
+        }
+      ]
+    },
+    "656952": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.57,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "429617"
+        }
+      ]
+    },
+    "429617": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.57,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656951"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656950"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656952"
+        }
+      ]
+    },
+    "656946": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "429613"
+        }
+      ]
+    },
+    "656948": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "429613"
+        }
+      ]
+    },
+    "656949": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "429613"
+        }
+      ]
+    },
+    "656947": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "429613"
+        }
+      ]
+    },
+    "429613": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656946"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656948"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656949"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656947"
+        }
+      ]
+    }
+  }
+}

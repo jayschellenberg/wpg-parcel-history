@@ -1,0 +1,472 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Tuxedo Industrial",
+  "slug": "TUXEDO-INDUSTRIAL",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 293905,
+          "id": "589405"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 216944,
+          "id": "656642"
+        },
+        {
+          "area_sqft": 76323,
+          "id": "656641"
+        }
+      ],
+      "confidence": 0.74
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 567755,
+          "id": "417486"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 492931,
+          "id": "656890"
+        },
+        {
+          "area_sqft": 74824,
+          "id": "656889"
+        }
+      ],
+      "confidence": 0.87
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 180371,
+          "id": "589406"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 94684,
+          "id": "655215"
+        },
+        {
+          "area_sqft": 2587,
+          "id": "655217"
+        },
+        {
+          "area_sqft": 81456,
+          "id": "655216"
+        }
+      ],
+      "confidence": 0.52
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 298641,
+          "id": "652326"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 231194,
+          "id": "656368"
+        },
+        {
+          "area_sqft": 67447,
+          "id": "656367"
+        }
+      ],
+      "confidence": 0.77
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 519129,
+          "id": "635130"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 519129,
+          "id": "655161"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 157910,
+          "id": "589407"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 89279,
+          "id": "655159"
+        },
+        {
+          "area_sqft": 1506,
+          "id": "655160"
+        },
+        {
+          "area_sqft": 67125,
+          "id": "655158"
+        }
+      ],
+      "confidence": 0.57
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 225849,
+          "id": "589402"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 120370,
+          "id": "656639"
+        },
+        {
+          "area_sqft": 917,
+          "id": "656638"
+        },
+        {
+          "area_sqft": 104562,
+          "id": "656640"
+        }
+      ],
+      "confidence": 0.53
+    }
+  ],
+  "by_id": {
+    "656642": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.74,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "589405"
+        }
+      ]
+    },
+    "656641": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.74,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "589405"
+        }
+      ]
+    },
+    "589405": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.74,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656642"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656641"
+        }
+      ]
+    },
+    "656890": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.87,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "417486"
+        }
+      ]
+    },
+    "656889": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.87,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "417486"
+        }
+      ]
+    },
+    "417486": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.87,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656890"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656889"
+        }
+      ]
+    },
+    "655215": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.52,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "589406"
+        }
+      ]
+    },
+    "655217": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.52,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "589406"
+        }
+      ]
+    },
+    "655216": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.52,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "589406"
+        }
+      ]
+    },
+    "589406": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.52,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655215"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "655217"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "655216"
+        }
+      ]
+    },
+    "656368": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.77,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "652326"
+        }
+      ]
+    },
+    "656367": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.77,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "652326"
+        }
+      ]
+    },
+    "652326": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.77,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656368"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656367"
+        }
+      ]
+    },
+    "655161": {
+      "snapshot": "2026-06-07",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "635130"
+        }
+      ]
+    },
+    "635130": {
+      "snapshot": "2025-03-14",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655161"
+        }
+      ]
+    },
+    "655159": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.57,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "589407"
+        }
+      ]
+    },
+    "655160": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.57,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "589407"
+        }
+      ]
+    },
+    "655158": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.57,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "589407"
+        }
+      ]
+    },
+    "589407": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.57,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655159"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "655160"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "655158"
+        }
+      ]
+    },
+    "656639": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.53,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "589402"
+        }
+      ]
+    },
+    "656638": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.53,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "589402"
+        }
+      ]
+    },
+    "656640": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.53,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "589402"
+        }
+      ]
+    },
+    "589402": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.53,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656639"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656638"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656640"
+        }
+      ]
+    }
+  }
+}

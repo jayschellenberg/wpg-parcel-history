@@ -1,0 +1,197 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Prairie Pointe",
+  "slug": "PRAIRIE-POINTE",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 184773,
+          "id": "654988"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 169361,
+          "id": "656873"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 70596,
+          "id": "655041"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 87063,
+          "id": "656874"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 146783,
+          "id": "654986"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 145728,
+          "id": "656872"
+        }
+      ],
+      "confidence": 0.96
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 200902,
+          "id": "654377"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 109716,
+          "id": "657437"
+        },
+        {
+          "area_sqft": 91186,
+          "id": "657436"
+        }
+      ],
+      "confidence": 0.55
+    }
+  ],
+  "by_id": {
+    "656873": {
+      "snapshot": "2026-06-07",
+      "type": "replacement",
+      "confidence": 0.88,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "654988"
+        }
+      ]
+    },
+    "654988": {
+      "snapshot": "2025-03-14",
+      "type": "replacement",
+      "confidence": 0.88,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656873"
+        }
+      ]
+    },
+    "656874": {
+      "snapshot": "2026-06-07",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "655041"
+        }
+      ]
+    },
+    "655041": {
+      "snapshot": "2025-03-14",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656874"
+        }
+      ]
+    },
+    "656872": {
+      "snapshot": "2026-06-07",
+      "type": "replacement",
+      "confidence": 0.96,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "654986"
+        }
+      ]
+    },
+    "654986": {
+      "snapshot": "2025-03-14",
+      "type": "replacement",
+      "confidence": 0.96,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656872"
+        }
+      ]
+    },
+    "657437": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "654377"
+        }
+      ]
+    },
+    "657436": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "654377"
+        }
+      ]
+    },
+    "654377": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657437"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "657436"
+        }
+      ]
+    }
+  }
+}

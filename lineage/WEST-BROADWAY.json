@@ -1,0 +1,116 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "West Broadway",
+  "slug": "WEST-BROADWAY",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "replacement",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 3001,
+          "roll": "12091237000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 6004,
+          "roll": "12091236000"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "consolidation",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 5980,
+          "roll": "12091440000"
+        },
+        {
+          "area_sqft": 5960,
+          "roll": "12091441000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 11892,
+          "roll": "12097809960"
+        }
+      ],
+      "confidence": 0.99
+    }
+  ],
+  "by_roll": {
+    "12091236000": {
+      "snapshot": "2025-02-26",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "12091237000"
+        }
+      ]
+    },
+    "12091237000": {
+      "snapshot": "2023-11-13",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "12091236000"
+        }
+      ]
+    },
+    "12097809960": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 0.99,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "12091440000"
+        },
+        {
+          "snapshot": "2023-11-13",
+          "roll": "12091441000"
+        }
+      ]
+    },
+    "12091440000": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 0.99,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "12097809960"
+        }
+      ]
+    },
+    "12091441000": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 0.99,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "12097809960"
+        }
+      ]
+    }
+  }
+}

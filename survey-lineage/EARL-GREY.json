@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Earl Grey",
+  "slug": "EARL-GREY",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 2462,
+          "id": "358646"
+        },
+        {
+          "area_sqft": 2461,
+          "id": "358647"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 4923,
+          "id": "657695"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_id": {
+    "657695": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "358646"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "358647"
+        }
+      ]
+    },
+    "358646": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657695"
+        }
+      ]
+    },
+    "358647": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657695"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1367 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Wellington Crescent",
+  "slug": "WELLINGTON-CRESCENT",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 3027,
+          "id": "364300"
+        },
+        {
+          "area_sqft": 8780,
+          "id": "364301"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 11772,
+          "id": "657704"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "reconfiguration",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 22022,
+          "id": "341269"
+        },
+        {
+          "area_sqft": 18504,
+          "id": "341270"
+        },
+        {
+          "area_sqft": 18706,
+          "id": "341272"
+        },
+        {
+          "area_sqft": 18836,
+          "id": "341275"
+        },
+        {
+          "area_sqft": 18870,
+          "id": "341278"
+        },
+        {
+          "area_sqft": 18506,
+          "id": "341280"
+        },
+        {
+          "area_sqft": 18320,
+          "id": "341284"
+        },
+        {
+          "area_sqft": 18053,
+          "id": "341288"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 151817,
+          "id": "655205"
+        },
+        {
+          "area_sqft": 14904,
+          "id": "656898"
+        },
+        {
+          "area_sqft": 11779,
+          "id": "656894"
+        },
+        {
+          "area_sqft": 12850,
+          "id": "656891"
+        },
+        {
+          "area_sqft": 14425,
+          "id": "656900"
+        },
+        {
+          "area_sqft": 11536,
+          "id": "656893"
+        },
+        {
+          "area_sqft": 13092,
+          "id": "656896"
+        },
+        {
+          "area_sqft": 13950,
+          "id": "656904"
+        },
+        {
+          "area_sqft": 12787,
+          "id": "656905"
+        },
+        {
+          "area_sqft": 5255,
+          "id": "656895"
+        },
+        {
+          "area_sqft": 4696,
+          "id": "656897"
+        },
+        {
+          "area_sqft": 4696,
+          "id": "656901"
+        },
+        {
+          "area_sqft": 4696,
+          "id": "656899"
+        },
+        {
+          "area_sqft": 4696,
+          "id": "656903"
+        },
+        {
+          "area_sqft": 5174,
+          "id": "656902"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 2998,
+          "id": "362543"
+        },
+        {
+          "area_sqft": 2998,
+          "id": "362532"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 5997,
+          "id": "657692"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_id": {
+    "657704": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "364300"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "364301"
+        }
+      ]
+    },
+    "364300": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657704"
+        }
+      ]
+    },
+    "364301": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657704"
+        }
+      ]
+    },
+    "655205": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "341269"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341270"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341272"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341275"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341278"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341280"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341284"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341288"
+        }
+      ]
+    },
+    "656898": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "341269"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341270"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341272"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341275"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341278"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341280"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341284"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341288"
+        }
+      ]
+    },
+    "656894": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "341269"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341270"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341272"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341275"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341278"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341280"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341284"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341288"
+        }
+      ]
+    },
+    "656891": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "341269"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341270"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341272"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341275"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341278"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341280"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341284"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341288"
+        }
+      ]
+    },
+    "656900": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "341269"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341270"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341272"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341275"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341278"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341280"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341284"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341288"
+        }
+      ]
+    },
+    "656893": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "341269"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341270"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341272"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341275"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341278"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341280"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341284"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341288"
+        }
+      ]
+    },
+    "656896": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "341269"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341270"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341272"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341275"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341278"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341280"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341284"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341288"
+        }
+      ]
+    },
+    "656904": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "341269"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341270"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341272"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341275"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341278"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341280"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341284"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341288"
+        }
+      ]
+    },
+    "656905": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "341269"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341270"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341272"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341275"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341278"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341280"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341284"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341288"
+        }
+      ]
+    },
+    "656895": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "341269"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341270"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341272"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341275"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341278"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341280"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341284"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341288"
+        }
+      ]
+    },
+    "656897": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "341269"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341270"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341272"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341275"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341278"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341280"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341284"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341288"
+        }
+      ]
+    },
+    "656901": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "341269"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341270"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341272"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341275"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341278"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341280"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341284"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341288"
+        }
+      ]
+    },
+    "656899": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "341269"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341270"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341272"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341275"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341278"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341280"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341284"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341288"
+        }
+      ]
+    },
+    "656903": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "341269"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341270"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341272"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341275"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341278"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341280"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341284"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341288"
+        }
+      ]
+    },
+    "656902": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "341269"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341270"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341272"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341275"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341278"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341280"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341284"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "341288"
+        }
+      ]
+    },
+    "341269": {
+      "snapshot": "2025-03-14",
+      "type": "reconfiguration",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655205"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656898"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656894"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656891"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656900"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656893"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656896"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656904"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656905"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656895"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656897"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656901"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656899"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656903"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656902"
+        }
+      ]
+    },
+    "341270": {
+      "snapshot": "2025-03-14",
+      "type": "reconfiguration",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655205"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656898"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656894"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656891"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656900"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656893"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656896"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656904"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656905"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656895"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656897"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656901"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656899"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656903"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656902"
+        }
+      ]
+    },
+    "341272": {
+      "snapshot": "2025-03-14",
+      "type": "reconfiguration",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655205"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656898"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656894"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656891"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656900"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656893"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656896"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656904"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656905"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656895"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656897"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656901"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656899"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656903"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656902"
+        }
+      ]
+    },
+    "341275": {
+      "snapshot": "2025-03-14",
+      "type": "reconfiguration",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655205"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656898"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656894"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656891"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656900"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656893"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656896"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656904"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656905"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656895"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656897"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656901"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656899"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656903"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656902"
+        }
+      ]
+    },
+    "341278": {
+      "snapshot": "2025-03-14",
+      "type": "reconfiguration",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655205"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656898"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656894"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656891"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656900"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656893"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656896"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656904"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656905"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656895"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656897"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656901"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656899"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656903"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656902"
+        }
+      ]
+    },
+    "341280": {
+      "snapshot": "2025-03-14",
+      "type": "reconfiguration",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655205"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656898"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656894"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656891"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656900"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656893"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656896"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656904"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656905"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656895"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656897"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656901"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656899"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656903"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656902"
+        }
+      ]
+    },
+    "341284": {
+      "snapshot": "2025-03-14",
+      "type": "reconfiguration",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655205"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656898"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656894"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656891"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656900"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656893"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656896"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656904"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656905"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656895"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656897"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656901"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656899"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656903"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656902"
+        }
+      ]
+    },
+    "341288": {
+      "snapshot": "2025-03-14",
+      "type": "reconfiguration",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655205"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656898"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656894"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656891"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656900"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656893"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656896"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656904"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656905"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656895"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656897"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656901"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656899"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656903"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656902"
+        }
+      ]
+    },
+    "657692": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "362543"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "362532"
+        }
+      ]
+    },
+    "362543": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657692"
+        }
+      ]
+    },
+    "362532": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657692"
+        }
+      ]
+    }
+  }
+}

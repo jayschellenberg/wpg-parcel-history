@@ -1,0 +1,155 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Stock Yards",
+  "slug": "STOCK-YARDS",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 217684,
+          "id": "652374"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 110855,
+          "id": "655154"
+        },
+        {
+          "area_sqft": 106829,
+          "id": "655153"
+        }
+      ],
+      "confidence": 0.51
+    },
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 27371,
+          "id": "347332"
+        },
+        {
+          "area_sqft": 65555,
+          "id": "347352"
+        },
+        {
+          "area_sqft": 183737,
+          "id": "347359"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 276688,
+          "id": "657435"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_id": {
+    "655154": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.51,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "652374"
+        }
+      ]
+    },
+    "655153": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.51,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "652374"
+        }
+      ]
+    },
+    "652374": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.51,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655154"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "655153"
+        }
+      ]
+    },
+    "657435": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "347332"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "347352"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "347359"
+        }
+      ]
+    },
+    "347332": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657435"
+        }
+      ]
+    },
+    "347352": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657435"
+        }
+      ]
+    },
+    "347359": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657435"
+        }
+      ]
+    }
+  }
+}

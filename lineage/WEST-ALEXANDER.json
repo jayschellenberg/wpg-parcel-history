@@ -1,0 +1,136 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "West Alexander",
+  "slug": "WEST-ALEXANDER",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "consolidation",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 6423,
+          "roll": "13099068915"
+        },
+        {
+          "area_sqft": 3021,
+          "roll": "13099068920"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 48414,
+          "roll": "13060058000"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "consolidation",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 11500,
+          "roll": "13060144100"
+        },
+        {
+          "area_sqft": 7667,
+          "roll": "13060144500"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 19166,
+          "roll": "13099072560"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_roll": {
+    "13060058000": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "13099068915"
+        },
+        {
+          "snapshot": "2023-11-13",
+          "roll": "13099068920"
+        }
+      ]
+    },
+    "13099068915": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "13060058000"
+        }
+      ]
+    },
+    "13099068920": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "13060058000"
+        }
+      ]
+    },
+    "13099072560": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "13060144100"
+        },
+        {
+          "snapshot": "2023-11-13",
+          "roll": "13060144500"
+        }
+      ]
+    },
+    "13060144100": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "13099072560"
+        }
+      ]
+    },
+    "13060144500": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "13099072560"
+        }
+      ]
+    }
+  }
+}

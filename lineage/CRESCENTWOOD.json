@@ -1,0 +1,235 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "Crescentwood",
+  "slug": "CRESCENTWOOD",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "consolidation",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 12837,
+          "roll": "12097809230"
+        },
+        {
+          "area_sqft": 12837,
+          "roll": "12097809200"
+        },
+        {
+          "area_sqft": 12837,
+          "roll": "12097809205"
+        },
+        {
+          "area_sqft": 12837,
+          "roll": "12097809210"
+        },
+        {
+          "area_sqft": 12837,
+          "roll": "12097809215"
+        },
+        {
+          "area_sqft": 12837,
+          "roll": "12097809220"
+        },
+        {
+          "area_sqft": 12837,
+          "roll": "12097809225"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 12837,
+          "roll": "12097809195"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 12753,
+          "roll": "12040202500"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 6476,
+          "roll": "12097810125"
+        },
+        {
+          "area_sqft": 6277,
+          "roll": "12097810120"
+        }
+      ],
+      "confidence": 0.51
+    }
+  ],
+  "by_roll": {
+    "12097809195": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "12097809230"
+        },
+        {
+          "snapshot": "2023-11-13",
+          "roll": "12097809200"
+        },
+        {
+          "snapshot": "2023-11-13",
+          "roll": "12097809205"
+        },
+        {
+          "snapshot": "2023-11-13",
+          "roll": "12097809210"
+        },
+        {
+          "snapshot": "2023-11-13",
+          "roll": "12097809215"
+        },
+        {
+          "snapshot": "2023-11-13",
+          "roll": "12097809220"
+        },
+        {
+          "snapshot": "2023-11-13",
+          "roll": "12097809225"
+        }
+      ]
+    },
+    "12097809230": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "12097809195"
+        }
+      ]
+    },
+    "12097809200": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "12097809195"
+        }
+      ]
+    },
+    "12097809205": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "12097809195"
+        }
+      ]
+    },
+    "12097809210": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "12097809195"
+        }
+      ]
+    },
+    "12097809215": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "12097809195"
+        }
+      ]
+    },
+    "12097809220": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "12097809195"
+        }
+      ]
+    },
+    "12097809225": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "12097809195"
+        }
+      ]
+    },
+    "12097810125": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.51,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "12040202500"
+        }
+      ]
+    },
+    "12097810120": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.51,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "12040202500"
+        }
+      ]
+    },
+    "12040202500": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.51,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "12097810125"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "12097810120"
+        }
+      ]
+    }
+  }
+}

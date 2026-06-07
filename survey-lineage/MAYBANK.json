@@ -1,0 +1,134 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Maybank",
+  "slug": "MAYBANK",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 5850,
+          "id": "416691"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2925,
+          "id": "656920"
+        },
+        {
+          "area_sqft": 2925,
+          "id": "656919"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 5775,
+          "id": "415893"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2764,
+          "id": "657678"
+        },
+        {
+          "area_sqft": 2764,
+          "id": "657677"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_id": {
+    "656920": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "416691"
+        }
+      ]
+    },
+    "656919": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "416691"
+        }
+      ]
+    },
+    "416691": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656920"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656919"
+        }
+      ]
+    },
+    "657678": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "415893"
+        }
+      ]
+    },
+    "657677": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "415893"
+        }
+      ]
+    },
+    "415893": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657678"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "657677"
+        }
+      ]
+    }
+  }
+}

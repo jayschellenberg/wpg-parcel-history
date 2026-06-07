@@ -1,0 +1,134 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "Betsworth",
+  "slug": "BETSWORTH",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 9993,
+          "roll": "01004146000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 4997,
+          "roll": "01009606770"
+        },
+        {
+          "area_sqft": 4997,
+          "roll": "01009606765"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 9101,
+          "roll": "01004151000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 4825,
+          "roll": "01009606790"
+        },
+        {
+          "area_sqft": 4276,
+          "roll": "01009606795"
+        }
+      ],
+      "confidence": 0.53
+    }
+  ],
+  "by_roll": {
+    "01009606770": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "01004146000"
+        }
+      ]
+    },
+    "01009606765": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "01004146000"
+        }
+      ]
+    },
+    "01004146000": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "01009606770"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "01009606765"
+        }
+      ]
+    },
+    "01009606790": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.53,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "01004151000"
+        }
+      ]
+    },
+    "01009606795": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.53,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "01004151000"
+        }
+      ]
+    },
+    "01004151000": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 0.53,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "01009606790"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "01009606795"
+        }
+      ]
+    }
+  }
+}

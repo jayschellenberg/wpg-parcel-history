@@ -1,0 +1,162 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Saskatchewan North",
+  "slug": "SASKATCHEWAN-NORTH",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 640289,
+          "id": "633071"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 563452,
+          "id": "657440"
+        },
+        {
+          "area_sqft": 76836,
+          "id": "657439"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "type": "reconfiguration",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 1941072,
+          "id": "640007"
+        },
+        {
+          "area_sqft": 1730944,
+          "id": "640008"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2889830,
+          "id": "656867"
+        },
+        {
+          "area_sqft": 781839,
+          "id": "656868"
+        }
+      ],
+      "confidence": 0.55
+    }
+  ],
+  "by_id": {
+    "657440": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.88,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "633071"
+        }
+      ]
+    },
+    "657439": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.88,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "633071"
+        }
+      ]
+    },
+    "633071": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.88,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657440"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "657439"
+        }
+      ]
+    },
+    "656867": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "640007"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "640008"
+        }
+      ]
+    },
+    "656868": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "640007"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "640008"
+        }
+      ]
+    },
+    "640007": {
+      "snapshot": "2025-03-14",
+      "type": "reconfiguration",
+      "confidence": 0.55,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656867"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656868"
+        }
+      ]
+    },
+    "640008": {
+      "snapshot": "2025-03-14",
+      "type": "reconfiguration",
+      "confidence": 0.55,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656867"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656868"
+        }
+      ]
+    }
+  }
+}

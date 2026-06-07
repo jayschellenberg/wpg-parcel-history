@@ -1,0 +1,95 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "Dufferin",
+  "slug": "DUFFERIN",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 347,
+          "roll": "14002120000"
+        },
+        {
+          "area_sqft": 2635,
+          "roll": "14002121000"
+        },
+        {
+          "area_sqft": 2635,
+          "roll": "14002122000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 5617,
+          "roll": "14100133210"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_roll": {
+    "14100133210": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "14002120000"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "14002121000"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "14002122000"
+        }
+      ]
+    },
+    "14002120000": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "14100133210"
+        }
+      ]
+    },
+    "14002121000": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "14100133210"
+        }
+      ]
+    },
+    "14002122000": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "14100133210"
+        }
+      ]
+    }
+  }
+}

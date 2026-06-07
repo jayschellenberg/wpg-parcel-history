@@ -1,0 +1,129 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "St. James Industrial",
+  "slug": "ST-JAMES-INDUSTRIAL",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 52197,
+          "id": "598037"
+        },
+        {
+          "area_sqft": 80355,
+          "id": "598041"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 139101,
+          "id": "655202"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 7933,
+          "id": "318452"
+        },
+        {
+          "area_sqft": 6361,
+          "id": "318453"
+        },
+        {
+          "area_sqft": 54664,
+          "id": "318450"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 68958,
+          "id": "655900"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_id": {
+    "598037": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655202"
+        }
+      ]
+    },
+    "655900": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "318452"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "318453"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "318450"
+        }
+      ]
+    },
+    "318452": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655900"
+        }
+      ]
+    },
+    "318453": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655900"
+        }
+      ]
+    },
+    "318450": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655900"
+        }
+      ]
+    }
+  }
+}

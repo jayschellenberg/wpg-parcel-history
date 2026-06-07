@@ -1,0 +1,235 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Brooklands",
+  "slug": "BROOKLANDS",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 5146,
+          "id": "259488"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2573,
+          "id": "657702"
+        },
+        {
+          "area_sqft": 2573,
+          "id": "657703"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 5996,
+          "id": "247658"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 3597,
+          "id": "656661"
+        },
+        {
+          "area_sqft": 2398,
+          "id": "656663"
+        }
+      ],
+      "confidence": 0.6
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 1599,
+          "id": "247750"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 1599,
+          "id": "656662"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 6438,
+          "id": "259620"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 3432,
+          "id": "657431"
+        },
+        {
+          "area_sqft": 2893,
+          "id": "657430"
+        }
+      ],
+      "confidence": 0.53
+    }
+  ],
+  "by_id": {
+    "657702": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "259488"
+        }
+      ]
+    },
+    "657703": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "259488"
+        }
+      ]
+    },
+    "259488": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657702"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "657703"
+        }
+      ]
+    },
+    "656661": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.6,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "247658"
+        }
+      ]
+    },
+    "656663": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.6,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "247658"
+        }
+      ]
+    },
+    "247658": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.6,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656661"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656663"
+        }
+      ]
+    },
+    "656662": {
+      "snapshot": "2026-06-07",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "247750"
+        }
+      ]
+    },
+    "247750": {
+      "snapshot": "2025-03-14",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656662"
+        }
+      ]
+    },
+    "657431": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.53,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "259620"
+        }
+      ]
+    },
+    "657430": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.53,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "259620"
+        }
+      ]
+    },
+    "259620": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.53,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657431"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "657430"
+        }
+      ]
+    }
+  }
+}

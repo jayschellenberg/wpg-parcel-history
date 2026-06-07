@@ -1,0 +1,197 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Seven Oaks",
+  "slug": "SEVEN-OAKS",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 6789,
+          "id": "229806"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 11217,
+          "id": "655150"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 2498,
+          "id": "229165"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 3002,
+          "id": "656683"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 2498,
+          "id": "229168"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2392,
+          "id": "656684"
+        }
+      ],
+      "confidence": 0.96
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 27000,
+          "id": "229643"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 15589,
+          "id": "655919"
+        },
+        {
+          "area_sqft": 10495,
+          "id": "655918"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_id": {
+    "655150": {
+      "snapshot": "2026-06-07",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "229806"
+        }
+      ]
+    },
+    "229806": {
+      "snapshot": "2025-03-14",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655150"
+        }
+      ]
+    },
+    "656683": {
+      "snapshot": "2026-06-07",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "229165"
+        }
+      ]
+    },
+    "229165": {
+      "snapshot": "2025-03-14",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656683"
+        }
+      ]
+    },
+    "656684": {
+      "snapshot": "2026-06-07",
+      "type": "replacement",
+      "confidence": 0.96,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "229168"
+        }
+      ]
+    },
+    "229168": {
+      "snapshot": "2025-03-14",
+      "type": "replacement",
+      "confidence": 0.96,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656684"
+        }
+      ]
+    },
+    "655919": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "229643"
+        }
+      ]
+    },
+    "655918": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "229643"
+        }
+      ]
+    },
+    "229643": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655919"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "655918"
+        }
+      ]
+    }
+  }
+}

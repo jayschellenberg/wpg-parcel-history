@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "River-Osborne",
+  "slug": "RIVER-OSBORNE",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 6048,
+          "id": "339971"
+        },
+        {
+          "area_sqft": 6048,
+          "id": "339973"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 12097,
+          "id": "657149"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_id": {
+    "657149": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "339971"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "339973"
+        }
+      ]
+    },
+    "339971": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657149"
+        }
+      ]
+    },
+    "339973": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657149"
+        }
+      ]
+    }
+  }
+}

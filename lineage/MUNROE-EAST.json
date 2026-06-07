@@ -1,0 +1,213 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "Munroe East",
+  "slug": "MUNROE-EAST",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 4998,
+          "roll": "02051572000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2499,
+          "roll": "02062808115"
+        },
+        {
+          "area_sqft": 2499,
+          "roll": "02062808110"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 4994,
+          "roll": "02051546000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2497,
+          "roll": "02062808320"
+        },
+        {
+          "area_sqft": 2497,
+          "roll": "02062808325"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 7786,
+          "roll": "02060106000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2595,
+          "roll": "02062808120"
+        },
+        {
+          "area_sqft": 2595,
+          "roll": "02062808125"
+        },
+        {
+          "area_sqft": 2596,
+          "roll": "02062808130"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_roll": {
+    "02062808115": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02051572000"
+        }
+      ]
+    },
+    "02062808110": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02051572000"
+        }
+      ]
+    },
+    "02051572000": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "02062808115"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "02062808110"
+        }
+      ]
+    },
+    "02062808320": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02051546000"
+        }
+      ]
+    },
+    "02062808325": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02051546000"
+        }
+      ]
+    },
+    "02051546000": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "02062808320"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "02062808325"
+        }
+      ]
+    },
+    "02062808120": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02060106000"
+        }
+      ]
+    },
+    "02062808125": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02060106000"
+        }
+      ]
+    },
+    "02062808130": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02060106000"
+        }
+      ]
+    },
+    "02060106000": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "02062808120"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "02062808125"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "02062808130"
+        }
+      ]
+    }
+  }
+}

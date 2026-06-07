@@ -1,0 +1,134 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Rockwood",
+  "slug": "ROCKWOOD",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 11992,
+          "id": "461092"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 6535,
+          "id": "657158"
+        },
+        {
+          "area_sqft": 5457,
+          "id": "657159"
+        }
+      ],
+      "confidence": 0.54
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 54457,
+          "id": "461091"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 29435,
+          "id": "657156"
+        },
+        {
+          "area_sqft": 25022,
+          "id": "657157"
+        }
+      ],
+      "confidence": 0.54
+    }
+  ],
+  "by_id": {
+    "657158": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.54,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "461092"
+        }
+      ]
+    },
+    "657159": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.54,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "461092"
+        }
+      ]
+    },
+    "461092": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.54,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657158"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "657159"
+        }
+      ]
+    },
+    "657156": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.54,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "461091"
+        }
+      ]
+    },
+    "657157": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.54,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "461091"
+        }
+      ]
+    },
+    "461091": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.54,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657156"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "657157"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Polo Park",
+  "slug": "POLO-PARK",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 28243,
+          "id": "573212"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 21693,
+          "id": "655201"
+        }
+      ],
+      "confidence": 0.76
+    },
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 52197,
+          "id": "598037"
+        },
+        {
+          "area_sqft": 80355,
+          "id": "598041"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 139101,
+          "id": "655202"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_id": {
+    "655201": {
+      "snapshot": "2026-06-07",
+      "type": "replacement",
+      "confidence": 0.76,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "573212"
+        }
+      ]
+    },
+    "573212": {
+      "snapshot": "2025-03-14",
+      "type": "replacement",
+      "confidence": 0.76,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655201"
+        }
+      ]
+    },
+    "655202": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "598037"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "598041"
+        }
+      ]
+    },
+    "598041": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655202"
+        }
+      ]
+    }
+  }
+}

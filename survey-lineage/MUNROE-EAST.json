@@ -1,0 +1,95 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Munroe East",
+  "slug": "MUNROE-EAST",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 2644,
+          "id": "267315"
+        },
+        {
+          "area_sqft": 2644,
+          "id": "267320"
+        },
+        {
+          "area_sqft": 2644,
+          "id": "267327"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 9255,
+          "id": "656675"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_id": {
+    "656675": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "267315"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "267320"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "267327"
+        }
+      ]
+    },
+    "267315": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656675"
+        }
+      ]
+    },
+    "267320": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656675"
+        }
+      ]
+    },
+    "267327": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656675"
+        }
+      ]
+    }
+  }
+}

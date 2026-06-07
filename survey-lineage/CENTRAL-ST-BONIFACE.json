@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Central St. Boniface",
+  "slug": "CENTRAL-ST-BONIFACE",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 31261,
+          "id": "320138"
+        },
+        {
+          "area_sqft": 10128,
+          "id": "320141"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 41389,
+          "id": "657429"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_id": {
+    "657429": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "320138"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "320141"
+        }
+      ]
+    },
+    "320138": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657429"
+        }
+      ]
+    },
+    "320141": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657429"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1289 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Peguis",
+  "slug": "PEGUIS",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 5345,
+          "id": "652569"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2676,
+          "id": "656635"
+        },
+        {
+          "area_sqft": 2668,
+          "id": "656634"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 109814,
+          "id": "590850"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 64665,
+          "id": "655171"
+        },
+        {
+          "area_sqft": 45149,
+          "id": "655170"
+        }
+      ],
+      "confidence": 0.59
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 4676,
+          "id": "599111"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 4676,
+          "id": "656411"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 47987,
+          "id": "281656"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 47523,
+          "id": "655174"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 22955,
+          "id": "281603"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 3826,
+          "id": "656881"
+        },
+        {
+          "area_sqft": 2792,
+          "id": "656883"
+        },
+        {
+          "area_sqft": 3826,
+          "id": "656880"
+        },
+        {
+          "area_sqft": 2792,
+          "id": "656886"
+        },
+        {
+          "area_sqft": 2792,
+          "id": "656885"
+        },
+        {
+          "area_sqft": 3826,
+          "id": "656882"
+        },
+        {
+          "area_sqft": 2792,
+          "id": "656884"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 124699,
+          "id": "606730"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2603,
+          "id": "656703"
+        },
+        {
+          "area_sqft": 2603,
+          "id": "656697"
+        },
+        {
+          "area_sqft": 2603,
+          "id": "656707"
+        },
+        {
+          "area_sqft": 2603,
+          "id": "656723"
+        },
+        {
+          "area_sqft": 3181,
+          "id": "656686"
+        },
+        {
+          "area_sqft": 2603,
+          "id": "656694"
+        },
+        {
+          "area_sqft": 3181,
+          "id": "656714"
+        },
+        {
+          "area_sqft": 2603,
+          "id": "656726"
+        },
+        {
+          "area_sqft": 3182,
+          "id": "656710"
+        },
+        {
+          "area_sqft": 3414,
+          "id": "656696"
+        },
+        {
+          "area_sqft": 3182,
+          "id": "656709"
+        },
+        {
+          "area_sqft": 3182,
+          "id": "656699"
+        },
+        {
+          "area_sqft": 2603,
+          "id": "656690"
+        },
+        {
+          "area_sqft": 3181,
+          "id": "656719"
+        },
+        {
+          "area_sqft": 3181,
+          "id": "656715"
+        },
+        {
+          "area_sqft": 2603,
+          "id": "656717"
+        },
+        {
+          "area_sqft": 2603,
+          "id": "656722"
+        },
+        {
+          "area_sqft": 2603,
+          "id": "656718"
+        },
+        {
+          "area_sqft": 3181,
+          "id": "656724"
+        },
+        {
+          "area_sqft": 3181,
+          "id": "656687"
+        },
+        {
+          "area_sqft": 2603,
+          "id": "656689"
+        },
+        {
+          "area_sqft": 3181,
+          "id": "656720"
+        },
+        {
+          "area_sqft": 2603,
+          "id": "656685"
+        },
+        {
+          "area_sqft": 3182,
+          "id": "656704"
+        },
+        {
+          "area_sqft": 3182,
+          "id": "656705"
+        },
+        {
+          "area_sqft": 2603,
+          "id": "656727"
+        },
+        {
+          "area_sqft": 5315,
+          "id": "656695"
+        },
+        {
+          "area_sqft": 2603,
+          "id": "656712"
+        },
+        {
+          "area_sqft": 2603,
+          "id": "656716"
+        },
+        {
+          "area_sqft": 3181,
+          "id": "656691"
+        },
+        {
+          "area_sqft": 2603,
+          "id": "656698"
+        },
+        {
+          "area_sqft": 2603,
+          "id": "656721"
+        },
+        {
+          "area_sqft": 2603,
+          "id": "656711"
+        },
+        {
+          "area_sqft": 2603,
+          "id": "656701"
+        },
+        {
+          "area_sqft": 2603,
+          "id": "656693"
+        },
+        {
+          "area_sqft": 3181,
+          "id": "656725"
+        },
+        {
+          "area_sqft": 2603,
+          "id": "656688"
+        },
+        {
+          "area_sqft": 2603,
+          "id": "656706"
+        },
+        {
+          "area_sqft": 2603,
+          "id": "656702"
+        },
+        {
+          "area_sqft": 2603,
+          "id": "656708"
+        },
+        {
+          "area_sqft": 3181,
+          "id": "656692"
+        },
+        {
+          "area_sqft": 3182,
+          "id": "656700"
+        },
+        {
+          "area_sqft": 2603,
+          "id": "656713"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 199607,
+          "id": "612847"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 68306,
+          "id": "656674"
+        },
+        {
+          "area_sqft": 63181,
+          "id": "656673"
+        },
+        {
+          "area_sqft": 67904,
+          "id": "656672"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_id": {
+    "656635": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "652569"
+        }
+      ]
+    },
+    "656634": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "652569"
+        }
+      ]
+    },
+    "652569": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656635"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656634"
+        }
+      ]
+    },
+    "655171": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.59,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "590850"
+        }
+      ]
+    },
+    "655170": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.59,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "590850"
+        }
+      ]
+    },
+    "590850": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.59,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655171"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "655170"
+        }
+      ]
+    },
+    "656411": {
+      "snapshot": "2026-06-07",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "599111"
+        }
+      ]
+    },
+    "599111": {
+      "snapshot": "2025-03-14",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656411"
+        }
+      ]
+    },
+    "655174": {
+      "snapshot": "2026-06-07",
+      "type": "replacement",
+      "confidence": 0.99,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "281656"
+        }
+      ]
+    },
+    "281656": {
+      "snapshot": "2025-03-14",
+      "type": "replacement",
+      "confidence": 0.99,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655174"
+        }
+      ]
+    },
+    "656881": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "281603"
+        }
+      ]
+    },
+    "656883": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "281603"
+        }
+      ]
+    },
+    "656880": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "281603"
+        }
+      ]
+    },
+    "656886": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "281603"
+        }
+      ]
+    },
+    "656885": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "281603"
+        }
+      ]
+    },
+    "656882": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "281603"
+        }
+      ]
+    },
+    "656884": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "281603"
+        }
+      ]
+    },
+    "281603": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656881"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656883"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656880"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656886"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656885"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656882"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656884"
+        }
+      ]
+    },
+    "656703": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656697": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656707": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656723": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656686": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656694": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656714": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656726": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656710": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656696": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656709": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656699": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656690": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656719": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656715": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656717": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656722": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656718": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656724": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656687": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656689": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656720": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656685": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656704": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656705": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656727": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656695": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656712": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656716": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656691": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656698": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656721": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656711": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656701": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656693": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656725": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656688": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656706": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656702": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656708": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656692": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656700": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "656713": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "606730"
+        }
+      ]
+    },
+    "606730": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656703"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656697"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656707"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656723"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656686"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656694"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656714"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656726"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656710"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656696"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656709"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656699"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656690"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656719"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656715"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656717"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656722"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656718"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656724"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656687"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656689"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656720"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656685"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656704"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656705"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656727"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656695"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656712"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656716"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656691"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656698"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656721"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656711"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656701"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656693"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656725"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656688"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656706"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656702"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656708"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656692"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656700"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656713"
+        }
+      ]
+    },
+    "656674": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "612847"
+        }
+      ]
+    },
+    "656673": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "612847"
+        }
+      ]
+    },
+    "656672": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "612847"
+        }
+      ]
+    },
+    "612847": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656674"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656673"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656672"
+        }
+      ]
+    }
+  }
+}

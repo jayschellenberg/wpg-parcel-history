@@ -1,0 +1,278 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Kildonan Drive",
+  "slug": "KILDONAN-DRIVE",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 3713,
+          "id": "237066"
+        },
+        {
+          "area_sqft": 3595,
+          "id": "237068"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 7308,
+          "id": "657694"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 17950,
+          "id": "215657"
+        },
+        {
+          "area_sqft": 3237,
+          "id": "215691"
+        },
+        {
+          "area_sqft": 3237,
+          "id": "215697"
+        },
+        {
+          "area_sqft": 3237,
+          "id": "215703"
+        },
+        {
+          "area_sqft": 3267,
+          "id": "215709"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 30901,
+          "id": "657146"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 2389,
+          "id": "215664"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2389,
+          "id": "657147"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 2067,
+          "id": "215693"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2067,
+          "id": "657148"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_id": {
+    "657694": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "237066"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "237068"
+        }
+      ]
+    },
+    "237066": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657694"
+        }
+      ]
+    },
+    "237068": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657694"
+        }
+      ]
+    },
+    "657146": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "215657"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "215691"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "215697"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "215703"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "215709"
+        }
+      ]
+    },
+    "215657": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657146"
+        }
+      ]
+    },
+    "215691": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657146"
+        }
+      ]
+    },
+    "215697": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657146"
+        }
+      ]
+    },
+    "215703": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657146"
+        }
+      ]
+    },
+    "215709": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657146"
+        }
+      ]
+    },
+    "657147": {
+      "snapshot": "2026-06-07",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "215664"
+        }
+      ]
+    },
+    "215664": {
+      "snapshot": "2025-03-14",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657147"
+        }
+      ]
+    },
+    "657148": {
+      "snapshot": "2026-06-07",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "215693"
+        }
+      ]
+    },
+    "215693": {
+      "snapshot": "2025-03-14",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657148"
+        }
+      ]
+    }
+  }
+}

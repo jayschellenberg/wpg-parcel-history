@@ -1,0 +1,173 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "Fort Richmond",
+  "slug": "FORT-RICHMOND",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 86808,
+          "roll": "03091516500"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 5068,
+          "roll": "03093017185"
+        },
+        {
+          "area_sqft": 5068,
+          "roll": "03093017190"
+        },
+        {
+          "area_sqft": 5068,
+          "roll": "03093017195"
+        },
+        {
+          "area_sqft": 5068,
+          "roll": "03093017200"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 540840,
+          "roll": "03041427000"
+        },
+        {
+          "area_sqft": 135663,
+          "roll": "03041431000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 676709,
+          "roll": "03093018830"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_roll": {
+    "03093017185": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "03091516500"
+        }
+      ]
+    },
+    "03093017190": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "03091516500"
+        }
+      ]
+    },
+    "03093017195": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "03091516500"
+        }
+      ]
+    },
+    "03093017200": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "03091516500"
+        }
+      ]
+    },
+    "03091516500": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "03093017185"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "03093017190"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "03093017195"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "03093017200"
+        }
+      ]
+    },
+    "03093018830": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "03041427000"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "03041431000"
+        }
+      ]
+    },
+    "03041427000": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "03093018830"
+        }
+      ]
+    },
+    "03041431000": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "03093018830"
+        }
+      ]
+    }
+  }
+}

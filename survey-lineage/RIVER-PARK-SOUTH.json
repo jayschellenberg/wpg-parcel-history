@@ -1,0 +1,134 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "River Park South",
+  "slug": "RIVER-PARK-SOUTH",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 526112,
+          "id": "422108"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 458002,
+          "id": "656297"
+        },
+        {
+          "area_sqft": 68110,
+          "id": "656298"
+        }
+      ],
+      "confidence": 0.87
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 102721,
+          "id": "644557"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 65921,
+          "id": "657166"
+        },
+        {
+          "area_sqft": 36800,
+          "id": "657167"
+        }
+      ],
+      "confidence": 0.64
+    }
+  ],
+  "by_id": {
+    "656297": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.87,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "422108"
+        }
+      ]
+    },
+    "656298": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.87,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "422108"
+        }
+      ]
+    },
+    "422108": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.87,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656297"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "656298"
+        }
+      ]
+    },
+    "657166": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "644557"
+        }
+      ]
+    },
+    "657167": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "644557"
+        }
+      ]
+    },
+    "644557": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657166"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "657167"
+        }
+      ]
+    }
+  }
+}

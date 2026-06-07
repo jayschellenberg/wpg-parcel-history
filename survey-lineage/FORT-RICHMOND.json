@@ -1,0 +1,225 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Fort Richmond",
+  "slug": "FORT-RICHMOND",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 807,
+          "id": "422641"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 811,
+          "id": "655189"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 984,
+          "id": "422633"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 980,
+          "id": "655188"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "reconfiguration",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 43965,
+          "id": "423721"
+        },
+        {
+          "area_sqft": 540840,
+          "id": "423688"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 89203,
+          "id": "657682"
+        },
+        {
+          "area_sqft": 495404,
+          "id": "657681"
+        }
+      ],
+      "confidence": 0.51
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 135663,
+          "id": "423722"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 135869,
+          "id": "657683"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_id": {
+    "655189": {
+      "snapshot": "2026-06-07",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "422641"
+        }
+      ]
+    },
+    "422641": {
+      "snapshot": "2025-03-14",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655189"
+        }
+      ]
+    },
+    "655188": {
+      "snapshot": "2026-06-07",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "422633"
+        }
+      ]
+    },
+    "422633": {
+      "snapshot": "2025-03-14",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655188"
+        }
+      ]
+    },
+    "657682": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.51,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "423721"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "423688"
+        }
+      ]
+    },
+    "657681": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.51,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "423721"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "423688"
+        }
+      ]
+    },
+    "423721": {
+      "snapshot": "2025-03-14",
+      "type": "reconfiguration",
+      "confidence": 0.51,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657682"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "657681"
+        }
+      ]
+    },
+    "423688": {
+      "snapshot": "2025-03-14",
+      "type": "reconfiguration",
+      "confidence": 0.51,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657682"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "657681"
+        }
+      ]
+    },
+    "657683": {
+      "snapshot": "2026-06-07",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "423722"
+        }
+      ]
+    },
+    "423722": {
+      "snapshot": "2025-03-14",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "657683"
+        }
+      ]
+    }
+  }
+}

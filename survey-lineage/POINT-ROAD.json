@@ -1,0 +1,175 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Point Road",
+  "slug": "POINT-ROAD",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 5370,
+          "id": "393206"
+        },
+        {
+          "area_sqft": 5370,
+          "id": "393215"
+        },
+        {
+          "area_sqft": 5371,
+          "id": "393196"
+        },
+        {
+          "area_sqft": 5370,
+          "id": "393221"
+        },
+        {
+          "area_sqft": 5370,
+          "id": "393232"
+        },
+        {
+          "area_sqft": 13179,
+          "id": "393180"
+        },
+        {
+          "area_sqft": 5256,
+          "id": "393239"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 48583,
+          "id": "656625"
+        }
+      ],
+      "confidence": 0.99
+    }
+  ],
+  "by_id": {
+    "656625": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 0.99,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "393206"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "393215"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "393196"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "393221"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "393232"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "393180"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "393239"
+        }
+      ]
+    },
+    "393206": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 0.99,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656625"
+        }
+      ]
+    },
+    "393215": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 0.99,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656625"
+        }
+      ]
+    },
+    "393196": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 0.99,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656625"
+        }
+      ]
+    },
+    "393221": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 0.99,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656625"
+        }
+      ]
+    },
+    "393232": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 0.99,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656625"
+        }
+      ]
+    },
+    "393180": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 0.99,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656625"
+        }
+      ]
+    },
+    "393239": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 0.99,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656625"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "Minnetonka",
+  "slug": "MINNETONKA",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 22711,
+          "roll": "08021012300"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 17033,
+          "roll": "08081226760"
+        },
+        {
+          "area_sqft": 5678,
+          "roll": "08081226755"
+        }
+      ],
+      "confidence": 0.75
+    }
+  ],
+  "by_roll": {
+    "08081226760": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.75,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "08021012300"
+        }
+      ]
+    },
+    "08081226755": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.75,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "08021012300"
+        }
+      ]
+    },
+    "08021012300": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 0.75,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08081226760"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "08081226755"
+        }
+      ]
+    }
+  }
+}

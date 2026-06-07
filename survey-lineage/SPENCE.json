@@ -1,0 +1,116 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Spence",
+  "slug": "SPENCE",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 7648,
+          "id": "313150"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 7650,
+          "id": "656938"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 3858,
+          "id": "313127"
+        },
+        {
+          "area_sqft": 3858,
+          "id": "313138"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 7715,
+          "id": "656939"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_id": {
+    "656938": {
+      "snapshot": "2026-06-07",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "313150"
+        }
+      ]
+    },
+    "313150": {
+      "snapshot": "2025-03-14",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656938"
+        }
+      ]
+    },
+    "656939": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "313127"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "id": "313138"
+        }
+      ]
+    },
+    "313127": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656939"
+        }
+      ]
+    },
+    "313138": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "656939"
+        }
+      ]
+    }
+  }
+}

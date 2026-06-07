@@ -1,0 +1,382 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "neighbourhoods": {
+    "AIRPORT": {
+      "events": 3
+    },
+    "AMBER-TRAILS": {
+      "events": 1
+    },
+    "ASSINIBOINE-PARK": {
+      "events": 1
+    },
+    "BEAUMONT": {
+      "events": 16
+    },
+    "BETSWORTH": {
+      "events": 2
+    },
+    "BOOTH": {
+      "events": 2
+    },
+    "BROOKLANDS": {
+      "events": 6
+    },
+    "BUFFALO": {
+      "events": 5
+    },
+    "BURROWS-CENTRAL": {
+      "events": 1
+    },
+    "CENTRAL-RIVER-HEIGHTS": {
+      "events": 1
+    },
+    "CENTRAL-ST-BONIFACE": {
+      "events": 3
+    },
+    "CHALMERS": {
+      "events": 4
+    },
+    "CHEVRIER": {
+      "events": 4
+    },
+    "CHINA-TOWN": {
+      "events": 1
+    },
+    "CRESCENTWOOD": {
+      "events": 2
+    },
+    "DANIEL-MCINTYRE": {
+      "events": 1
+    },
+    "DEER-LODGE": {
+      "events": 2
+    },
+    "DUFFERIN": {
+      "events": 1
+    },
+    "DUGALD": {
+      "events": 1
+    },
+    "EAGLEMERE": {
+      "events": 2
+    },
+    "EARL-GREY": {
+      "events": 4
+    },
+    "EBBY-WENTWORTH": {
+      "events": 1
+    },
+    "ELM-PARK": {
+      "events": 1
+    },
+    "ERIC-COY": {
+      "events": 3
+    },
+    "FORT-RICHMOND": {
+      "events": 2
+    },
+    "FRAIPONT": {
+      "events": 5
+    },
+    "GLENWOOD": {
+      "events": 20
+    },
+    "GRANT-PARK": {
+      "events": 2
+    },
+    "GRASSIE": {
+      "events": 1
+    },
+    "GRIFFIN": {
+      "events": 1
+    },
+    "HOLDEN": {
+      "events": 1
+    },
+    "INKSTER-GARDENS": {
+      "events": 1
+    },
+    "INKSTER-INDUSTRIAL-PARK": {
+      "events": 2
+    },
+    "J-B-MITCHELL": {
+      "events": 3
+    },
+    "JEFFERSON": {
+      "events": 1
+    },
+    "KERN-PARK": {
+      "events": 4
+    },
+    "KILDARE-REDONDA": {
+      "events": 3
+    },
+    "KILDONAN-DRIVE": {
+      "events": 2
+    },
+    "KING-EDWARD": {
+      "events": 15
+    },
+    "LA-BARRIERE": {
+      "events": 1
+    },
+    "LEILA-NORTH": {
+      "events": 20
+    },
+    "LINDEN-RIDGE": {
+      "events": 2
+    },
+    "LOGAN-CPR": {
+      "events": 2
+    },
+    "LORD-ROBERTS": {
+      "events": 4
+    },
+    "LUXTON": {
+      "events": 1
+    },
+    "MAGINOT": {
+      "events": 1
+    },
+    "MARLTON": {
+      "events": 2
+    },
+    "MAYBANK": {
+      "events": 8
+    },
+    "MCMILLAN": {
+      "events": 4
+    },
+    "MELROSE": {
+      "events": 1
+    },
+    "MINNETONKA": {
+      "events": 1
+    },
+    "MISSION-INDUSTRIAL": {
+      "events": 7
+    },
+    "MUNROE-EAST": {
+      "events": 3
+    },
+    "MUNROE-WEST": {
+      "events": 2
+    },
+    "NORBERRY": {
+      "events": 1
+    },
+    "NORTH-INKSTER-INDUSTRIAL": {
+      "events": 1
+    },
+    "NORTH-POINT-DOUGLAS": {
+      "events": 1
+    },
+    "NORTH-RIVER-HEIGHTS": {
+      "events": 6
+    },
+    "NORTH-ST-BONIFACE": {
+      "events": 5
+    },
+    "NORWOOD-EAST": {
+      "events": 4
+    },
+    "NORWOOD-WEST": {
+      "events": 1
+    },
+    "OAK-POINT-HIGHWAY": {
+      "events": 3
+    },
+    "OLD-TUXEDO": {
+      "events": 1
+    },
+    "PEGUIS": {
+      "events": 31
+    },
+    "PEMBINA-STRIP": {
+      "events": 1
+    },
+    "PERRAULT": {
+      "events": 1
+    },
+    "POINT-ROAD": {
+      "events": 1
+    },
+    "PORTAGE-ELLICE": {
+      "events": 1
+    },
+    "PORTAGE-MAIN": {
+      "events": 2
+    },
+    "PRAIRIE-POINTE": {
+      "events": 13
+    },
+    "RADISSON": {
+      "events": 1
+    },
+    "REGENT": {
+      "events": 2
+    },
+    "RIDGEWOOD-SOUTH": {
+      "events": 1
+    },
+    "RIVER-EAST": {
+      "events": 1
+    },
+    "RIVER-OSBORNE": {
+      "events": 7
+    },
+    "RIVER-PARK-SOUTH": {
+      "events": 2
+    },
+    "RIVER-WEST-PARK": {
+      "events": 1
+    },
+    "RIVERBEND": {
+      "events": 2
+    },
+    "ROBERTSON": {
+      "events": 2
+    },
+    "ROCKWOOD": {
+      "events": 6
+    },
+    "ROSLYN": {
+      "events": 2
+    },
+    "ROSSER-OLD-KILDONAN": {
+      "events": 3
+    },
+    "ROSSMERE-B": {
+      "events": 3
+    },
+    "SAGE-CREEK": {
+      "events": 33
+    },
+    "SARGENT-PARK": {
+      "events": 1
+    },
+    "SASKATCHEWAN-NORTH": {
+      "events": 1
+    },
+    "SEVEN-OAKS": {
+      "events": 3
+    },
+    "SHAUGHNESSY-PARK": {
+      "events": 1
+    },
+    "SILVER-HEIGHTS": {
+      "events": 1
+    },
+    "SIR-JOHN-FRANKLIN": {
+      "events": 9
+    },
+    "SOUTH-POINT-DOUGLAS": {
+      "events": 3
+    },
+    "SOUTH-PORTAGE": {
+      "events": 1
+    },
+    "SPENCE": {
+      "events": 2
+    },
+    "ST-BONIFACE-INDUSTRIAL-PARK": {
+      "events": 2
+    },
+    "ST-GEORGE": {
+      "events": 5
+    },
+    "ST-JAMES-INDUSTRIAL": {
+      "events": 4
+    },
+    "ST-JOHNS-PARK": {
+      "events": 1
+    },
+    "ST-MATTHEWS": {
+      "events": 3
+    },
+    "ST-VITAL-PERIMETER-SOUTH": {
+      "events": 1
+    },
+    "STOCK-YARDS": {
+      "events": 3
+    },
+    "SYMINGTON-YARDS": {
+      "events": 1
+    },
+    "TALBOT-GREY": {
+      "events": 1
+    },
+    "TEMPLETON-SINCLAIR": {
+      "events": 1
+    },
+    "THE-FORKS": {
+      "events": 1
+    },
+    "THE-MAPLES": {
+      "events": 1
+    },
+    "TRANSCONA-NORTH": {
+      "events": 35
+    },
+    "TUXEDO": {
+      "events": 1
+    },
+    "TUXEDO-INDUSTRIAL": {
+      "events": 8
+    },
+    "TYNDALL-PARK": {
+      "events": 1
+    },
+    "TYNE-TEES": {
+      "events": 1
+    },
+    "UNIVERSITY": {
+      "events": 1
+    },
+    "VARENNES": {
+      "events": 5
+    },
+    "VARSITY-VIEW": {
+      "events": 1
+    },
+    "VIALOUX": {
+      "events": 3
+    },
+    "WAVERLEY-WEST-B": {
+      "events": 8
+    },
+    "WELLINGTON-CRESCENT": {
+      "events": 1
+    },
+    "WEST-ALEXANDER": {
+      "events": 2
+    },
+    "WEST-BROADWAY": {
+      "events": 2
+    },
+    "WEST-FORT-GARRY-INDUSTRIAL": {
+      "events": 3
+    },
+    "WEST-KILDONAN-INDUSTRIAL": {
+      "events": 2
+    },
+    "WESTDALE": {
+      "events": 1
+    },
+    "WESTON": {
+      "events": 2
+    },
+    "WOODHAVEN": {
+      "events": 1
+    },
+    "WORTHINGTON": {
+      "events": 1
+    }
+  }
+}

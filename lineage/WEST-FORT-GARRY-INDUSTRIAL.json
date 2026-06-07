@@ -1,0 +1,137 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "West Fort Garry Industrial",
+  "slug": "WEST-FORT-GARRY-INDUSTRIAL",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "replacement",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 900730,
+          "roll": "03091450000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 870319,
+          "roll": "03093017120"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 39987,
+          "roll": "03062550700"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 59222,
+          "roll": "03093017130"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 519742,
+          "roll": "03091225500"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 530918,
+          "roll": "03093017145"
+        }
+      ],
+      "confidence": 0.96
+    }
+  ],
+  "by_roll": {
+    "03093017120": {
+      "snapshot": "2025-02-26",
+      "type": "replacement",
+      "confidence": 0.97,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "03091450000"
+        }
+      ]
+    },
+    "03091450000": {
+      "snapshot": "2023-11-13",
+      "type": "replacement",
+      "confidence": 0.97,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "03093017120"
+        }
+      ]
+    },
+    "03093017130": {
+      "snapshot": "2025-02-26",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "03062550700"
+        }
+      ]
+    },
+    "03062550700": {
+      "snapshot": "2023-11-13",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "03093017130"
+        }
+      ]
+    },
+    "03093017145": {
+      "snapshot": "2025-02-26",
+      "type": "replacement",
+      "confidence": 0.96,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "03091225500"
+        }
+      ]
+    },
+    "03091225500": {
+      "snapshot": "2023-11-13",
+      "type": "replacement",
+      "confidence": 0.96,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "03093017145"
+        }
+      ]
+    }
+  }
+}

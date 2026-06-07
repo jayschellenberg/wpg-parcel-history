@@ -1,0 +1,212 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "Marlton",
+  "slug": "MARLTON",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "consolidation",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 21804,
+          "roll": "01002077000"
+        },
+        {
+          "area_sqft": 13017,
+          "roll": "01002077600"
+        },
+        {
+          "area_sqft": 23419,
+          "roll": "01005892300"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 58241,
+          "roll": "01009606775"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 49415,
+          "roll": "01009600020"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 23673,
+          "roll": "01009606895"
+        },
+        {
+          "area_sqft": 23673,
+          "roll": "01009606900"
+        },
+        {
+          "area_sqft": 23673,
+          "roll": "01009606905"
+        },
+        {
+          "area_sqft": 23673,
+          "roll": "01009606910"
+        },
+        {
+          "area_sqft": 23673,
+          "roll": "01009606915"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_roll": {
+    "01009606775": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "01002077000"
+        },
+        {
+          "snapshot": "2023-11-13",
+          "roll": "01002077600"
+        },
+        {
+          "snapshot": "2023-11-13",
+          "roll": "01005892300"
+        }
+      ]
+    },
+    "01002077000": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "01009606775"
+        }
+      ]
+    },
+    "01002077600": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "01009606775"
+        }
+      ]
+    },
+    "01005892300": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "01009606775"
+        }
+      ]
+    },
+    "01009606895": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "01009600020"
+        }
+      ]
+    },
+    "01009606900": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "01009600020"
+        }
+      ]
+    },
+    "01009606905": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "01009600020"
+        }
+      ]
+    },
+    "01009606910": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "01009600020"
+        }
+      ]
+    },
+    "01009606915": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "01009600020"
+        }
+      ]
+    },
+    "01009600020": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "01009606895"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "01009606900"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "01009606905"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "01009606910"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "01009606915"
+        }
+      ]
+    }
+  }
+}

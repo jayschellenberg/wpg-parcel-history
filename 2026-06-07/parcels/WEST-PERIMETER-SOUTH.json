@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "WEST-PERIMETER-SOUTH",
+"xy_coordinate_resolution": 1e-06,
+"features": [
+{ "type": "Feature", "properties": { "roll_number": "01005856400", "full_address": "1745 WYPER ROAD", "neighbourhood_area": "WEST PERIMETER SOUTH", "market_region": "6, CHARLESWOOD", "zoning": "A - AGRICULTURAL", "assessed_land_area": "30492962", "total_assessed_value": "30650000", "property_use_code": "PIIPF - POLICE/FIRE", "detail_url": { "url": "http://www.winnipegassessment.com/asmtpub/english/propertydetails/CommercialDetails.aspx?pgLang=EN&isRealtySearch=true&RollNumber=01005856400" } }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -97.349127, 49.809291 ], [ -97.328638, 49.809237 ], [ -97.326445, 49.830269 ], [ -97.32648, 49.831167 ], [ -97.326621, 49.83175 ], [ -97.326876, 49.832346 ], [ -97.32723, 49.83289 ], [ -97.327441, 49.833137 ], [ -97.328486, 49.823115 ], [ -97.345328, 49.823727 ], [ -97.344438, 49.833974 ], [ -97.346941, 49.834065 ], [ -97.349127, 49.809291 ] ] ], [ [ [ -97.336774, 49.835683 ], [ -97.336573, 49.837613 ], [ -97.346666, 49.83717 ], [ -97.346876, 49.834798 ], [ -97.339679, 49.834537 ], [ -97.339549, 49.835784 ], [ -97.336774, 49.835683 ] ] ] ] } }
+]
+}

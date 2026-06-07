@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Varsity View",
+  "slug": "VARSITY-VIEW",
+  "snapshots": ["2025-03-14", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 10042,
+          "id": "380363"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 5021,
+          "id": "655177"
+        },
+        {
+          "area_sqft": 5021,
+          "id": "655178"
+        }
+      ],
+      "confidence": 0.5
+    }
+  ],
+  "by_id": {
+    "655177": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "380363"
+        }
+      ]
+    },
+    "655178": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "id": "380363"
+        }
+      ]
+    },
+    "380363": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "id": "655177"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "id": "655178"
+        }
+      ]
+    }
+  }
+}

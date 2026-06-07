@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "Perrault",
+  "slug": "PERRAULT",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 8419258,
+          "roll": "03015262600"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 7922866,
+          "roll": "03093016050"
+        },
+        {
+          "area_sqft": 496392,
+          "roll": "03093016045"
+        }
+      ],
+      "confidence": 0.94
+    }
+  ],
+  "by_roll": {
+    "03093016045": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.94,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "03015262600"
+        }
+      ]
+    }
+  }
+}

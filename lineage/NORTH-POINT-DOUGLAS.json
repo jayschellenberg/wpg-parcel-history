@@ -1,0 +1,95 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "North Point Douglas",
+  "slug": "NORTH-POINT-DOUGLAS",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "consolidation",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 5440,
+          "roll": "14000836000"
+        },
+        {
+          "area_sqft": 3306,
+          "roll": "14000838000"
+        },
+        {
+          "area_sqft": 2819,
+          "roll": "14000848000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 15621,
+          "roll": "14000845000"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_roll": {
+    "14000845000": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "14000836000"
+        },
+        {
+          "snapshot": "2023-11-13",
+          "roll": "14000838000"
+        },
+        {
+          "snapshot": "2023-11-13",
+          "roll": "14000848000"
+        }
+      ]
+    },
+    "14000836000": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "14000845000"
+        }
+      ]
+    },
+    "14000838000": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "14000845000"
+        }
+      ]
+    },
+    "14000848000": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "14000845000"
+        }
+      ]
+    }
+  }
+}

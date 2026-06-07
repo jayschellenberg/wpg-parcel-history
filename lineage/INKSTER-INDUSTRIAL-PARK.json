@@ -1,0 +1,163 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "Inkster Industrial Park",
+  "slug": "INKSTER-INDUSTRIAL-PARK",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 320149,
+          "roll": "14064500600"
+        },
+        {
+          "area_sqft": 196070,
+          "roll": "14100047600"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 516219,
+          "roll": "14100133215"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "reconfiguration",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 572383,
+          "roll": "14100127655"
+        },
+        {
+          "area_sqft": 17599,
+          "roll": "14064177500"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 531896,
+          "roll": "14100133220"
+        },
+        {
+          "area_sqft": 58086,
+          "roll": "14100133230"
+        }
+      ],
+      "confidence": 0.7
+    }
+  ],
+  "by_roll": {
+    "14100133215": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "14064500600"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "14100047600"
+        }
+      ]
+    },
+    "14064500600": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "14100133215"
+        }
+      ]
+    },
+    "14100047600": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "14100133215"
+        }
+      ]
+    },
+    "14100133220": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.7,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "14100127655"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "14064177500"
+        }
+      ]
+    },
+    "14100133230": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.7,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "14100127655"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "14064177500"
+        }
+      ]
+    },
+    "14100127655": {
+      "snapshot": "2025-02-26",
+      "type": "reconfiguration",
+      "confidence": 0.7,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "14100133220"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "14100133230"
+        }
+      ]
+    },
+    "14064177500": {
+      "snapshot": "2025-02-26",
+      "type": "reconfiguration",
+      "confidence": 0.7,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "14100133220"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "14100133230"
+        }
+      ]
+    }
+  }
+}

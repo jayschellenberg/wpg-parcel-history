@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "St. John's Park",
+  "slug": "ST-JOHNS-PARK",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 9463,
+          "roll": "14052630000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 3154,
+          "roll": "14100133195"
+        },
+        {
+          "area_sqft": 3154,
+          "roll": "14100133200"
+        },
+        {
+          "area_sqft": 3154,
+          "roll": "14100133205"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_roll": {
+    "14100133195": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "14052630000"
+        }
+      ]
+    },
+    "14100133200": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "14052630000"
+        }
+      ]
+    },
+    "14100133205": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "14052630000"
+        }
+      ]
+    },
+    "14052630000": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "14100133195"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "14100133200"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "14100133205"
+        }
+      ]
+    }
+  }
+}

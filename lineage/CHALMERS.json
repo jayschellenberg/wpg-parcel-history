@@ -1,0 +1,669 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "Chalmers",
+  "slug": "CHALMERS",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "consolidation",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 15504,
+          "roll": "02040549500"
+        },
+        {
+          "area_sqft": 8992,
+          "roll": "02040550100"
+        },
+        {
+          "area_sqft": 8992,
+          "roll": "02040550500"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 33489,
+          "roll": "02062808055"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 4529,
+          "roll": "14080675000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2264,
+          "roll": "14100133185"
+        },
+        {
+          "area_sqft": 2264,
+          "roll": "14100133190"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 46031,
+          "roll": "14090251500"
+        },
+        {
+          "area_sqft": 12260,
+          "roll": "14090253500"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 58291,
+          "roll": "14100133245"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 33489,
+          "roll": "02062808055"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 9860,
+          "roll": "02062808175"
+        },
+        {
+          "area_sqft": 9860,
+          "roll": "02062808180"
+        },
+        {
+          "area_sqft": 9860,
+          "roll": "02062808185"
+        },
+        {
+          "area_sqft": 9860,
+          "roll": "02062808190"
+        },
+        {
+          "area_sqft": 9860,
+          "roll": "02062808195"
+        },
+        {
+          "area_sqft": 9860,
+          "roll": "02062808200"
+        },
+        {
+          "area_sqft": 9860,
+          "roll": "02062808205"
+        },
+        {
+          "area_sqft": 9860,
+          "roll": "02062808210"
+        },
+        {
+          "area_sqft": 9860,
+          "roll": "02062808215"
+        },
+        {
+          "area_sqft": 9860,
+          "roll": "02062808220"
+        },
+        {
+          "area_sqft": 9860,
+          "roll": "02062808225"
+        },
+        {
+          "area_sqft": 9860,
+          "roll": "02062808230"
+        },
+        {
+          "area_sqft": 9860,
+          "roll": "02062808235"
+        },
+        {
+          "area_sqft": 9860,
+          "roll": "02062808240"
+        },
+        {
+          "area_sqft": 9860,
+          "roll": "02062808245"
+        },
+        {
+          "area_sqft": 9860,
+          "roll": "02062808250"
+        },
+        {
+          "area_sqft": 9860,
+          "roll": "02062808255"
+        },
+        {
+          "area_sqft": 9860,
+          "roll": "02062808260"
+        },
+        {
+          "area_sqft": 9860,
+          "roll": "02062808265"
+        },
+        {
+          "area_sqft": 9860,
+          "roll": "02062808270"
+        },
+        {
+          "area_sqft": 9860,
+          "roll": "02062808275"
+        },
+        {
+          "area_sqft": 9860,
+          "roll": "02062808280"
+        },
+        {
+          "area_sqft": 9860,
+          "roll": "02062808285"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_roll": {
+    "02062808055": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "02040549500"
+        },
+        {
+          "snapshot": "2023-11-13",
+          "roll": "02040550100"
+        },
+        {
+          "snapshot": "2023-11-13",
+          "roll": "02040550500"
+        }
+      ],
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "02062808175"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "02062808180"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "02062808185"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "02062808190"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "02062808195"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "02062808200"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "02062808205"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "02062808210"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "02062808215"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "02062808220"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "02062808225"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "02062808230"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "02062808235"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "02062808240"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "02062808245"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "02062808250"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "02062808255"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "02062808260"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "02062808265"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "02062808270"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "02062808275"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "02062808280"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "02062808285"
+        }
+      ]
+    },
+    "02040549500": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02062808055"
+        }
+      ]
+    },
+    "02040550100": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02062808055"
+        }
+      ]
+    },
+    "02040550500": {
+      "snapshot": "2023-11-13",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02062808055"
+        }
+      ]
+    },
+    "14100133185": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "14080675000"
+        }
+      ]
+    },
+    "14100133190": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "14080675000"
+        }
+      ]
+    },
+    "14080675000": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "14100133185"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "14100133190"
+        }
+      ]
+    },
+    "14100133245": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "14090251500"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "14090253500"
+        }
+      ]
+    },
+    "14090251500": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "14100133245"
+        }
+      ]
+    },
+    "14090253500": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "14100133245"
+        }
+      ]
+    },
+    "02062808175": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02062808055"
+        }
+      ]
+    },
+    "02062808180": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02062808055"
+        }
+      ]
+    },
+    "02062808185": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02062808055"
+        }
+      ]
+    },
+    "02062808190": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02062808055"
+        }
+      ]
+    },
+    "02062808195": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02062808055"
+        }
+      ]
+    },
+    "02062808200": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02062808055"
+        }
+      ]
+    },
+    "02062808205": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02062808055"
+        }
+      ]
+    },
+    "02062808210": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02062808055"
+        }
+      ]
+    },
+    "02062808215": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02062808055"
+        }
+      ]
+    },
+    "02062808220": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02062808055"
+        }
+      ]
+    },
+    "02062808225": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02062808055"
+        }
+      ]
+    },
+    "02062808230": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02062808055"
+        }
+      ]
+    },
+    "02062808235": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02062808055"
+        }
+      ]
+    },
+    "02062808240": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02062808055"
+        }
+      ]
+    },
+    "02062808245": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02062808055"
+        }
+      ]
+    },
+    "02062808250": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02062808055"
+        }
+      ]
+    },
+    "02062808255": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02062808055"
+        }
+      ]
+    },
+    "02062808260": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02062808055"
+        }
+      ]
+    },
+    "02062808265": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02062808055"
+        }
+      ]
+    },
+    "02062808270": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02062808055"
+        }
+      ]
+    },
+    "02062808275": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02062808055"
+        }
+      ]
+    },
+    "02062808280": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02062808055"
+        }
+      ]
+    },
+    "02062808285": {
+      "snapshot": "2026-06-07",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "02062808055"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "Buffalo",
+  "slug": "BUFFALO",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "replacement",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 248247,
+          "roll": "03091522100"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 296831,
+          "roll": "03093014750"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 504847,
+          "roll": "03091522200"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 454396,
+          "roll": "03093014755"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 40482,
+          "roll": "03093003395"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 28487,
+          "roll": "03093017080"
+        },
+        {
+          "area_sqft": 11995,
+          "roll": "03093017085"
+        }
+      ],
+      "confidence": 0.7
+    },
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 174176,
+          "roll": "03071497000"
+        },
+        {
+          "area_sqft": 11995,
+          "roll": "03093017085"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 186172,
+          "roll": "03093018845"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "reconfiguration",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-06-07",
+      "from": [
+        {
+          "area_sqft": 4220,
+          "roll": "03091206900"
+        },
+        {
+          "area_sqft": 227303,
+          "roll": "03093005715"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 230211,
+          "roll": "03093018850"
+        },
+        {
+          "area_sqft": 1312,
+          "roll": "03093018840"
+        }
+      ],
+      "confidence": 0.69
+    }
+  ],
+  "by_roll": {
+    "03093014750": {
+      "snapshot": "2025-02-26",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "03091522100"
+        }
+      ]
+    },
+    "03091522100": {
+      "snapshot": "2023-11-13",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "03093014750"
+        }
+      ]
+    },
+    "03093014755": {
+      "snapshot": "2025-02-26",
+      "type": "replacement",
+      "confidence": 0.9,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "03091522200"
+        }
+      ]
+    },
+    "03091522200": {
+      "snapshot": "2023-11-13",
+      "type": "replacement",
+      "confidence": 0.9,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "03093014755"
+        }
+      ]
+    },
+    "03093017080": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.7,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "03093003395"
+        }
+      ]
+    },
+    "03093017085": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "03093003395"
+        }
+      ],
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "03093018845"
+        }
+      ]
+    },
+    "03093003395": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 0.7,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "03093017080"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "03093017085"
+        }
+      ]
+    },
+    "03093018845": {
+      "snapshot": "2026-06-07",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "03071497000"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "03093017085"
+        }
+      ]
+    },
+    "03071497000": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "03093018845"
+        }
+      ]
+    },
+    "03093018850": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.69,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "03091206900"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "03093005715"
+        }
+      ]
+    },
+    "03093018840": {
+      "snapshot": "2026-06-07",
+      "type": "reconfiguration",
+      "confidence": 0.69,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "03091206900"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "03093005715"
+        }
+      ]
+    },
+    "03091206900": {
+      "snapshot": "2025-02-26",
+      "type": "reconfiguration",
+      "confidence": 0.69,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "03093018850"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "03093018840"
+        }
+      ]
+    },
+    "03093005715": {
+      "snapshot": "2025-02-26",
+      "type": "reconfiguration",
+      "confidence": 0.69,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-06-07",
+          "roll": "03093018850"
+        },
+        {
+          "snapshot": "2026-06-07",
+          "roll": "03093018840"
+        }
+      ]
+    }
+  }
+}

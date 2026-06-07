@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "Maginot",
+  "slug": "MAGINOT",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "generated": "2026-06-07T15:38:26-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2023-11-13",
+      "to_snapshot": "2025-02-26",
+      "from": [
+        {
+          "area_sqft": 7681,
+          "roll": "06021047000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 4111,
+          "roll": "06093479060"
+        },
+        {
+          "area_sqft": 3570,
+          "roll": "06093479065"
+        }
+      ],
+      "confidence": 0.54
+    }
+  ],
+  "by_roll": {
+    "06093479060": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.54,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06021047000"
+        }
+      ]
+    },
+    "06093479065": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.54,
+      "predecessors": [
+        {
+          "snapshot": "2023-11-13",
+          "roll": "06021047000"
+        }
+      ]
+    },
+    "06021047000": {
+      "snapshot": "2023-11-13",
+      "type": "subdivision",
+      "confidence": 0.54,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093479060"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06093479065"
+        }
+      ]
+    }
+  }
+}
