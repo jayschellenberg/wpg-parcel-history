@@ -5,7 +5,7 @@
   "neighbourhood": "Montcalm",
   "slug": "MONTCALM",
   "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T15:38:26-0500",
+  "generated": "2026-06-07T17:27:51-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -15,17 +15,17 @@
       "from": [
         {
           "area_sqft": 10013,
-          "id": "427794"
+          "survey_id": "427794"
         }
       ],
       "to": [
         {
           "area_sqft": 9134,
-          "id": "657130"
+          "survey_id": "657130"
         },
         {
           "area_sqft": 879,
-          "id": "657131"
+          "survey_id": "657131"
         }
       ],
       "confidence": 0.91
@@ -37,19 +37,19 @@
       "from": [
         {
           "area_sqft": 168271,
-          "id": "429557"
+          "survey_id": "429557"
         }
       ],
       "to": [
         {
           "area_sqft": 61862,
-          "id": "655179"
+          "survey_id": "655179"
         }
       ],
       "confidence": 1
     }
   ],
-  "by_id": {
+  "by_survey_id": {
     "657130": {
       "snapshot": "2026-06-07",
       "type": "subdivision",
@@ -57,7 +57,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "427794"
+          "survey_id": "427794"
         }
       ]
     },
@@ -68,7 +68,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "427794"
+          "survey_id": "427794"
         }
       ]
     },
@@ -80,11 +80,11 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657130"
+          "survey_id": "657130"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "657131"
+          "survey_id": "657131"
         }
       ]
     },
@@ -95,7 +95,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "429557"
+          "survey_id": "429557"
         }
       ]
     },
@@ -107,7 +107,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "655179"
+          "survey_id": "655179"
         }
       ]
     }

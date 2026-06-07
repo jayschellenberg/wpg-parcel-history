@@ -5,7 +5,7 @@
   "neighbourhood": "Mission Industrial",
   "slug": "MISSION-INDUSTRIAL",
   "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T15:38:26-0500",
+  "generated": "2026-06-07T17:27:51-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -15,13 +15,13 @@
       "from": [
         {
           "area_sqft": 40909,
-          "id": "319969"
+          "survey_id": "319969"
         }
       ],
       "to": [
         {
           "area_sqft": 34457,
-          "id": "657460"
+          "survey_id": "657460"
         }
       ],
       "confidence": 0.82
@@ -33,29 +33,29 @@
       "from": [
         {
           "area_sqft": 7197,
-          "id": "319973"
+          "survey_id": "319973"
         },
         {
           "area_sqft": 340,
-          "id": "319962"
+          "survey_id": "319962"
         },
         {
           "area_sqft": 2210,
-          "id": "319966"
+          "survey_id": "319966"
         },
         {
           "area_sqft": 1360,
-          "id": "319967"
+          "survey_id": "319967"
         },
         {
           "area_sqft": 32461,
-          "id": "636115"
+          "survey_id": "636115"
         }
       ],
       "to": [
         {
           "area_sqft": 50021,
-          "id": "657459"
+          "survey_id": "657459"
         }
       ],
       "confidence": 0.86
@@ -67,13 +67,13 @@
       "from": [
         {
           "area_sqft": 24911,
-          "id": "322918"
+          "survey_id": "322918"
         }
       ],
       "to": [
         {
           "area_sqft": 28188,
-          "id": "656631"
+          "survey_id": "656631"
         }
       ],
       "confidence": 1
@@ -85,13 +85,13 @@
       "from": [
         {
           "area_sqft": 29573,
-          "id": "322917"
+          "survey_id": "322917"
         }
       ],
       "to": [
         {
           "area_sqft": 26295,
-          "id": "656632"
+          "survey_id": "656632"
         }
       ],
       "confidence": 0.89
@@ -103,17 +103,17 @@
       "from": [
         {
           "area_sqft": 21138,
-          "id": "315106"
+          "survey_id": "315106"
         },
         {
           "area_sqft": 42282,
-          "id": "315107"
+          "survey_id": "315107"
         }
       ],
       "to": [
         {
           "area_sqft": 63420,
-          "id": "656332"
+          "survey_id": "656332"
         }
       ],
       "confidence": 1
@@ -125,13 +125,13 @@
       "from": [
         {
           "area_sqft": 17964,
-          "id": "322991"
+          "survey_id": "322991"
         }
       ],
       "to": [
         {
           "area_sqft": 10413,
-          "id": "656424"
+          "survey_id": "656424"
         }
       ],
       "confidence": 0.51
@@ -143,29 +143,29 @@
       "from": [
         {
           "area_sqft": 330,
-          "id": "322967"
+          "survey_id": "322967"
         },
         {
           "area_sqft": 330,
-          "id": "322969"
+          "survey_id": "322969"
         },
         {
           "area_sqft": 330,
-          "id": "322970"
+          "survey_id": "322970"
         },
         {
           "area_sqft": 330,
-          "id": "322971"
+          "survey_id": "322971"
         },
         {
           "area_sqft": 50375,
-          "id": "322968"
+          "survey_id": "322968"
         }
       ],
       "to": [
         {
           "area_sqft": 27156,
-          "id": "656426"
+          "survey_id": "656426"
         }
       ],
       "confidence": 0.51
@@ -177,49 +177,49 @@
       "from": [
         {
           "area_sqft": 2517,
-          "id": "323033"
+          "survey_id": "323033"
         },
         {
           "area_sqft": 330,
-          "id": "322978"
+          "survey_id": "322978"
         },
         {
           "area_sqft": 330,
-          "id": "322972"
+          "survey_id": "322972"
         },
         {
           "area_sqft": 330,
-          "id": "322973"
+          "survey_id": "322973"
         },
         {
           "area_sqft": 330,
-          "id": "322975"
+          "survey_id": "322975"
         },
         {
           "area_sqft": 330,
-          "id": "322977"
+          "survey_id": "322977"
         },
         {
           "area_sqft": 330,
-          "id": "322979"
+          "survey_id": "322979"
         },
         {
           "area_sqft": 330,
-          "id": "322980"
+          "survey_id": "322980"
         },
         {
           "area_sqft": 330,
-          "id": "322982"
+          "survey_id": "322982"
         },
         {
           "area_sqft": 20677,
-          "id": "322983"
+          "survey_id": "322983"
         }
       ],
       "to": [
         {
           "area_sqft": 57655,
-          "id": "656425"
+          "survey_id": "656425"
         }
       ],
       "confidence": 0.73
@@ -231,23 +231,23 @@
       "from": [
         {
           "area_sqft": 3888,
-          "id": "313365"
+          "survey_id": "313365"
         },
         {
           "area_sqft": 3888,
-          "id": "313369"
+          "survey_id": "313369"
         }
       ],
       "to": [
         {
           "area_sqft": 7776,
-          "id": "657691"
+          "survey_id": "657691"
         }
       ],
       "confidence": 1
     }
   ],
-  "by_id": {
+  "by_survey_id": {
     "657460": {
       "snapshot": "2026-06-07",
       "type": "replacement",
@@ -255,7 +255,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "319969"
+          "survey_id": "319969"
         }
       ]
     },
@@ -267,7 +267,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657460"
+          "survey_id": "657460"
         }
       ]
     },
@@ -278,23 +278,23 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "319973"
+          "survey_id": "319973"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "319962"
+          "survey_id": "319962"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "319966"
+          "survey_id": "319966"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "319967"
+          "survey_id": "319967"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "636115"
+          "survey_id": "636115"
         }
       ]
     },
@@ -306,7 +306,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657459"
+          "survey_id": "657459"
         }
       ]
     },
@@ -318,7 +318,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657459"
+          "survey_id": "657459"
         }
       ]
     },
@@ -330,7 +330,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657459"
+          "survey_id": "657459"
         }
       ]
     },
@@ -342,7 +342,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657459"
+          "survey_id": "657459"
         }
       ]
     },
@@ -354,7 +354,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657459"
+          "survey_id": "657459"
         }
       ]
     },
@@ -365,7 +365,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "322918"
+          "survey_id": "322918"
         }
       ]
     },
@@ -377,7 +377,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656631"
+          "survey_id": "656631"
         }
       ]
     },
@@ -388,7 +388,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "322917"
+          "survey_id": "322917"
         }
       ]
     },
@@ -400,7 +400,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656632"
+          "survey_id": "656632"
         }
       ]
     },
@@ -411,11 +411,11 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "315106"
+          "survey_id": "315106"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "315107"
+          "survey_id": "315107"
         }
       ]
     },
@@ -427,7 +427,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656332"
+          "survey_id": "656332"
         }
       ]
     },
@@ -439,7 +439,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656332"
+          "survey_id": "656332"
         }
       ]
     },
@@ -450,7 +450,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "322991"
+          "survey_id": "322991"
         }
       ]
     },
@@ -462,7 +462,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656424"
+          "survey_id": "656424"
         }
       ]
     },
@@ -473,23 +473,23 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "322967"
+          "survey_id": "322967"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "322969"
+          "survey_id": "322969"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "322970"
+          "survey_id": "322970"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "322971"
+          "survey_id": "322971"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "322968"
+          "survey_id": "322968"
         }
       ]
     },
@@ -501,7 +501,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656426"
+          "survey_id": "656426"
         }
       ]
     },
@@ -513,7 +513,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656426"
+          "survey_id": "656426"
         }
       ]
     },
@@ -525,7 +525,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656426"
+          "survey_id": "656426"
         }
       ]
     },
@@ -537,7 +537,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656426"
+          "survey_id": "656426"
         }
       ]
     },
@@ -549,7 +549,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656426"
+          "survey_id": "656426"
         }
       ]
     },
@@ -560,43 +560,43 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "323033"
+          "survey_id": "323033"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "322978"
+          "survey_id": "322978"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "322972"
+          "survey_id": "322972"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "322973"
+          "survey_id": "322973"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "322975"
+          "survey_id": "322975"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "322977"
+          "survey_id": "322977"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "322979"
+          "survey_id": "322979"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "322980"
+          "survey_id": "322980"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "322982"
+          "survey_id": "322982"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "322983"
+          "survey_id": "322983"
         }
       ]
     },
@@ -608,7 +608,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656425"
+          "survey_id": "656425"
         }
       ]
     },
@@ -620,7 +620,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656425"
+          "survey_id": "656425"
         }
       ]
     },
@@ -632,7 +632,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656425"
+          "survey_id": "656425"
         }
       ]
     },
@@ -644,7 +644,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656425"
+          "survey_id": "656425"
         }
       ]
     },
@@ -656,7 +656,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656425"
+          "survey_id": "656425"
         }
       ]
     },
@@ -668,7 +668,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656425"
+          "survey_id": "656425"
         }
       ]
     },
@@ -680,7 +680,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656425"
+          "survey_id": "656425"
         }
       ]
     },
@@ -692,7 +692,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656425"
+          "survey_id": "656425"
         }
       ]
     },
@@ -704,7 +704,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656425"
+          "survey_id": "656425"
         }
       ]
     },
@@ -716,7 +716,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656425"
+          "survey_id": "656425"
         }
       ]
     },
@@ -727,11 +727,11 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "313365"
+          "survey_id": "313365"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "313369"
+          "survey_id": "313369"
         }
       ]
     },
@@ -743,7 +743,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657691"
+          "survey_id": "657691"
         }
       ]
     },
@@ -755,7 +755,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657691"
+          "survey_id": "657691"
         }
       ]
     }

@@ -5,7 +5,7 @@
   "neighbourhood": "Elm Park",
   "slug": "ELM-PARK",
   "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T15:38:26-0500",
+  "generated": "2026-06-07T17:27:51-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -15,17 +15,17 @@
       "from": [
         {
           "area_sqft": 8291,
-          "id": "390318"
+          "survey_id": "390318"
         },
         {
           "area_sqft": 39814,
-          "id": "390293"
+          "survey_id": "390293"
         }
       ],
       "to": [
         {
           "area_sqft": 69401,
-          "id": "655927"
+          "survey_id": "655927"
         }
       ],
       "confidence": 0.95
@@ -37,13 +37,13 @@
       "from": [
         {
           "area_sqft": 217392,
-          "id": "390198"
+          "survey_id": "390198"
         }
       ],
       "to": [
         {
           "area_sqft": 217361,
-          "id": "655926"
+          "survey_id": "655926"
         }
       ],
       "confidence": 0.95
@@ -55,19 +55,19 @@
       "from": [
         {
           "area_sqft": 856410,
-          "id": "505196"
+          "survey_id": "505196"
         }
       ],
       "to": [
         {
           "area_sqft": 835144,
-          "id": "655928"
+          "survey_id": "655928"
         }
       ],
       "confidence": 0.98
     }
   ],
-  "by_id": {
+  "by_survey_id": {
     "655927": {
       "snapshot": "2026-06-07",
       "type": "consolidation",
@@ -75,11 +75,11 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "390318"
+          "survey_id": "390318"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "390293"
+          "survey_id": "390293"
         }
       ]
     },
@@ -91,7 +91,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "655927"
+          "survey_id": "655927"
         }
       ]
     },
@@ -103,7 +103,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "655927"
+          "survey_id": "655927"
         }
       ]
     },
@@ -114,7 +114,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "390198"
+          "survey_id": "390198"
         }
       ]
     },
@@ -126,7 +126,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "655926"
+          "survey_id": "655926"
         }
       ]
     },
@@ -137,7 +137,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "505196"
+          "survey_id": "505196"
         }
       ]
     },
@@ -149,7 +149,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "655928"
+          "survey_id": "655928"
         }
       ]
     }

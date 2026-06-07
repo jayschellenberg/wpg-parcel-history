@@ -5,7 +5,7 @@
   "neighbourhood": "Fort Richmond",
   "slug": "FORT-RICHMOND",
   "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T15:38:26-0500",
+  "generated": "2026-06-07T17:27:51-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -15,13 +15,13 @@
       "from": [
         {
           "area_sqft": 807,
-          "id": "422641"
+          "survey_id": "422641"
         }
       ],
       "to": [
         {
           "area_sqft": 811,
-          "id": "655189"
+          "survey_id": "655189"
         }
       ],
       "confidence": 1
@@ -33,13 +33,13 @@
       "from": [
         {
           "area_sqft": 984,
-          "id": "422633"
+          "survey_id": "422633"
         }
       ],
       "to": [
         {
           "area_sqft": 980,
-          "id": "655188"
+          "survey_id": "655188"
         }
       ],
       "confidence": 1
@@ -51,21 +51,21 @@
       "from": [
         {
           "area_sqft": 43965,
-          "id": "423721"
+          "survey_id": "423721"
         },
         {
           "area_sqft": 540840,
-          "id": "423688"
+          "survey_id": "423688"
         }
       ],
       "to": [
         {
           "area_sqft": 89203,
-          "id": "657682"
+          "survey_id": "657682"
         },
         {
           "area_sqft": 495404,
-          "id": "657681"
+          "survey_id": "657681"
         }
       ],
       "confidence": 0.51
@@ -77,19 +77,19 @@
       "from": [
         {
           "area_sqft": 135663,
-          "id": "423722"
+          "survey_id": "423722"
         }
       ],
       "to": [
         {
           "area_sqft": 135869,
-          "id": "657683"
+          "survey_id": "657683"
         }
       ],
       "confidence": 1
     }
   ],
-  "by_id": {
+  "by_survey_id": {
     "655189": {
       "snapshot": "2026-06-07",
       "type": "replacement",
@@ -97,7 +97,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "422641"
+          "survey_id": "422641"
         }
       ]
     },
@@ -109,7 +109,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "655189"
+          "survey_id": "655189"
         }
       ]
     },
@@ -120,7 +120,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "422633"
+          "survey_id": "422633"
         }
       ]
     },
@@ -132,7 +132,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "655188"
+          "survey_id": "655188"
         }
       ]
     },
@@ -143,11 +143,11 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "423721"
+          "survey_id": "423721"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "423688"
+          "survey_id": "423688"
         }
       ]
     },
@@ -158,11 +158,11 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "423721"
+          "survey_id": "423721"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "423688"
+          "survey_id": "423688"
         }
       ]
     },
@@ -174,11 +174,11 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657682"
+          "survey_id": "657682"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "657681"
+          "survey_id": "657681"
         }
       ]
     },
@@ -190,11 +190,11 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657682"
+          "survey_id": "657682"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "657681"
+          "survey_id": "657681"
         }
       ]
     },
@@ -205,7 +205,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "423722"
+          "survey_id": "423722"
         }
       ]
     },
@@ -217,7 +217,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657683"
+          "survey_id": "657683"
         }
       ]
     }

@@ -5,7 +5,7 @@
   "neighbourhood": "Saskatchewan North",
   "slug": "SASKATCHEWAN-NORTH",
   "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T15:38:26-0500",
+  "generated": "2026-06-07T17:27:51-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -15,17 +15,17 @@
       "from": [
         {
           "area_sqft": 640289,
-          "id": "633071"
+          "survey_id": "633071"
         }
       ],
       "to": [
         {
           "area_sqft": 563452,
-          "id": "657440"
+          "survey_id": "657440"
         },
         {
           "area_sqft": 76836,
-          "id": "657439"
+          "survey_id": "657439"
         }
       ],
       "confidence": 0.88
@@ -37,27 +37,27 @@
       "from": [
         {
           "area_sqft": 1941072,
-          "id": "640007"
+          "survey_id": "640007"
         },
         {
           "area_sqft": 1730944,
-          "id": "640008"
+          "survey_id": "640008"
         }
       ],
       "to": [
         {
           "area_sqft": 2889830,
-          "id": "656867"
+          "survey_id": "656867"
         },
         {
           "area_sqft": 781839,
-          "id": "656868"
+          "survey_id": "656868"
         }
       ],
       "confidence": 0.55
     }
   ],
-  "by_id": {
+  "by_survey_id": {
     "657440": {
       "snapshot": "2026-06-07",
       "type": "subdivision",
@@ -65,7 +65,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "633071"
+          "survey_id": "633071"
         }
       ]
     },
@@ -76,7 +76,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "633071"
+          "survey_id": "633071"
         }
       ]
     },
@@ -88,11 +88,11 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657440"
+          "survey_id": "657440"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "657439"
+          "survey_id": "657439"
         }
       ]
     },
@@ -103,11 +103,11 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "640007"
+          "survey_id": "640007"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "640008"
+          "survey_id": "640008"
         }
       ]
     },
@@ -118,11 +118,11 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "640007"
+          "survey_id": "640007"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "640008"
+          "survey_id": "640008"
         }
       ]
     },
@@ -134,11 +134,11 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656867"
+          "survey_id": "656867"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656868"
+          "survey_id": "656868"
         }
       ]
     },
@@ -150,11 +150,11 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656867"
+          "survey_id": "656867"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656868"
+          "survey_id": "656868"
         }
       ]
     }

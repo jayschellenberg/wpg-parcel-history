@@ -5,7 +5,7 @@
   "neighbourhood": "St. Matthews",
   "slug": "ST-MATTHEWS",
   "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T15:38:26-0500",
+  "generated": "2026-06-07T17:27:51-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -15,35 +15,35 @@
       "from": [
         {
           "area_sqft": 2501,
-          "id": "331665"
+          "survey_id": "331665"
         },
         {
           "area_sqft": 2501,
-          "id": "331691"
+          "survey_id": "331691"
         },
         {
           "area_sqft": 2501,
-          "id": "331667"
+          "survey_id": "331667"
         },
         {
           "area_sqft": 2501,
-          "id": "331674"
+          "survey_id": "331674"
         },
         {
           "area_sqft": 2501,
-          "id": "331683"
+          "survey_id": "331683"
         }
       ],
       "to": [
         {
           "area_sqft": 12507,
-          "id": "656633"
+          "survey_id": "656633"
         }
       ],
       "confidence": 1
     }
   ],
-  "by_id": {
+  "by_survey_id": {
     "656633": {
       "snapshot": "2026-06-07",
       "type": "consolidation",
@@ -51,23 +51,23 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "331665"
+          "survey_id": "331665"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "331691"
+          "survey_id": "331691"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "331667"
+          "survey_id": "331667"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "331674"
+          "survey_id": "331674"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "331683"
+          "survey_id": "331683"
         }
       ]
     },
@@ -79,7 +79,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656633"
+          "survey_id": "656633"
         }
       ]
     },
@@ -91,7 +91,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656633"
+          "survey_id": "656633"
         }
       ]
     },
@@ -103,7 +103,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656633"
+          "survey_id": "656633"
         }
       ]
     },
@@ -115,7 +115,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656633"
+          "survey_id": "656633"
         }
       ]
     },
@@ -127,7 +127,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656633"
+          "survey_id": "656633"
         }
       ]
     }

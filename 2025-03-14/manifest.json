@@ -1,10 +1,10 @@
 {
   "schema": 2,
   "snapshot_id": "2025-03-14",
-  "generated": "2026-06-07T15:35:47-0500",
+  "generated": "2026-06-07T17:24:55-0500",
   "generator": {
     "script": "build_historical_shards.R",
-    "commit": "fe66faa",
+    "commit": "1348c06",
     "crs": "EPSG:4326",
     "shard_key": "official Winnipeg neighbourhood (representative-point-in-polygon)",
     "simplify_tolerance_deg": 3e-05,

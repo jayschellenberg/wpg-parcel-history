@@ -5,7 +5,7 @@
   "neighbourhood": "Bruce Park",
   "slug": "BRUCE-PARK",
   "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T15:38:26-0500",
+  "generated": "2026-06-07T17:27:51-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -15,19 +15,19 @@
       "from": [
         {
           "area_sqft": 5973,
-          "id": "359434"
+          "survey_id": "359434"
         }
       ],
       "to": [
         {
           "area_sqft": 5925,
-          "id": "656860"
+          "survey_id": "656860"
         }
       ],
       "confidence": 0.99
     }
   ],
-  "by_id": {
+  "by_survey_id": {
     "656860": {
       "snapshot": "2026-06-07",
       "type": "replacement",
@@ -35,7 +35,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "359434"
+          "survey_id": "359434"
         }
       ]
     },
@@ -47,7 +47,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656860"
+          "survey_id": "656860"
         }
       ]
     }

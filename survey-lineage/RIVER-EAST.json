@@ -5,7 +5,7 @@
   "neighbourhood": "River East",
   "slug": "RIVER-EAST",
   "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T15:38:26-0500",
+  "generated": "2026-06-07T17:27:51-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -15,21 +15,21 @@
       "from": [
         {
           "area_sqft": 799,
-          "id": "206132"
+          "survey_id": "206132"
         },
         {
           "area_sqft": 11405,
-          "id": "206166"
+          "survey_id": "206166"
         }
       ],
       "to": [
         {
           "area_sqft": 6224,
-          "id": "656637"
+          "survey_id": "656637"
         },
         {
           "area_sqft": 5980,
-          "id": "656636"
+          "survey_id": "656636"
         }
       ],
       "confidence": 0.51
@@ -41,23 +41,23 @@
       "from": [
         {
           "area_sqft": 10138,
-          "id": "206835"
+          "survey_id": "206835"
         },
         {
           "area_sqft": 12002,
-          "id": "206826"
+          "survey_id": "206826"
         }
       ],
       "to": [
         {
           "area_sqft": 22141,
-          "id": "657690"
+          "survey_id": "657690"
         }
       ],
       "confidence": 1
     }
   ],
-  "by_id": {
+  "by_survey_id": {
     "656637": {
       "snapshot": "2026-06-07",
       "type": "reconfiguration",
@@ -65,11 +65,11 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "206132"
+          "survey_id": "206132"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "206166"
+          "survey_id": "206166"
         }
       ]
     },
@@ -80,11 +80,11 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "206132"
+          "survey_id": "206132"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "206166"
+          "survey_id": "206166"
         }
       ]
     },
@@ -96,11 +96,11 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656637"
+          "survey_id": "656637"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656636"
+          "survey_id": "656636"
         }
       ]
     },
@@ -112,11 +112,11 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656637"
+          "survey_id": "656637"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656636"
+          "survey_id": "656636"
         }
       ]
     },
@@ -127,11 +127,11 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "206835"
+          "survey_id": "206835"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "206826"
+          "survey_id": "206826"
         }
       ]
     },
@@ -143,7 +143,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657690"
+          "survey_id": "657690"
         }
       ]
     },
@@ -155,7 +155,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657690"
+          "survey_id": "657690"
         }
       ]
     }

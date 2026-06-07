@@ -5,7 +5,7 @@
   "neighbourhood": "Maybank",
   "slug": "MAYBANK",
   "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T15:38:26-0500",
+  "generated": "2026-06-07T17:27:51-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -15,17 +15,17 @@
       "from": [
         {
           "area_sqft": 5850,
-          "id": "416691"
+          "survey_id": "416691"
         }
       ],
       "to": [
         {
           "area_sqft": 2925,
-          "id": "656920"
+          "survey_id": "656920"
         },
         {
           "area_sqft": 2925,
-          "id": "656919"
+          "survey_id": "656919"
         }
       ],
       "confidence": 0.5
@@ -37,23 +37,23 @@
       "from": [
         {
           "area_sqft": 5775,
-          "id": "415893"
+          "survey_id": "415893"
         }
       ],
       "to": [
         {
           "area_sqft": 2764,
-          "id": "657678"
+          "survey_id": "657678"
         },
         {
           "area_sqft": 2764,
-          "id": "657677"
+          "survey_id": "657677"
         }
       ],
       "confidence": 1
     }
   ],
-  "by_id": {
+  "by_survey_id": {
     "656920": {
       "snapshot": "2026-06-07",
       "type": "subdivision",
@@ -61,7 +61,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "416691"
+          "survey_id": "416691"
         }
       ]
     },
@@ -72,7 +72,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "416691"
+          "survey_id": "416691"
         }
       ]
     },
@@ -84,11 +84,11 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656920"
+          "survey_id": "656920"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656919"
+          "survey_id": "656919"
         }
       ]
     },
@@ -99,7 +99,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "415893"
+          "survey_id": "415893"
         }
       ]
     },
@@ -110,7 +110,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "415893"
+          "survey_id": "415893"
         }
       ]
     },
@@ -122,11 +122,11 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657678"
+          "survey_id": "657678"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "657677"
+          "survey_id": "657677"
         }
       ]
     }

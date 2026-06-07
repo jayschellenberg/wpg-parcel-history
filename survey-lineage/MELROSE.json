@@ -5,7 +5,7 @@
   "neighbourhood": "Melrose",
   "slug": "MELROSE",
   "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T15:38:26-0500",
+  "generated": "2026-06-07T17:27:51-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -15,17 +15,17 @@
       "from": [
         {
           "area_sqft": 3960,
-          "id": "306237"
+          "survey_id": "306237"
         },
         {
           "area_sqft": 3960,
-          "id": "306238"
+          "survey_id": "306238"
         }
       ],
       "to": [
         {
           "area_sqft": 7919,
-          "id": "655776"
+          "survey_id": "655776"
         }
       ],
       "confidence": 1
@@ -37,17 +37,17 @@
       "from": [
         {
           "area_sqft": 3959,
-          "id": "306202"
+          "survey_id": "306202"
         },
         {
           "area_sqft": 3959,
-          "id": "306203"
+          "survey_id": "306203"
         }
       ],
       "to": [
         {
           "area_sqft": 7917,
-          "id": "657438"
+          "survey_id": "657438"
         }
       ],
       "confidence": 1
@@ -59,13 +59,13 @@
       "from": [
         {
           "area_sqft": 3299,
-          "id": "306027"
+          "survey_id": "306027"
         }
       ],
       "to": [
         {
           "area_sqft": 2474,
-          "id": "657139"
+          "survey_id": "657139"
         }
       ],
       "confidence": 0.75
@@ -77,19 +77,19 @@
       "from": [
         {
           "area_sqft": 3299,
-          "id": "306026"
+          "survey_id": "306026"
         }
       ],
       "to": [
         {
           "area_sqft": 2474,
-          "id": "657140"
+          "survey_id": "657140"
         }
       ],
       "confidence": 0.67
     }
   ],
-  "by_id": {
+  "by_survey_id": {
     "655776": {
       "snapshot": "2026-06-07",
       "type": "consolidation",
@@ -97,11 +97,11 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "306237"
+          "survey_id": "306237"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "306238"
+          "survey_id": "306238"
         }
       ]
     },
@@ -113,7 +113,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "655776"
+          "survey_id": "655776"
         }
       ]
     },
@@ -125,7 +125,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "655776"
+          "survey_id": "655776"
         }
       ]
     },
@@ -136,11 +136,11 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "306202"
+          "survey_id": "306202"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "306203"
+          "survey_id": "306203"
         }
       ]
     },
@@ -152,7 +152,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657438"
+          "survey_id": "657438"
         }
       ]
     },
@@ -164,7 +164,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657438"
+          "survey_id": "657438"
         }
       ]
     },
@@ -175,7 +175,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "306027"
+          "survey_id": "306027"
         }
       ]
     },
@@ -187,7 +187,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657139"
+          "survey_id": "657139"
         }
       ]
     },
@@ -198,7 +198,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "306026"
+          "survey_id": "306026"
         }
       ]
     },
@@ -210,7 +210,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657140"
+          "survey_id": "657140"
         }
       ]
     }

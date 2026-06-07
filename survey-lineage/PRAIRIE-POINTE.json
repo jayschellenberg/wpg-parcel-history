@@ -5,7 +5,7 @@
   "neighbourhood": "Prairie Pointe",
   "slug": "PRAIRIE-POINTE",
   "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T15:38:26-0500",
+  "generated": "2026-06-07T17:27:51-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -15,13 +15,13 @@
       "from": [
         {
           "area_sqft": 184773,
-          "id": "654988"
+          "survey_id": "654988"
         }
       ],
       "to": [
         {
           "area_sqft": 169361,
-          "id": "656873"
+          "survey_id": "656873"
         }
       ],
       "confidence": 0.88
@@ -33,13 +33,13 @@
       "from": [
         {
           "area_sqft": 70596,
-          "id": "655041"
+          "survey_id": "655041"
         }
       ],
       "to": [
         {
           "area_sqft": 87063,
-          "id": "656874"
+          "survey_id": "656874"
         }
       ],
       "confidence": 1
@@ -51,13 +51,13 @@
       "from": [
         {
           "area_sqft": 146783,
-          "id": "654986"
+          "survey_id": "654986"
         }
       ],
       "to": [
         {
           "area_sqft": 145728,
-          "id": "656872"
+          "survey_id": "656872"
         }
       ],
       "confidence": 0.96
@@ -69,23 +69,23 @@
       "from": [
         {
           "area_sqft": 200902,
-          "id": "654377"
+          "survey_id": "654377"
         }
       ],
       "to": [
         {
           "area_sqft": 109716,
-          "id": "657437"
+          "survey_id": "657437"
         },
         {
           "area_sqft": 91186,
-          "id": "657436"
+          "survey_id": "657436"
         }
       ],
       "confidence": 0.55
     }
   ],
-  "by_id": {
+  "by_survey_id": {
     "656873": {
       "snapshot": "2026-06-07",
       "type": "replacement",
@@ -93,7 +93,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "654988"
+          "survey_id": "654988"
         }
       ]
     },
@@ -105,7 +105,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656873"
+          "survey_id": "656873"
         }
       ]
     },
@@ -116,7 +116,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "655041"
+          "survey_id": "655041"
         }
       ]
     },
@@ -128,7 +128,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656874"
+          "survey_id": "656874"
         }
       ]
     },
@@ -139,7 +139,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "654986"
+          "survey_id": "654986"
         }
       ]
     },
@@ -151,7 +151,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656872"
+          "survey_id": "656872"
         }
       ]
     },
@@ -162,7 +162,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "654377"
+          "survey_id": "654377"
         }
       ]
     },
@@ -173,7 +173,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "654377"
+          "survey_id": "654377"
         }
       ]
     },
@@ -185,11 +185,11 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657437"
+          "survey_id": "657437"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "657436"
+          "survey_id": "657436"
         }
       ]
     }

@@ -5,7 +5,7 @@
   "neighbourhood": "Booth",
   "slug": "BOOTH",
   "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T15:38:26-0500",
+  "generated": "2026-06-07T17:27:51-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -15,39 +15,39 @@
       "from": [
         {
           "area_sqft": 14288,
-          "id": "322705"
+          "survey_id": "322705"
         },
         {
           "area_sqft": 4761,
-          "id": "322725"
+          "survey_id": "322725"
         },
         {
           "area_sqft": 4163,
-          "id": "322727"
+          "survey_id": "322727"
         },
         {
           "area_sqft": 4164,
-          "id": "322732"
+          "survey_id": "322732"
         },
         {
           "area_sqft": 4165,
-          "id": "322735"
+          "survey_id": "322735"
         },
         {
           "area_sqft": 4165,
-          "id": "322736"
+          "survey_id": "322736"
         }
       ],
       "to": [
         {
           "area_sqft": 34542,
-          "id": "655218"
+          "survey_id": "655218"
         }
       ],
       "confidence": 0.97
     }
   ],
-  "by_id": {
+  "by_survey_id": {
     "655218": {
       "snapshot": "2026-06-07",
       "type": "consolidation",
@@ -55,27 +55,27 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "322705"
+          "survey_id": "322705"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "322725"
+          "survey_id": "322725"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "322727"
+          "survey_id": "322727"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "322732"
+          "survey_id": "322732"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "322735"
+          "survey_id": "322735"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "322736"
+          "survey_id": "322736"
         }
       ]
     },
@@ -87,7 +87,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "655218"
+          "survey_id": "655218"
         }
       ]
     },
@@ -99,7 +99,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "655218"
+          "survey_id": "655218"
         }
       ]
     },
@@ -111,7 +111,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "655218"
+          "survey_id": "655218"
         }
       ]
     },
@@ -123,7 +123,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "655218"
+          "survey_id": "655218"
         }
       ]
     },
@@ -135,7 +135,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "655218"
+          "survey_id": "655218"
         }
       ]
     },
@@ -147,7 +147,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "655218"
+          "survey_id": "655218"
         }
       ]
     }

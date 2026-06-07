@@ -5,7 +5,7 @@
   "neighbourhood": "Wilkes South",
   "slug": "WILKES-SOUTH",
   "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T15:38:26-0500",
+  "generated": "2026-06-07T17:27:51-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -15,21 +15,21 @@
       "from": [
         {
           "area_sqft": 714495,
-          "id": "429617"
+          "survey_id": "429617"
         }
       ],
       "to": [
         {
           "area_sqft": 408583,
-          "id": "656951"
+          "survey_id": "656951"
         },
         {
           "area_sqft": 137172,
-          "id": "656950"
+          "survey_id": "656950"
         },
         {
           "area_sqft": 107570,
-          "id": "656952"
+          "survey_id": "656952"
         }
       ],
       "confidence": 0.57
@@ -41,31 +41,31 @@
       "from": [
         {
           "area_sqft": 714732,
-          "id": "429613"
+          "survey_id": "429613"
         }
       ],
       "to": [
         {
           "area_sqft": 357473,
-          "id": "656946"
+          "survey_id": "656946"
         },
         {
           "area_sqft": 137333,
-          "id": "656948"
+          "survey_id": "656948"
         },
         {
           "area_sqft": 137253,
-          "id": "656949"
+          "survey_id": "656949"
         },
         {
           "area_sqft": 137413,
-          "id": "656947"
+          "survey_id": "656947"
         }
       ],
       "confidence": 0.5
     }
   ],
-  "by_id": {
+  "by_survey_id": {
     "656951": {
       "snapshot": "2026-06-07",
       "type": "subdivision",
@@ -73,7 +73,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "429617"
+          "survey_id": "429617"
         }
       ]
     },
@@ -84,7 +84,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "429617"
+          "survey_id": "429617"
         }
       ]
     },
@@ -95,7 +95,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "429617"
+          "survey_id": "429617"
         }
       ]
     },
@@ -107,15 +107,15 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656951"
+          "survey_id": "656951"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656950"
+          "survey_id": "656950"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656952"
+          "survey_id": "656952"
         }
       ]
     },
@@ -126,7 +126,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "429613"
+          "survey_id": "429613"
         }
       ]
     },
@@ -137,7 +137,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "429613"
+          "survey_id": "429613"
         }
       ]
     },
@@ -148,7 +148,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "429613"
+          "survey_id": "429613"
         }
       ]
     },
@@ -159,7 +159,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "429613"
+          "survey_id": "429613"
         }
       ]
     },
@@ -171,19 +171,19 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656946"
+          "survey_id": "656946"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656948"
+          "survey_id": "656948"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656949"
+          "survey_id": "656949"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656947"
+          "survey_id": "656947"
         }
       ]
     }

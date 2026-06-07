@@ -5,7 +5,7 @@
   "neighbourhood": "Buffalo",
   "slug": "BUFFALO",
   "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T15:38:26-0500",
+  "generated": "2026-06-07T17:27:51-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -15,23 +15,23 @@
       "from": [
         {
           "area_sqft": 12037,
-          "id": "494419"
+          "survey_id": "494419"
         },
         {
           "area_sqft": 296831,
-          "id": "648637"
+          "survey_id": "648637"
         }
       ],
       "to": [
         {
           "area_sqft": 308869,
-          "id": "655175"
+          "survey_id": "655175"
         }
       ],
       "confidence": 1
     }
   ],
-  "by_id": {
+  "by_survey_id": {
     "655175": {
       "snapshot": "2026-06-07",
       "type": "consolidation",
@@ -39,11 +39,11 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "494419"
+          "survey_id": "494419"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "648637"
+          "survey_id": "648637"
         }
       ]
     },
@@ -55,7 +55,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "655175"
+          "survey_id": "655175"
         }
       ]
     },
@@ -67,7 +67,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "655175"
+          "survey_id": "655175"
         }
       ]
     }

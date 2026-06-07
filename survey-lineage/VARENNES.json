@@ -5,7 +5,7 @@
   "neighbourhood": "Varennes",
   "slug": "VARENNES",
   "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T15:38:26-0500",
+  "generated": "2026-06-07T17:27:51-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -15,17 +15,17 @@
       "from": [
         {
           "area_sqft": 5123,
-          "id": "383861"
+          "survey_id": "383861"
         }
       ],
       "to": [
         {
           "area_sqft": 2561,
-          "id": "657444"
+          "survey_id": "657444"
         },
         {
           "area_sqft": 2561,
-          "id": "657445"
+          "survey_id": "657445"
         }
       ],
       "confidence": 0.5
@@ -37,23 +37,23 @@
       "from": [
         {
           "area_sqft": 5120,
-          "id": "384028"
+          "survey_id": "384028"
         }
       ],
       "to": [
         {
           "area_sqft": 2448,
-          "id": "657675"
+          "survey_id": "657675"
         },
         {
           "area_sqft": 2448,
-          "id": "657676"
+          "survey_id": "657676"
         }
       ],
       "confidence": 1
     }
   ],
-  "by_id": {
+  "by_survey_id": {
     "657444": {
       "snapshot": "2026-06-07",
       "type": "subdivision",
@@ -61,7 +61,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "383861"
+          "survey_id": "383861"
         }
       ]
     },
@@ -72,7 +72,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "383861"
+          "survey_id": "383861"
         }
       ]
     },
@@ -84,11 +84,11 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657444"
+          "survey_id": "657444"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "657445"
+          "survey_id": "657445"
         }
       ]
     },
@@ -99,7 +99,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "384028"
+          "survey_id": "384028"
         }
       ]
     },
@@ -110,7 +110,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "384028"
+          "survey_id": "384028"
         }
       ]
     },
@@ -122,11 +122,11 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657675"
+          "survey_id": "657675"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "657676"
+          "survey_id": "657676"
         }
       ]
     }

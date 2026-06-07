@@ -5,7 +5,7 @@
   "neighbourhood": "Tyne-Tees",
   "slug": "TYNE-TEES",
   "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T15:38:26-0500",
+  "generated": "2026-06-07T17:27:51-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -15,21 +15,21 @@
       "from": [
         {
           "area_sqft": 79546,
-          "id": "291122"
+          "survey_id": "291122"
         },
         {
           "area_sqft": 222262,
-          "id": "291085"
+          "survey_id": "291085"
         },
         {
           "area_sqft": 454520,
-          "id": "291123"
+          "survey_id": "291123"
         }
       ],
       "to": [
         {
           "area_sqft": 754999,
-          "id": "656317"
+          "survey_id": "656317"
         }
       ],
       "confidence": 0.99
@@ -41,17 +41,17 @@
       "from": [
         {
           "area_sqft": 48987,
-          "id": "290894"
+          "survey_id": "290894"
         },
         {
           "area_sqft": 25766,
-          "id": "290914"
+          "survey_id": "290914"
         }
       ],
       "to": [
         {
           "area_sqft": 74753,
-          "id": "657670"
+          "survey_id": "657670"
         }
       ],
       "confidence": 1
@@ -63,19 +63,19 @@
       "from": [
         {
           "area_sqft": 311652,
-          "id": "647415"
+          "survey_id": "647415"
         }
       ],
       "to": [
         {
           "area_sqft": 311652,
-          "id": "657669"
+          "survey_id": "657669"
         }
       ],
       "confidence": 1
     }
   ],
-  "by_id": {
+  "by_survey_id": {
     "656317": {
       "snapshot": "2026-06-07",
       "type": "consolidation",
@@ -83,15 +83,15 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "291122"
+          "survey_id": "291122"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "291085"
+          "survey_id": "291085"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "291123"
+          "survey_id": "291123"
         }
       ]
     },
@@ -103,7 +103,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656317"
+          "survey_id": "656317"
         }
       ]
     },
@@ -115,7 +115,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656317"
+          "survey_id": "656317"
         }
       ]
     },
@@ -127,7 +127,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656317"
+          "survey_id": "656317"
         }
       ]
     },
@@ -138,11 +138,11 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "290894"
+          "survey_id": "290894"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "290914"
+          "survey_id": "290914"
         }
       ]
     },
@@ -154,7 +154,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657670"
+          "survey_id": "657670"
         }
       ]
     },
@@ -166,7 +166,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657670"
+          "survey_id": "657670"
         }
       ]
     },
@@ -177,7 +177,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "647415"
+          "survey_id": "647415"
         }
       ]
     },
@@ -189,7 +189,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657669"
+          "survey_id": "657669"
         }
       ]
     }

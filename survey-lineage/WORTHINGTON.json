@@ -5,7 +5,7 @@
   "neighbourhood": "Worthington",
   "slug": "WORTHINGTON",
   "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T15:38:26-0500",
+  "generated": "2026-06-07T17:27:51-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -15,13 +15,13 @@
       "from": [
         {
           "area_sqft": 25444,
-          "id": "412969"
+          "survey_id": "412969"
         }
       ],
       "to": [
         {
           "area_sqft": 47550,
-          "id": "656887"
+          "survey_id": "656887"
         }
       ],
       "confidence": 0.94
@@ -33,19 +33,19 @@
       "from": [
         {
           "area_sqft": 73744,
-          "id": "412923"
+          "survey_id": "412923"
         }
       ],
       "to": [
         {
           "area_sqft": 50329,
-          "id": "656888"
+          "survey_id": "656888"
         }
       ],
       "confidence": 0.66
     }
   ],
-  "by_id": {
+  "by_survey_id": {
     "656887": {
       "snapshot": "2026-06-07",
       "type": "replacement",
@@ -53,7 +53,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "412969"
+          "survey_id": "412969"
         }
       ]
     },
@@ -65,7 +65,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656887"
+          "survey_id": "656887"
         }
       ]
     },
@@ -76,7 +76,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "412923"
+          "survey_id": "412923"
         }
       ]
     },
@@ -88,7 +88,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656888"
+          "survey_id": "656888"
         }
       ]
     }

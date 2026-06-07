@@ -5,7 +5,7 @@
   "neighbourhood": "Ebby-Wentworth",
   "slug": "EBBY-WENTWORTH",
   "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T15:38:26-0500",
+  "generated": "2026-06-07T17:27:51-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -15,59 +15,59 @@
       "from": [
         {
           "area_sqft": 7986,
-          "id": "386357"
+          "survey_id": "386357"
         },
         {
           "area_sqft": 2501,
-          "id": "386407"
+          "survey_id": "386407"
         },
         {
           "area_sqft": 2501,
-          "id": "386412"
+          "survey_id": "386412"
         },
         {
           "area_sqft": 2501,
-          "id": "386418"
+          "survey_id": "386418"
         },
         {
           "area_sqft": 2501,
-          "id": "386422"
+          "survey_id": "386422"
         },
         {
           "area_sqft": 2501,
-          "id": "386427"
+          "survey_id": "386427"
         },
         {
           "area_sqft": 2501,
-          "id": "386432"
+          "survey_id": "386432"
         },
         {
           "area_sqft": 2501,
-          "id": "386435"
+          "survey_id": "386435"
         },
         {
           "area_sqft": 2501,
-          "id": "386439"
+          "survey_id": "386439"
         },
         {
           "area_sqft": 2501,
-          "id": "386443"
+          "survey_id": "386443"
         },
         {
           "area_sqft": 2501,
-          "id": "386448"
+          "survey_id": "386448"
         }
       ],
       "to": [
         {
           "area_sqft": 32993,
-          "id": "656301"
+          "survey_id": "656301"
         }
       ],
       "confidence": 1
     }
   ],
-  "by_id": {
+  "by_survey_id": {
     "656301": {
       "snapshot": "2026-06-07",
       "type": "consolidation",
@@ -75,47 +75,47 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "386357"
+          "survey_id": "386357"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "386407"
+          "survey_id": "386407"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "386412"
+          "survey_id": "386412"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "386418"
+          "survey_id": "386418"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "386422"
+          "survey_id": "386422"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "386427"
+          "survey_id": "386427"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "386432"
+          "survey_id": "386432"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "386435"
+          "survey_id": "386435"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "386439"
+          "survey_id": "386439"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "386443"
+          "survey_id": "386443"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "386448"
+          "survey_id": "386448"
         }
       ]
     },
@@ -127,7 +127,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656301"
+          "survey_id": "656301"
         }
       ]
     },
@@ -139,7 +139,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656301"
+          "survey_id": "656301"
         }
       ]
     },
@@ -151,7 +151,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656301"
+          "survey_id": "656301"
         }
       ]
     },
@@ -163,7 +163,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656301"
+          "survey_id": "656301"
         }
       ]
     },
@@ -175,7 +175,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656301"
+          "survey_id": "656301"
         }
       ]
     },
@@ -187,7 +187,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656301"
+          "survey_id": "656301"
         }
       ]
     },
@@ -199,7 +199,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656301"
+          "survey_id": "656301"
         }
       ]
     },
@@ -211,7 +211,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656301"
+          "survey_id": "656301"
         }
       ]
     },
@@ -223,7 +223,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656301"
+          "survey_id": "656301"
         }
       ]
     },
@@ -235,7 +235,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656301"
+          "survey_id": "656301"
         }
       ]
     },
@@ -247,7 +247,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656301"
+          "survey_id": "656301"
         }
       ]
     }

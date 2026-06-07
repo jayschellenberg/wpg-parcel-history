@@ -5,7 +5,7 @@
   "neighbourhood": "Transcona North",
   "slug": "TRANSCONA-NORTH",
   "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T15:38:26-0500",
+  "generated": "2026-06-07T17:27:51-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -15,29 +15,29 @@
       "from": [
         {
           "area_sqft": 10897,
-          "id": "646727"
+          "survey_id": "646727"
         }
       ],
       "to": [
         {
           "area_sqft": 2536,
-          "id": "656676"
+          "survey_id": "656676"
         },
         {
           "area_sqft": 2406,
-          "id": "656680"
+          "survey_id": "656680"
         },
         {
           "area_sqft": 1985,
-          "id": "656678"
+          "survey_id": "656678"
         },
         {
           "area_sqft": 1985,
-          "id": "656677"
+          "survey_id": "656677"
         },
         {
           "area_sqft": 1985,
-          "id": "656679"
+          "survey_id": "656679"
         }
       ],
       "confidence": 1
@@ -49,39 +49,39 @@
       "from": [
         {
           "area_sqft": 12084,
-          "id": "646728"
+          "survey_id": "646728"
         }
       ],
       "to": [
         {
           "area_sqft": 2199,
-          "id": "656303"
+          "survey_id": "656303"
         },
         {
           "area_sqft": 2199,
-          "id": "656306"
+          "survey_id": "656306"
         },
         {
           "area_sqft": 2676,
-          "id": "656307"
+          "survey_id": "656307"
         },
         {
           "area_sqft": 2199,
-          "id": "656305"
+          "survey_id": "656305"
         },
         {
           "area_sqft": 2811,
-          "id": "656302"
+          "survey_id": "656302"
         },
         {
           "area_sqft": 2199,
-          "id": "656304"
+          "survey_id": "656304"
         }
       ],
       "confidence": 1
     }
   ],
-  "by_id": {
+  "by_survey_id": {
     "656676": {
       "snapshot": "2026-06-07",
       "type": "subdivision",
@@ -89,7 +89,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "646727"
+          "survey_id": "646727"
         }
       ]
     },
@@ -100,7 +100,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "646727"
+          "survey_id": "646727"
         }
       ]
     },
@@ -111,7 +111,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "646727"
+          "survey_id": "646727"
         }
       ]
     },
@@ -122,7 +122,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "646727"
+          "survey_id": "646727"
         }
       ]
     },
@@ -133,7 +133,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "646727"
+          "survey_id": "646727"
         }
       ]
     },
@@ -145,23 +145,23 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656676"
+          "survey_id": "656676"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656680"
+          "survey_id": "656680"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656678"
+          "survey_id": "656678"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656677"
+          "survey_id": "656677"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656679"
+          "survey_id": "656679"
         }
       ]
     },
@@ -172,7 +172,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "646728"
+          "survey_id": "646728"
         }
       ]
     },
@@ -183,7 +183,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "646728"
+          "survey_id": "646728"
         }
       ]
     },
@@ -194,7 +194,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "646728"
+          "survey_id": "646728"
         }
       ]
     },
@@ -205,7 +205,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "646728"
+          "survey_id": "646728"
         }
       ]
     },
@@ -216,7 +216,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "646728"
+          "survey_id": "646728"
         }
       ]
     },
@@ -227,7 +227,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "646728"
+          "survey_id": "646728"
         }
       ]
     },
@@ -239,27 +239,27 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656303"
+          "survey_id": "656303"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656306"
+          "survey_id": "656306"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656307"
+          "survey_id": "656307"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656305"
+          "survey_id": "656305"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656302"
+          "survey_id": "656302"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656304"
+          "survey_id": "656304"
         }
       ]
     }

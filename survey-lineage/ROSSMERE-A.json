@@ -5,7 +5,7 @@
   "neighbourhood": "Rossmere-A",
   "slug": "ROSSMERE-A",
   "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T15:38:26-0500",
+  "generated": "2026-06-07T17:27:51-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -15,17 +15,17 @@
       "from": [
         {
           "area_sqft": 6515,
-          "id": "224823"
+          "survey_id": "224823"
         }
       ],
       "to": [
         {
           "area_sqft": 3258,
-          "id": "657153"
+          "survey_id": "657153"
         },
         {
           "area_sqft": 3257,
-          "id": "657152"
+          "survey_id": "657152"
         }
       ],
       "confidence": 0.5
@@ -37,13 +37,13 @@
       "from": [
         {
           "area_sqft": 27856,
-          "id": "645927"
+          "survey_id": "645927"
         }
       ],
       "to": [
         {
           "area_sqft": 29262,
-          "id": "656629"
+          "survey_id": "656629"
         }
       ],
       "confidence": 1
@@ -55,23 +55,23 @@
       "from": [
         {
           "area_sqft": 4777,
-          "id": "232248"
+          "survey_id": "232248"
         },
         {
           "area_sqft": 34677,
-          "id": "645926"
+          "survey_id": "645926"
         }
       ],
       "to": [
         {
           "area_sqft": 37999,
-          "id": "656628"
+          "survey_id": "656628"
         }
       ],
       "confidence": 0.7
     }
   ],
-  "by_id": {
+  "by_survey_id": {
     "657153": {
       "snapshot": "2026-06-07",
       "type": "subdivision",
@@ -79,7 +79,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "224823"
+          "survey_id": "224823"
         }
       ]
     },
@@ -90,7 +90,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "224823"
+          "survey_id": "224823"
         }
       ]
     },
@@ -102,11 +102,11 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657153"
+          "survey_id": "657153"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "657152"
+          "survey_id": "657152"
         }
       ]
     },
@@ -117,7 +117,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "645927"
+          "survey_id": "645927"
         }
       ]
     },
@@ -129,7 +129,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656629"
+          "survey_id": "656629"
         }
       ]
     },
@@ -140,11 +140,11 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "232248"
+          "survey_id": "232248"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "645926"
+          "survey_id": "645926"
         }
       ]
     },
@@ -156,7 +156,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656628"
+          "survey_id": "656628"
         }
       ]
     },
@@ -168,7 +168,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656628"
+          "survey_id": "656628"
         }
       ]
     }

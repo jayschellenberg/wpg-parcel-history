@@ -5,7 +5,7 @@
   "neighbourhood": "Polo Park",
   "slug": "POLO-PARK",
   "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T15:38:26-0500",
+  "generated": "2026-06-07T17:27:51-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -15,13 +15,13 @@
       "from": [
         {
           "area_sqft": 28243,
-          "id": "573212"
+          "survey_id": "573212"
         }
       ],
       "to": [
         {
           "area_sqft": 21693,
-          "id": "655201"
+          "survey_id": "655201"
         }
       ],
       "confidence": 0.76
@@ -33,23 +33,23 @@
       "from": [
         {
           "area_sqft": 52197,
-          "id": "598037"
+          "survey_id": "598037"
         },
         {
           "area_sqft": 80355,
-          "id": "598041"
+          "survey_id": "598041"
         }
       ],
       "to": [
         {
           "area_sqft": 139101,
-          "id": "655202"
+          "survey_id": "655202"
         }
       ],
       "confidence": 1
     }
   ],
-  "by_id": {
+  "by_survey_id": {
     "655201": {
       "snapshot": "2026-06-07",
       "type": "replacement",
@@ -57,7 +57,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "573212"
+          "survey_id": "573212"
         }
       ]
     },
@@ -69,7 +69,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "655201"
+          "survey_id": "655201"
         }
       ]
     },
@@ -80,11 +80,11 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "598037"
+          "survey_id": "598037"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "598041"
+          "survey_id": "598041"
         }
       ]
     },
@@ -96,7 +96,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "655202"
+          "survey_id": "655202"
         }
       ]
     }

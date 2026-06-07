@@ -5,7 +5,7 @@
   "neighbourhood": "Kildonan Drive",
   "slug": "KILDONAN-DRIVE",
   "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T15:38:26-0500",
+  "generated": "2026-06-07T17:27:51-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -15,17 +15,17 @@
       "from": [
         {
           "area_sqft": 3713,
-          "id": "237066"
+          "survey_id": "237066"
         },
         {
           "area_sqft": 3595,
-          "id": "237068"
+          "survey_id": "237068"
         }
       ],
       "to": [
         {
           "area_sqft": 7308,
-          "id": "657694"
+          "survey_id": "657694"
         }
       ],
       "confidence": 1
@@ -37,29 +37,29 @@
       "from": [
         {
           "area_sqft": 17950,
-          "id": "215657"
+          "survey_id": "215657"
         },
         {
           "area_sqft": 3237,
-          "id": "215691"
+          "survey_id": "215691"
         },
         {
           "area_sqft": 3237,
-          "id": "215697"
+          "survey_id": "215697"
         },
         {
           "area_sqft": 3237,
-          "id": "215703"
+          "survey_id": "215703"
         },
         {
           "area_sqft": 3267,
-          "id": "215709"
+          "survey_id": "215709"
         }
       ],
       "to": [
         {
           "area_sqft": 30901,
-          "id": "657146"
+          "survey_id": "657146"
         }
       ],
       "confidence": 1
@@ -71,13 +71,13 @@
       "from": [
         {
           "area_sqft": 2389,
-          "id": "215664"
+          "survey_id": "215664"
         }
       ],
       "to": [
         {
           "area_sqft": 2389,
-          "id": "657147"
+          "survey_id": "657147"
         }
       ],
       "confidence": 1
@@ -89,19 +89,19 @@
       "from": [
         {
           "area_sqft": 2067,
-          "id": "215693"
+          "survey_id": "215693"
         }
       ],
       "to": [
         {
           "area_sqft": 2067,
-          "id": "657148"
+          "survey_id": "657148"
         }
       ],
       "confidence": 1
     }
   ],
-  "by_id": {
+  "by_survey_id": {
     "657694": {
       "snapshot": "2026-06-07",
       "type": "consolidation",
@@ -109,11 +109,11 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "237066"
+          "survey_id": "237066"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "237068"
+          "survey_id": "237068"
         }
       ]
     },
@@ -125,7 +125,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657694"
+          "survey_id": "657694"
         }
       ]
     },
@@ -137,7 +137,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657694"
+          "survey_id": "657694"
         }
       ]
     },
@@ -148,23 +148,23 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "215657"
+          "survey_id": "215657"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "215691"
+          "survey_id": "215691"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "215697"
+          "survey_id": "215697"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "215703"
+          "survey_id": "215703"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "215709"
+          "survey_id": "215709"
         }
       ]
     },
@@ -176,7 +176,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657146"
+          "survey_id": "657146"
         }
       ]
     },
@@ -188,7 +188,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657146"
+          "survey_id": "657146"
         }
       ]
     },
@@ -200,7 +200,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657146"
+          "survey_id": "657146"
         }
       ]
     },
@@ -212,7 +212,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657146"
+          "survey_id": "657146"
         }
       ]
     },
@@ -224,7 +224,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657146"
+          "survey_id": "657146"
         }
       ]
     },
@@ -235,7 +235,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "215664"
+          "survey_id": "215664"
         }
       ]
     },
@@ -247,7 +247,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657147"
+          "survey_id": "657147"
         }
       ]
     },
@@ -258,7 +258,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "215693"
+          "survey_id": "215693"
         }
       ]
     },
@@ -270,7 +270,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657148"
+          "survey_id": "657148"
         }
       ]
     }

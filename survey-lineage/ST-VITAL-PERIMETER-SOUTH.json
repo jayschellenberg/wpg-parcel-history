@@ -5,7 +5,7 @@
   "neighbourhood": "St. Vital Perimeter South",
   "slug": "ST-VITAL-PERIMETER-SOUTH",
   "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T15:38:26-0500",
+  "generated": "2026-06-07T17:27:51-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -15,17 +15,17 @@
       "from": [
         {
           "area_sqft": 567680,
-          "id": "284955"
+          "survey_id": "284955"
         }
       ],
       "to": [
         {
           "area_sqft": 373174,
-          "id": "656870"
+          "survey_id": "656870"
         },
         {
           "area_sqft": 344647,
-          "id": "656869"
+          "survey_id": "656869"
         }
       ],
       "confidence": 0.56
@@ -37,19 +37,19 @@
       "from": [
         {
           "area_sqft": 1138194,
-          "id": "284963"
+          "survey_id": "284963"
         }
       ],
       "to": [
         {
           "area_sqft": 988052,
-          "id": "656871"
+          "survey_id": "656871"
         }
       ],
       "confidence": 0.87
     }
   ],
-  "by_id": {
+  "by_survey_id": {
     "656870": {
       "snapshot": "2026-06-07",
       "type": "subdivision",
@@ -57,7 +57,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "284955"
+          "survey_id": "284955"
         }
       ]
     },
@@ -68,7 +68,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "284955"
+          "survey_id": "284955"
         }
       ]
     },
@@ -80,11 +80,11 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656870"
+          "survey_id": "656870"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656869"
+          "survey_id": "656869"
         }
       ]
     },
@@ -95,7 +95,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "284963"
+          "survey_id": "284963"
         }
       ]
     },
@@ -107,7 +107,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656871"
+          "survey_id": "656871"
         }
       ]
     }

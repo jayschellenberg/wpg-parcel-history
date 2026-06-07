@@ -5,7 +5,7 @@
   "neighbourhood": "Kildare-Redonda",
   "slug": "KILDARE-REDONDA",
   "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T15:38:26-0500",
+  "generated": "2026-06-07T17:27:51-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -15,31 +15,31 @@
       "from": [
         {
           "area_sqft": 6459,
-          "id": "296775"
+          "survey_id": "296775"
         },
         {
           "area_sqft": 6458,
-          "id": "296777"
+          "survey_id": "296777"
         },
         {
           "area_sqft": 5210,
-          "id": "296739"
+          "survey_id": "296739"
         },
         {
           "area_sqft": 2040,
-          "id": "575672"
+          "survey_id": "575672"
         }
       ],
       "to": [
         {
           "area_sqft": 20165,
-          "id": "656912"
+          "survey_id": "656912"
         }
       ],
       "confidence": 1
     }
   ],
-  "by_id": {
+  "by_survey_id": {
     "656912": {
       "snapshot": "2026-06-07",
       "type": "consolidation",
@@ -47,19 +47,19 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "296775"
+          "survey_id": "296775"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "296777"
+          "survey_id": "296777"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "296739"
+          "survey_id": "296739"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "575672"
+          "survey_id": "575672"
         }
       ]
     },
@@ -71,7 +71,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656912"
+          "survey_id": "656912"
         }
       ]
     },
@@ -83,7 +83,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656912"
+          "survey_id": "656912"
         }
       ]
     },
@@ -95,7 +95,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656912"
+          "survey_id": "656912"
         }
       ]
     },
@@ -107,7 +107,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656912"
+          "survey_id": "656912"
         }
       ]
     }

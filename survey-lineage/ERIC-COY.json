@@ -5,7 +5,7 @@
   "neighbourhood": "Eric Coy",
   "slug": "ERIC-COY",
   "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T15:38:26-0500",
+  "generated": "2026-06-07T17:27:51-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -15,23 +15,23 @@
       "from": [
         {
           "area_sqft": 43523,
-          "id": "409093"
+          "survey_id": "409093"
         }
       ],
       "to": [
         {
           "area_sqft": 21762,
-          "id": "656421"
+          "survey_id": "656421"
         },
         {
           "area_sqft": 21761,
-          "id": "656422"
+          "survey_id": "656422"
         }
       ],
       "confidence": 0.5
     }
   ],
-  "by_id": {
+  "by_survey_id": {
     "656421": {
       "snapshot": "2026-06-07",
       "type": "subdivision",
@@ -39,7 +39,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "409093"
+          "survey_id": "409093"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "409093"
+          "survey_id": "409093"
         }
       ]
     },
@@ -62,11 +62,11 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656421"
+          "survey_id": "656421"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656422"
+          "survey_id": "656422"
         }
       ]
     }

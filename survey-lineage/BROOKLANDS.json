@@ -5,7 +5,7 @@
   "neighbourhood": "Brooklands",
   "slug": "BROOKLANDS",
   "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T15:38:26-0500",
+  "generated": "2026-06-07T17:27:51-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -15,17 +15,17 @@
       "from": [
         {
           "area_sqft": 5146,
-          "id": "259488"
+          "survey_id": "259488"
         }
       ],
       "to": [
         {
           "area_sqft": 2573,
-          "id": "657702"
+          "survey_id": "657702"
         },
         {
           "area_sqft": 2573,
-          "id": "657703"
+          "survey_id": "657703"
         }
       ],
       "confidence": 0.5
@@ -37,17 +37,17 @@
       "from": [
         {
           "area_sqft": 5996,
-          "id": "247658"
+          "survey_id": "247658"
         }
       ],
       "to": [
         {
           "area_sqft": 3597,
-          "id": "656661"
+          "survey_id": "656661"
         },
         {
           "area_sqft": 2398,
-          "id": "656663"
+          "survey_id": "656663"
         }
       ],
       "confidence": 0.6
@@ -59,13 +59,13 @@
       "from": [
         {
           "area_sqft": 1599,
-          "id": "247750"
+          "survey_id": "247750"
         }
       ],
       "to": [
         {
           "area_sqft": 1599,
-          "id": "656662"
+          "survey_id": "656662"
         }
       ],
       "confidence": 1
@@ -77,23 +77,23 @@
       "from": [
         {
           "area_sqft": 6438,
-          "id": "259620"
+          "survey_id": "259620"
         }
       ],
       "to": [
         {
           "area_sqft": 3432,
-          "id": "657431"
+          "survey_id": "657431"
         },
         {
           "area_sqft": 2893,
-          "id": "657430"
+          "survey_id": "657430"
         }
       ],
       "confidence": 0.53
     }
   ],
-  "by_id": {
+  "by_survey_id": {
     "657702": {
       "snapshot": "2026-06-07",
       "type": "subdivision",
@@ -101,7 +101,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "259488"
+          "survey_id": "259488"
         }
       ]
     },
@@ -112,7 +112,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "259488"
+          "survey_id": "259488"
         }
       ]
     },
@@ -124,11 +124,11 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657702"
+          "survey_id": "657702"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "657703"
+          "survey_id": "657703"
         }
       ]
     },
@@ -139,7 +139,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "247658"
+          "survey_id": "247658"
         }
       ]
     },
@@ -150,7 +150,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "247658"
+          "survey_id": "247658"
         }
       ]
     },
@@ -162,11 +162,11 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656661"
+          "survey_id": "656661"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656663"
+          "survey_id": "656663"
         }
       ]
     },
@@ -177,7 +177,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "247750"
+          "survey_id": "247750"
         }
       ]
     },
@@ -189,7 +189,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656662"
+          "survey_id": "656662"
         }
       ]
     },
@@ -200,7 +200,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "259620"
+          "survey_id": "259620"
         }
       ]
     },
@@ -211,7 +211,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "259620"
+          "survey_id": "259620"
         }
       ]
     },
@@ -223,11 +223,11 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657431"
+          "survey_id": "657431"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "657430"
+          "survey_id": "657430"
         }
       ]
     }

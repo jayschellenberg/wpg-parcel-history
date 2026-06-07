@@ -5,7 +5,7 @@
   "neighbourhood": "McMillan",
   "slug": "MCMILLAN",
   "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T15:38:26-0500",
+  "generated": "2026-06-07T17:27:51-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -15,35 +15,35 @@
       "from": [
         {
           "area_sqft": 3011,
-          "id": "358356"
+          "survey_id": "358356"
         },
         {
           "area_sqft": 3011,
-          "id": "358362"
+          "survey_id": "358362"
         },
         {
           "area_sqft": 3011,
-          "id": "358366"
+          "survey_id": "358366"
         },
         {
           "area_sqft": 3010,
-          "id": "358370"
+          "survey_id": "358370"
         },
         {
           "area_sqft": 6021,
-          "id": "358376"
+          "survey_id": "358376"
         }
       ],
       "to": [
         {
           "area_sqft": 18063,
-          "id": "655773"
+          "survey_id": "655773"
         }
       ],
       "confidence": 1
     }
   ],
-  "by_id": {
+  "by_survey_id": {
     "655773": {
       "snapshot": "2026-06-07",
       "type": "consolidation",
@@ -51,23 +51,23 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "358356"
+          "survey_id": "358356"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "358362"
+          "survey_id": "358362"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "358366"
+          "survey_id": "358366"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "358370"
+          "survey_id": "358370"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "358376"
+          "survey_id": "358376"
         }
       ]
     },
@@ -79,7 +79,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "655773"
+          "survey_id": "655773"
         }
       ]
     },
@@ -91,7 +91,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "655773"
+          "survey_id": "655773"
         }
       ]
     },
@@ -103,7 +103,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "655773"
+          "survey_id": "655773"
         }
       ]
     },
@@ -115,7 +115,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "655773"
+          "survey_id": "655773"
         }
       ]
     },
@@ -127,7 +127,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "655773"
+          "survey_id": "655773"
         }
       ]
     }

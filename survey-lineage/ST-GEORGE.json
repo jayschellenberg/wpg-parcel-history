@@ -5,7 +5,7 @@
   "neighbourhood": "St. George",
   "slug": "ST-GEORGE",
   "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T15:38:26-0500",
+  "generated": "2026-06-07T17:27:51-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -15,17 +15,17 @@
       "from": [
         {
           "area_sqft": 7647,
-          "id": "404078"
+          "survey_id": "404078"
         }
       ],
       "to": [
         {
           "area_sqft": 3832,
-          "id": "656327"
+          "survey_id": "656327"
         },
         {
           "area_sqft": 3814,
-          "id": "656328"
+          "survey_id": "656328"
         }
       ],
       "confidence": 0.5
@@ -37,23 +37,23 @@
       "from": [
         {
           "area_sqft": 2491,
-          "id": "404935"
+          "survey_id": "404935"
         },
         {
           "area_sqft": 2491,
-          "id": "404941"
+          "survey_id": "404941"
         }
       ],
       "to": [
         {
           "area_sqft": 4982,
-          "id": "657693"
+          "survey_id": "657693"
         }
       ],
       "confidence": 1
     }
   ],
-  "by_id": {
+  "by_survey_id": {
     "656327": {
       "snapshot": "2026-06-07",
       "type": "subdivision",
@@ -61,7 +61,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "404078"
+          "survey_id": "404078"
         }
       ]
     },
@@ -72,7 +72,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "404078"
+          "survey_id": "404078"
         }
       ]
     },
@@ -84,11 +84,11 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656327"
+          "survey_id": "656327"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656328"
+          "survey_id": "656328"
         }
       ]
     },
@@ -99,11 +99,11 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "404935"
+          "survey_id": "404935"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "404941"
+          "survey_id": "404941"
         }
       ]
     },
@@ -115,7 +115,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657693"
+          "survey_id": "657693"
         }
       ]
     },
@@ -127,7 +127,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657693"
+          "survey_id": "657693"
         }
       ]
     }

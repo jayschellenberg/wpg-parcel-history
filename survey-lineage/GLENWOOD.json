@@ -5,7 +5,7 @@
   "neighbourhood": "Glenwood",
   "slug": "GLENWOOD",
   "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T15:38:26-0500",
+  "generated": "2026-06-07T17:27:51-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -15,17 +15,17 @@
       "from": [
         {
           "area_sqft": 6117,
-          "id": "366875"
+          "survey_id": "366875"
         }
       ],
       "to": [
         {
           "area_sqft": 3059,
-          "id": "657150"
+          "survey_id": "657150"
         },
         {
           "area_sqft": 3058,
-          "id": "657151"
+          "survey_id": "657151"
         }
       ],
       "confidence": 0.5
@@ -37,23 +37,23 @@
       "from": [
         {
           "area_sqft": 6117,
-          "id": "366873"
+          "survey_id": "366873"
         }
       ],
       "to": [
         {
           "area_sqft": 3059,
-          "id": "657154"
+          "survey_id": "657154"
         },
         {
           "area_sqft": 3058,
-          "id": "657155"
+          "survey_id": "657155"
         }
       ],
       "confidence": 0.5
     }
   ],
-  "by_id": {
+  "by_survey_id": {
     "657150": {
       "snapshot": "2026-06-07",
       "type": "subdivision",
@@ -61,7 +61,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "366875"
+          "survey_id": "366875"
         }
       ]
     },
@@ -72,7 +72,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "366875"
+          "survey_id": "366875"
         }
       ]
     },
@@ -84,11 +84,11 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657150"
+          "survey_id": "657150"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "657151"
+          "survey_id": "657151"
         }
       ]
     },
@@ -99,7 +99,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "366873"
+          "survey_id": "366873"
         }
       ]
     },
@@ -110,7 +110,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "366873"
+          "survey_id": "366873"
         }
       ]
     },
@@ -122,11 +122,11 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657154"
+          "survey_id": "657154"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "657155"
+          "survey_id": "657155"
         }
       ]
     }

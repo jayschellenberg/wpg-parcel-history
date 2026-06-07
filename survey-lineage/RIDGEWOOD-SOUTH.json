@@ -5,7 +5,7 @@
   "neighbourhood": "Ridgewood South",
   "slug": "RIDGEWOOD-SOUTH",
   "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T15:38:26-0500",
+  "generated": "2026-06-07T17:27:51-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -15,107 +15,107 @@
       "from": [
         {
           "area_sqft": 63672,
-          "id": "603436"
+          "survey_id": "603436"
         }
       ],
       "to": [
         {
           "area_sqft": 4136,
-          "id": "656439"
+          "survey_id": "656439"
         },
         {
           "area_sqft": 2811,
-          "id": "656435"
+          "survey_id": "656435"
         },
         {
           "area_sqft": 2727,
-          "id": "656432"
+          "survey_id": "656432"
         },
         {
           "area_sqft": 2862,
-          "id": "656450"
+          "survey_id": "656450"
         },
         {
           "area_sqft": 2862,
-          "id": "656451"
+          "survey_id": "656451"
         },
         {
           "area_sqft": 2786,
-          "id": "656440"
+          "survey_id": "656440"
         },
         {
           "area_sqft": 2316,
-          "id": "656430"
+          "survey_id": "656430"
         },
         {
           "area_sqft": 2844,
-          "id": "656449"
+          "survey_id": "656449"
         },
         {
           "area_sqft": 2844,
-          "id": "656445"
+          "survey_id": "656445"
         },
         {
           "area_sqft": 2844,
-          "id": "656447"
+          "survey_id": "656447"
         },
         {
           "area_sqft": 2288,
-          "id": "656429"
+          "survey_id": "656429"
         },
         {
           "area_sqft": 2786,
-          "id": "656441"
+          "survey_id": "656441"
         },
         {
           "area_sqft": 2844,
-          "id": "656442"
+          "survey_id": "656442"
         },
         {
           "area_sqft": 2240,
-          "id": "656433"
+          "survey_id": "656433"
         },
         {
           "area_sqft": 2688,
-          "id": "656431"
+          "survey_id": "656431"
         },
         {
           "area_sqft": 2844,
-          "id": "656444"
+          "survey_id": "656444"
         },
         {
           "area_sqft": 2844,
-          "id": "656448"
+          "survey_id": "656448"
         },
         {
           "area_sqft": 2805,
-          "id": "656438"
+          "survey_id": "656438"
         },
         {
           "area_sqft": 2844,
-          "id": "656446"
+          "survey_id": "656446"
         },
         {
           "area_sqft": 2844,
-          "id": "656443"
+          "survey_id": "656443"
         },
         {
           "area_sqft": 2785,
-          "id": "656434"
+          "survey_id": "656434"
         },
         {
           "area_sqft": 2297,
-          "id": "656436"
+          "survey_id": "656436"
         },
         {
           "area_sqft": 2533,
-          "id": "656437"
+          "survey_id": "656437"
         }
       ],
       "confidence": 1
     }
   ],
-  "by_id": {
+  "by_survey_id": {
     "656439": {
       "snapshot": "2026-06-07",
       "type": "subdivision",
@@ -123,7 +123,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "603436"
+          "survey_id": "603436"
         }
       ]
     },
@@ -134,7 +134,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "603436"
+          "survey_id": "603436"
         }
       ]
     },
@@ -145,7 +145,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "603436"
+          "survey_id": "603436"
         }
       ]
     },
@@ -156,7 +156,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "603436"
+          "survey_id": "603436"
         }
       ]
     },
@@ -167,7 +167,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "603436"
+          "survey_id": "603436"
         }
       ]
     },
@@ -178,7 +178,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "603436"
+          "survey_id": "603436"
         }
       ]
     },
@@ -189,7 +189,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "603436"
+          "survey_id": "603436"
         }
       ]
     },
@@ -200,7 +200,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "603436"
+          "survey_id": "603436"
         }
       ]
     },
@@ -211,7 +211,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "603436"
+          "survey_id": "603436"
         }
       ]
     },
@@ -222,7 +222,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "603436"
+          "survey_id": "603436"
         }
       ]
     },
@@ -233,7 +233,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "603436"
+          "survey_id": "603436"
         }
       ]
     },
@@ -244,7 +244,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "603436"
+          "survey_id": "603436"
         }
       ]
     },
@@ -255,7 +255,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "603436"
+          "survey_id": "603436"
         }
       ]
     },
@@ -266,7 +266,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "603436"
+          "survey_id": "603436"
         }
       ]
     },
@@ -277,7 +277,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "603436"
+          "survey_id": "603436"
         }
       ]
     },
@@ -288,7 +288,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "603436"
+          "survey_id": "603436"
         }
       ]
     },
@@ -299,7 +299,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "603436"
+          "survey_id": "603436"
         }
       ]
     },
@@ -310,7 +310,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "603436"
+          "survey_id": "603436"
         }
       ]
     },
@@ -321,7 +321,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "603436"
+          "survey_id": "603436"
         }
       ]
     },
@@ -332,7 +332,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "603436"
+          "survey_id": "603436"
         }
       ]
     },
@@ -343,7 +343,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "603436"
+          "survey_id": "603436"
         }
       ]
     },
@@ -354,7 +354,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "603436"
+          "survey_id": "603436"
         }
       ]
     },
@@ -365,7 +365,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "603436"
+          "survey_id": "603436"
         }
       ]
     },
@@ -377,95 +377,95 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656439"
+          "survey_id": "656439"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656435"
+          "survey_id": "656435"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656432"
+          "survey_id": "656432"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656450"
+          "survey_id": "656450"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656451"
+          "survey_id": "656451"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656440"
+          "survey_id": "656440"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656430"
+          "survey_id": "656430"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656449"
+          "survey_id": "656449"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656445"
+          "survey_id": "656445"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656447"
+          "survey_id": "656447"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656429"
+          "survey_id": "656429"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656441"
+          "survey_id": "656441"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656442"
+          "survey_id": "656442"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656433"
+          "survey_id": "656433"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656431"
+          "survey_id": "656431"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656444"
+          "survey_id": "656444"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656448"
+          "survey_id": "656448"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656438"
+          "survey_id": "656438"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656446"
+          "survey_id": "656446"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656443"
+          "survey_id": "656443"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656434"
+          "survey_id": "656434"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656436"
+          "survey_id": "656436"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656437"
+          "survey_id": "656437"
         }
       ]
     }

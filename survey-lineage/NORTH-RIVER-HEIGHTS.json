@@ -5,7 +5,7 @@
   "neighbourhood": "North River Heights",
   "slug": "NORTH-RIVER-HEIGHTS",
   "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T15:38:26-0500",
+  "generated": "2026-06-07T17:27:51-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -15,17 +15,17 @@
       "from": [
         {
           "area_sqft": 7212,
-          "id": "364446"
+          "survey_id": "364446"
         }
       ],
       "to": [
         {
           "area_sqft": 3606,
-          "id": "656318"
+          "survey_id": "656318"
         },
         {
           "area_sqft": 3606,
-          "id": "656319"
+          "survey_id": "656319"
         }
       ],
       "confidence": 0.5
@@ -37,17 +37,17 @@
       "from": [
         {
           "area_sqft": 4199,
-          "id": "376500"
+          "survey_id": "376500"
         },
         {
           "area_sqft": 2999,
-          "id": "376522"
+          "survey_id": "376522"
         }
       ],
       "to": [
         {
           "area_sqft": 7198,
-          "id": "655203"
+          "survey_id": "655203"
         }
       ],
       "confidence": 1
@@ -59,17 +59,17 @@
       "from": [
         {
           "area_sqft": 5996,
-          "id": "365059"
+          "survey_id": "365059"
         }
       ],
       "to": [
         {
           "area_sqft": 2998,
-          "id": "657434"
+          "survey_id": "657434"
         },
         {
           "area_sqft": 2998,
-          "id": "657433"
+          "survey_id": "657433"
         }
       ],
       "confidence": 0.5
@@ -81,23 +81,23 @@
       "from": [
         {
           "area_sqft": 5161,
-          "id": "375677"
+          "survey_id": "375677"
         }
       ],
       "to": [
         {
           "area_sqft": 2581,
-          "id": "656681"
+          "survey_id": "656681"
         },
         {
           "area_sqft": 2580,
-          "id": "656682"
+          "survey_id": "656682"
         }
       ],
       "confidence": 0.5
     }
   ],
-  "by_id": {
+  "by_survey_id": {
     "656318": {
       "snapshot": "2026-06-07",
       "type": "subdivision",
@@ -105,7 +105,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "364446"
+          "survey_id": "364446"
         }
       ]
     },
@@ -116,7 +116,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "364446"
+          "survey_id": "364446"
         }
       ]
     },
@@ -128,11 +128,11 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656318"
+          "survey_id": "656318"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656319"
+          "survey_id": "656319"
         }
       ]
     },
@@ -143,11 +143,11 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "376500"
+          "survey_id": "376500"
         },
         {
           "snapshot": "2025-03-14",
-          "id": "376522"
+          "survey_id": "376522"
         }
       ]
     },
@@ -159,7 +159,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "655203"
+          "survey_id": "655203"
         }
       ]
     },
@@ -171,7 +171,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "655203"
+          "survey_id": "655203"
         }
       ]
     },
@@ -182,7 +182,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "365059"
+          "survey_id": "365059"
         }
       ]
     },
@@ -193,7 +193,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "365059"
+          "survey_id": "365059"
         }
       ]
     },
@@ -205,11 +205,11 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657434"
+          "survey_id": "657434"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "657433"
+          "survey_id": "657433"
         }
       ]
     },
@@ -220,7 +220,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "375677"
+          "survey_id": "375677"
         }
       ]
     },
@@ -231,7 +231,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "375677"
+          "survey_id": "375677"
         }
       ]
     },
@@ -243,11 +243,11 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656681"
+          "survey_id": "656681"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656682"
+          "survey_id": "656682"
         }
       ]
     }

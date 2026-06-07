@@ -5,7 +5,7 @@
   "neighbourhood": "Elmhurst",
   "slug": "ELMHURST",
   "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T15:38:26-0500",
+  "generated": "2026-06-07T17:27:51-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -15,27 +15,27 @@
       "from": [
         {
           "area_sqft": 96439,
-          "id": "408385"
+          "survey_id": "408385"
         }
       ],
       "to": [
         {
           "area_sqft": 79609,
-          "id": "655200"
+          "survey_id": "655200"
         },
         {
           "area_sqft": 8416,
-          "id": "655199"
+          "survey_id": "655199"
         },
         {
           "area_sqft": 8414,
-          "id": "655198"
+          "survey_id": "655198"
         }
       ],
       "confidence": 0.83
     }
   ],
-  "by_id": {
+  "by_survey_id": {
     "655200": {
       "snapshot": "2026-06-07",
       "type": "subdivision",
@@ -43,7 +43,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "408385"
+          "survey_id": "408385"
         }
       ]
     },
@@ -54,7 +54,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "408385"
+          "survey_id": "408385"
         }
       ]
     },
@@ -65,7 +65,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "408385"
+          "survey_id": "408385"
         }
       ]
     },
@@ -77,15 +77,15 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "655200"
+          "survey_id": "655200"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "655199"
+          "survey_id": "655199"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "655198"
+          "survey_id": "655198"
         }
       ]
     }

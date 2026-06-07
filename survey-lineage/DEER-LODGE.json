@@ -5,7 +5,7 @@
   "neighbourhood": "Deer Lodge",
   "slug": "DEER-LODGE",
   "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T15:38:26-0500",
+  "generated": "2026-06-07T17:27:51-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -15,17 +15,17 @@
       "from": [
         {
           "area_sqft": 6000,
-          "id": "338984"
+          "survey_id": "338984"
         }
       ],
       "to": [
         {
           "area_sqft": 3000,
-          "id": "656861"
+          "survey_id": "656861"
         },
         {
           "area_sqft": 3000,
-          "id": "656862"
+          "survey_id": "656862"
         }
       ],
       "confidence": 0.5
@@ -37,19 +37,19 @@
       "from": [
         {
           "area_sqft": 7999,
-          "id": "346556"
+          "survey_id": "346556"
         }
       ],
       "to": [
         {
           "area_sqft": 7597,
-          "id": "657162"
+          "survey_id": "657162"
         }
       ],
       "confidence": 0.95
     }
   ],
-  "by_id": {
+  "by_survey_id": {
     "656861": {
       "snapshot": "2026-06-07",
       "type": "subdivision",
@@ -57,7 +57,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "338984"
+          "survey_id": "338984"
         }
       ]
     },
@@ -68,7 +68,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "338984"
+          "survey_id": "338984"
         }
       ]
     },
@@ -80,11 +80,11 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "656861"
+          "survey_id": "656861"
         },
         {
           "snapshot": "2026-06-07",
-          "id": "656862"
+          "survey_id": "656862"
         }
       ]
     },
@@ -95,7 +95,7 @@
       "predecessors": [
         {
           "snapshot": "2025-03-14",
-          "id": "346556"
+          "survey_id": "346556"
         }
       ]
     },
@@ -107,7 +107,7 @@
       "successors": [
         {
           "snapshot": "2026-06-07",
-          "id": "657162"
+          "survey_id": "657162"
         }
       ]
     }
