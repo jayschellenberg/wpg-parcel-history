@@ -1,0 +1,22 @@
+# Safety net for a PUBLIC, CDN-served data repo. The build process only
+# writes curated open-data JSON shards here, but this prevents an accidental
+# `git add -A` from ever staging local R state, secrets, or source GeoPackages
+# if one lands in this folder.
+.RData
+.RData.Tmp*
+.RDataTmp*
+.Rhistory
+.Rproj.user/
+*.Rproj
+.Renviron
+.env
+.env.*
+*.gpkg
+*.parquet
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.tmp
+*.tmp.*
+*.bak
