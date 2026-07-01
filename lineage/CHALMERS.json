@@ -4,8 +4,8 @@
   "key_field": "roll_number",
   "neighbourhood": "Chalmers",
   "slug": "CHALMERS",
-  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
-  "generated": "2026-06-07T17:27:51-0500",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-07-01"],
+  "generated": "2026-07-01T12:45:23-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -59,7 +59,7 @@
     {
       "type": "consolidation",
       "from_snapshot": "2025-02-26",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 46031,
@@ -81,7 +81,7 @@
     {
       "type": "subdivision",
       "from_snapshot": "2025-02-26",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 33489,
@@ -206,95 +206,95 @@
       ],
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "02062808175"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "02062808180"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "02062808185"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "02062808190"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "02062808195"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "02062808200"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "02062808205"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "02062808210"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "02062808215"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "02062808220"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "02062808225"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "02062808230"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "02062808235"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "02062808240"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "02062808245"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "02062808250"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "02062808255"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "02062808260"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "02062808265"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "02062808270"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "02062808275"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "02062808280"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "02062808285"
         }
       ]
@@ -374,7 +374,7 @@
       ]
     },
     "14100133245": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "consolidation",
       "confidence": 1,
       "predecessors": [
@@ -395,7 +395,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "14100133245"
         }
       ]
@@ -407,13 +407,13 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "14100133245"
         }
       ]
     },
     "02062808175": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -424,7 +424,7 @@
       ]
     },
     "02062808180": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -435,7 +435,7 @@
       ]
     },
     "02062808185": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -446,7 +446,7 @@
       ]
     },
     "02062808190": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -457,7 +457,7 @@
       ]
     },
     "02062808195": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -468,7 +468,7 @@
       ]
     },
     "02062808200": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -479,7 +479,7 @@
       ]
     },
     "02062808205": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -490,7 +490,7 @@
       ]
     },
     "02062808210": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -501,7 +501,7 @@
       ]
     },
     "02062808215": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -512,7 +512,7 @@
       ]
     },
     "02062808220": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -523,7 +523,7 @@
       ]
     },
     "02062808225": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -534,7 +534,7 @@
       ]
     },
     "02062808230": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -545,7 +545,7 @@
       ]
     },
     "02062808235": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -556,7 +556,7 @@
       ]
     },
     "02062808240": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -567,7 +567,7 @@
       ]
     },
     "02062808245": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -578,7 +578,7 @@
       ]
     },
     "02062808250": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -589,7 +589,7 @@
       ]
     },
     "02062808255": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -600,7 +600,7 @@
       ]
     },
     "02062808260": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -611,7 +611,7 @@
       ]
     },
     "02062808265": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -622,7 +622,7 @@
       ]
     },
     "02062808270": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -633,7 +633,7 @@
       ]
     },
     "02062808275": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -644,7 +644,7 @@
       ]
     },
     "02062808280": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -655,7 +655,7 @@
       ]
     },
     "02062808285": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [

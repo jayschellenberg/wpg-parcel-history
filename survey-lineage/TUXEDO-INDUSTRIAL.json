@@ -4,14 +4,14 @@
   "key_field": "id",
   "neighbourhood": "Tuxedo Industrial",
   "slug": "TUXEDO-INDUSTRIAL",
-  "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T17:27:51-0500",
+  "snapshots": ["2025-03-14", "2026-07-01"],
+  "generated": "2026-07-01T12:45:23-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
       "type": "subdivision",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 293905,
@@ -33,7 +33,7 @@
     {
       "type": "subdivision",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 567755,
@@ -55,7 +55,7 @@
     {
       "type": "subdivision",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 180371,
@@ -81,7 +81,7 @@
     {
       "type": "subdivision",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 298641,
@@ -103,7 +103,7 @@
     {
       "type": "replacement",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 519129,
@@ -121,7 +121,7 @@
     {
       "type": "subdivision",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 157910,
@@ -147,7 +147,7 @@
     {
       "type": "subdivision",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 225849,
@@ -173,7 +173,7 @@
   ],
   "by_survey_id": {
     "656642": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -184,7 +184,7 @@
       ]
     },
     "656641": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -201,17 +201,17 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656642"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656641"
         }
       ]
     },
     "656890": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.87,
       "predecessors": [
@@ -222,7 +222,7 @@
       ]
     },
     "656889": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.87,
       "predecessors": [
@@ -239,17 +239,17 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656890"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656889"
         }
       ]
     },
     "655215": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.52,
       "predecessors": [
@@ -260,7 +260,7 @@
       ]
     },
     "655217": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.52,
       "predecessors": [
@@ -271,7 +271,7 @@
       ]
     },
     "655216": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.52,
       "predecessors": [
@@ -288,21 +288,21 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "655215"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "655217"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "655216"
         }
       ]
     },
     "656368": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.77,
       "predecessors": [
@@ -313,7 +313,7 @@
       ]
     },
     "656367": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.77,
       "predecessors": [
@@ -330,17 +330,17 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656368"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656367"
         }
       ]
     },
     "655161": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "replacement",
       "confidence": 1,
       "predecessors": [
@@ -357,13 +357,13 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "655161"
         }
       ]
     },
     "655159": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.57,
       "predecessors": [
@@ -374,7 +374,7 @@
       ]
     },
     "655160": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.57,
       "predecessors": [
@@ -385,7 +385,7 @@
       ]
     },
     "655158": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.57,
       "predecessors": [
@@ -402,21 +402,21 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "655159"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "655160"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "655158"
         }
       ]
     },
     "656639": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.53,
       "predecessors": [
@@ -427,7 +427,7 @@
       ]
     },
     "656638": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.53,
       "predecessors": [
@@ -438,7 +438,7 @@
       ]
     },
     "656640": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.53,
       "predecessors": [
@@ -455,15 +455,15 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656639"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656638"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656640"
         }
       ]

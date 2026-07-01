@@ -4,8 +4,8 @@
   "key_field": "roll_number",
   "neighbourhood": "Dugald",
   "slug": "DUGALD",
-  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
-  "generated": "2026-06-07T17:27:51-0500",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-07-01"],
+  "generated": "2026-07-01T12:45:23-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -22,6 +22,28 @@
         {
           "area_sqft": 187365,
           "roll": "06900016000"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-07-01",
+      "from": [
+        {
+          "area_sqft": 16328,
+          "roll": "09007811500"
+        },
+        {
+          "area_sqft": 16328,
+          "roll": "09900210000"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 16328,
+          "roll": "09900220000"
         }
       ],
       "confidence": 1
@@ -48,6 +70,45 @@
         {
           "snapshot": "2025-02-26",
           "roll": "06900016000"
+        }
+      ]
+    },
+    "09900220000": {
+      "snapshot": "2026-07-01",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "09007811500"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "09900210000"
+        }
+      ]
+    },
+    "09007811500": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "roll": "09900220000"
+        }
+      ]
+    },
+    "09900210000": {
+      "snapshot": "2025-02-26",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "roll": "09900220000"
         }
       ]
     }

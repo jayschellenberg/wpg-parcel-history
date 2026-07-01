@@ -4,14 +4,14 @@
   "key_field": "id",
   "neighbourhood": "Transcona South",
   "slug": "TRANSCONA-SOUTH",
-  "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T17:27:51-0500",
+  "snapshots": ["2025-03-14", "2026-07-01"],
+  "generated": "2026-07-01T12:45:23-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
       "type": "reconfiguration",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 32572,
@@ -53,7 +53,7 @@
     {
       "type": "subdivision",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 683745,
@@ -95,7 +95,7 @@
   ],
   "by_survey_id": {
     "657714": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "reconfiguration",
       "confidence": 0.53,
       "predecessors": [
@@ -110,7 +110,7 @@
       ]
     },
     "657716": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "reconfiguration",
       "confidence": 0.53,
       "predecessors": [
@@ -125,7 +125,7 @@
       ]
     },
     "657718": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "reconfiguration",
       "confidence": 0.53,
       "predecessors": [
@@ -140,7 +140,7 @@
       ]
     },
     "657715": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "reconfiguration",
       "confidence": 0.53,
       "predecessors": [
@@ -155,7 +155,7 @@
       ]
     },
     "657719": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "reconfiguration",
       "confidence": 0.53,
       "predecessors": [
@@ -170,7 +170,7 @@
       ]
     },
     "657717": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "reconfiguration",
       "confidence": 0.53,
       "predecessors": [
@@ -191,27 +191,27 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657714"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657716"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657718"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657715"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657719"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657717"
         }
       ]
@@ -223,33 +223,33 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657714"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657716"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657718"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657715"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657719"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657717"
         }
       ]
     },
     "657723": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -260,7 +260,7 @@
       ]
     },
     "657724": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -271,7 +271,7 @@
       ]
     },
     "657721": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -282,7 +282,7 @@
       ]
     },
     "657722": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -293,7 +293,7 @@
       ]
     },
     "657720": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -304,7 +304,7 @@
       ]
     },
     "657725": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -315,7 +315,7 @@
       ]
     },
     "657726": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -332,31 +332,31 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657723"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657724"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657721"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657722"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657720"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657725"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657726"
         }
       ]

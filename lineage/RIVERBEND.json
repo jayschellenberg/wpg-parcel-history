@@ -4,8 +4,8 @@
   "key_field": "roll_number",
   "neighbourhood": "Riverbend",
   "slug": "RIVERBEND",
-  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
-  "generated": "2026-06-07T17:27:51-0500",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-07-01"],
+  "generated": "2026-07-01T12:45:23-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -31,9 +31,9 @@
       "confidence": 1
     },
     {
-      "type": "consolidation",
+      "type": "reconfiguration",
       "from_snapshot": "2025-02-26",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 350575,
@@ -49,6 +49,14 @@
         }
       ],
       "to": [
+        {
+          "area_sqft": 324823,
+          "roll": "05009302100"
+        },
+        {
+          "area_sqft": 324823,
+          "roll": "05009302200"
+        },
         {
           "area_sqft": 324823,
           "roll": "05009443245"
@@ -96,9 +104,75 @@
         }
       ]
     },
+    "05009302100": {
+      "snapshot": "2025-02-26",
+      "type": "reconfiguration",
+      "confidence": 0.93,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "05001680100"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "05009302100"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "05009302200"
+        }
+      ],
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "roll": "05009302100"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "roll": "05009302200"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "roll": "05009443245"
+        }
+      ]
+    },
+    "05009302200": {
+      "snapshot": "2025-02-26",
+      "type": "reconfiguration",
+      "confidence": 0.93,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "05001680100"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "05009302100"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "05009302200"
+        }
+      ],
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "roll": "05009302100"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "roll": "05009302200"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "roll": "05009443245"
+        }
+      ]
+    },
     "05009443245": {
-      "snapshot": "2026-06-07",
-      "type": "consolidation",
+      "snapshot": "2026-07-01",
+      "type": "reconfiguration",
       "confidence": 0.93,
       "predecessors": [
         {
@@ -117,36 +191,20 @@
     },
     "05001680100": {
       "snapshot": "2025-02-26",
-      "type": "consolidation",
+      "type": "reconfiguration",
       "confidence": 0.93,
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
-          "roll": "05009443245"
-        }
-      ]
-    },
-    "05009302100": {
-      "snapshot": "2025-02-26",
-      "type": "consolidation",
-      "confidence": 0.93,
-      "predecessors": null,
-      "successors": [
+          "snapshot": "2026-07-01",
+          "roll": "05009302100"
+        },
         {
-          "snapshot": "2026-06-07",
-          "roll": "05009443245"
-        }
-      ]
-    },
-    "05009302200": {
-      "snapshot": "2025-02-26",
-      "type": "consolidation",
-      "confidence": 0.93,
-      "predecessors": null,
-      "successors": [
+          "snapshot": "2026-07-01",
+          "roll": "05009302200"
+        },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "05009443245"
         }
       ]

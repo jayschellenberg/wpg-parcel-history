@@ -4,8 +4,8 @@
   "key_field": "roll_number",
   "neighbourhood": "Maybank",
   "slug": "MAYBANK",
-  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
-  "generated": "2026-06-07T17:27:51-0500",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-07-01"],
+  "generated": "2026-07-01T12:45:23-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -125,7 +125,7 @@
     {
       "type": "subdivision",
       "from_snapshot": "2025-02-26",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 5048,
@@ -147,7 +147,7 @@
     {
       "type": "subdivision",
       "from_snapshot": "2025-02-26",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 5106,
@@ -169,7 +169,7 @@
     {
       "type": "subdivision",
       "from_snapshot": "2025-02-26",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 6300,
@@ -396,7 +396,7 @@
       ]
     },
     "03093018855": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.5,
       "predecessors": [
@@ -407,7 +407,7 @@
       ]
     },
     "03093018860": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.5,
       "predecessors": [
@@ -424,17 +424,17 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018855"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018860"
         }
       ]
     },
     "03093018880": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.5,
       "predecessors": [
@@ -445,7 +445,7 @@
       ]
     },
     "03093018875": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.5,
       "predecessors": [
@@ -462,17 +462,17 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018880"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018875"
         }
       ]
     },
     "03093018905": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.5,
       "predecessors": [
@@ -483,7 +483,7 @@
       ]
     },
     "03093018900": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.5,
       "predecessors": [
@@ -500,11 +500,11 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018905"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018900"
         }
       ]

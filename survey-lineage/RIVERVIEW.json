@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Riverview",
+  "slug": "RIVERVIEW",
+  "snapshots": ["2025-03-14", "2026-07-01"],
+  "generated": "2026-07-01T12:45:23-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-07-01",
+      "from": [
+        {
+          "area_sqft": 6411,
+          "survey_id": "378990"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 3205,
+          "survey_id": "657817"
+        },
+        {
+          "area_sqft": 3205,
+          "survey_id": "657816"
+        }
+      ],
+      "confidence": 0.5
+    }
+  ],
+  "by_survey_id": {
+    "657817": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "378990"
+        }
+      ]
+    },
+    "657816": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "378990"
+        }
+      ]
+    },
+    "378990": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657817"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657816"
+        }
+      ]
+    }
+  }
+}

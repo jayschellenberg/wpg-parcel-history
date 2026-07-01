@@ -4,8 +4,8 @@
   "key_field": "roll_number",
   "neighbourhood": "Griffin",
   "slug": "GRIFFIN",
-  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
-  "generated": "2026-06-07T17:27:51-0500",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-07-01"],
+  "generated": "2026-07-01T12:45:23-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -33,39 +33,83 @@
         }
       ],
       "confidence": 1
+    },
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-07-01",
+      "from": [
+        {
+          "area_sqft": 21309,
+          "roll": "09010480640"
+        },
+        {
+          "area_sqft": 21309,
+          "roll": "09010480645"
+        },
+        {
+          "area_sqft": 21309,
+          "roll": "09010480650"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 21309,
+          "roll": "09010480635"
+        }
+      ],
+      "confidence": 1
     }
   ],
   "by_roll": {
     "09010480640": {
       "snapshot": "2025-02-26",
-      "type": "subdivision",
+      "type": "consolidation",
       "confidence": 1,
       "predecessors": [
         {
           "snapshot": "2023-11-13",
           "roll": "09004872500"
+        }
+      ],
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "roll": "09010480635"
         }
       ]
     },
     "09010480645": {
       "snapshot": "2025-02-26",
-      "type": "subdivision",
+      "type": "consolidation",
       "confidence": 1,
       "predecessors": [
         {
           "snapshot": "2023-11-13",
           "roll": "09004872500"
         }
+      ],
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "roll": "09010480635"
+        }
       ]
     },
     "09010480650": {
       "snapshot": "2025-02-26",
-      "type": "subdivision",
+      "type": "consolidation",
       "confidence": 1,
       "predecessors": [
         {
           "snapshot": "2023-11-13",
           "roll": "09004872500"
+        }
+      ],
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "roll": "09010480635"
         }
       ]
     },
@@ -75,6 +119,25 @@
       "confidence": 1,
       "predecessors": null,
       "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "09010480640"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "09010480645"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "09010480650"
+        }
+      ]
+    },
+    "09010480635": {
+      "snapshot": "2026-07-01",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
         {
           "snapshot": "2025-02-26",
           "roll": "09010480640"

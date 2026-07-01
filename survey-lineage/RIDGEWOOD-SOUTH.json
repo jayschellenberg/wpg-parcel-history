@@ -4,14 +4,14 @@
   "key_field": "id",
   "neighbourhood": "Ridgewood South",
   "slug": "RIDGEWOOD-SOUTH",
-  "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T17:27:51-0500",
+  "snapshots": ["2025-03-14", "2026-07-01"],
+  "generated": "2026-07-01T12:45:23-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
       "type": "subdivision",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 63672,
@@ -117,7 +117,7 @@
   ],
   "by_survey_id": {
     "656439": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -128,7 +128,7 @@
       ]
     },
     "656435": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -139,7 +139,7 @@
       ]
     },
     "656432": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -150,7 +150,7 @@
       ]
     },
     "656450": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -161,7 +161,7 @@
       ]
     },
     "656451": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -172,7 +172,7 @@
       ]
     },
     "656440": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -183,7 +183,7 @@
       ]
     },
     "656430": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -194,7 +194,7 @@
       ]
     },
     "656449": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -205,7 +205,7 @@
       ]
     },
     "656445": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -216,7 +216,7 @@
       ]
     },
     "656447": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -227,7 +227,7 @@
       ]
     },
     "656429": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -238,7 +238,7 @@
       ]
     },
     "656441": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -249,7 +249,7 @@
       ]
     },
     "656442": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -260,7 +260,7 @@
       ]
     },
     "656433": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -271,7 +271,7 @@
       ]
     },
     "656431": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -282,7 +282,7 @@
       ]
     },
     "656444": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -293,7 +293,7 @@
       ]
     },
     "656448": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -304,7 +304,7 @@
       ]
     },
     "656438": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -315,7 +315,7 @@
       ]
     },
     "656446": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -326,7 +326,7 @@
       ]
     },
     "656443": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -337,7 +337,7 @@
       ]
     },
     "656434": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -348,7 +348,7 @@
       ]
     },
     "656436": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -359,7 +359,7 @@
       ]
     },
     "656437": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -376,95 +376,95 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656439"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656435"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656432"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656450"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656451"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656440"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656430"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656449"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656445"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656447"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656429"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656441"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656442"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656433"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656431"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656444"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656448"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656438"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656446"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656443"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656434"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656436"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656437"
         }
       ]

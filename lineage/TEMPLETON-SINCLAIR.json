@@ -4,14 +4,14 @@
   "key_field": "roll_number",
   "neighbourhood": "Templeton-Sinclair",
   "slug": "TEMPLETON-SINCLAIR",
-  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
-  "generated": "2026-06-07T17:27:51-0500",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-07-01"],
+  "generated": "2026-07-01T12:45:23-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
       "type": "subdivision",
       "from_snapshot": "2025-02-26",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 67424,
@@ -19,6 +19,10 @@
         }
       ],
       "to": [
+        {
+          "area_sqft": 19563,
+          "roll": "05009442695"
+        },
         {
           "area_sqft": 19563,
           "roll": "05009442700"
@@ -104,8 +108,19 @@
     }
   ],
   "by_roll": {
+    "05009442695": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "05009423510"
+        }
+      ]
+    },
     "05009442700": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -116,7 +131,7 @@
       ]
     },
     "05009442705": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -127,7 +142,7 @@
       ]
     },
     "05009442710": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -138,7 +153,7 @@
       ]
     },
     "05009442715": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -149,7 +164,7 @@
       ]
     },
     "05009442720": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -160,7 +175,7 @@
       ]
     },
     "05009442725": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -171,7 +186,7 @@
       ]
     },
     "05009442730": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -182,7 +197,7 @@
       ]
     },
     "05009442735": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -193,7 +208,7 @@
       ]
     },
     "05009442740": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -204,7 +219,7 @@
       ]
     },
     "05009442745": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -215,7 +230,7 @@
       ]
     },
     "05009442750": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -226,7 +241,7 @@
       ]
     },
     "05009442755": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -237,7 +252,7 @@
       ]
     },
     "05009442760": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -248,7 +263,7 @@
       ]
     },
     "05009442765": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -259,7 +274,7 @@
       ]
     },
     "05009442770": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -270,7 +285,7 @@
       ]
     },
     "05009442775": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -281,7 +296,7 @@
       ]
     },
     "05009442780": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -292,7 +307,7 @@
       ]
     },
     "05009442785": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -303,7 +318,7 @@
       ]
     },
     "05009442790": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -314,7 +329,7 @@
       ]
     },
     "05009442795": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 1,
       "predecessors": [
@@ -331,83 +346,87 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
+          "roll": "05009442695"
+        },
+        {
+          "snapshot": "2026-07-01",
           "roll": "05009442700"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "05009442705"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "05009442710"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "05009442715"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "05009442720"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "05009442725"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "05009442730"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "05009442735"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "05009442740"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "05009442745"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "05009442750"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "05009442755"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "05009442760"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "05009442765"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "05009442770"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "05009442775"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "05009442780"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "05009442785"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "05009442790"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "05009442795"
         }
       ]

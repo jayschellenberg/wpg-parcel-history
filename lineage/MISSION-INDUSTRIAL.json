@@ -4,8 +4,8 @@
   "key_field": "roll_number",
   "neighbourhood": "Mission Industrial",
   "slug": "MISSION-INDUSTRIAL",
-  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
-  "generated": "2026-06-07T17:27:51-0500",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-07-01"],
+  "generated": "2026-07-01T12:45:23-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -107,20 +107,24 @@
       "confidence": 1
     },
     {
-      "type": "consolidation",
+      "type": "reconfiguration",
       "from_snapshot": "2025-02-26",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 315818,
-          "roll": "06050480000"
+          "roll": "06093153900"
         },
         {
           "area_sqft": 315818,
-          "roll": "06093153900"
+          "roll": "06050480000"
         }
       ],
       "to": [
+        {
+          "area_sqft": 243017,
+          "roll": "06050480000"
+        },
         {
           "area_sqft": 243017,
           "roll": "06093480630"
@@ -131,7 +135,7 @@
     {
       "type": "replacement",
       "from_snapshot": "2025-02-26",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 109149,
@@ -295,47 +299,64 @@
         }
       ]
     },
-    "06093480630": {
-      "snapshot": "2026-06-07",
-      "type": "consolidation",
+    "06050480000": {
+      "snapshot": "2025-02-26",
+      "type": "reconfiguration",
       "confidence": 0.77,
       "predecessors": [
         {
           "snapshot": "2025-02-26",
-          "roll": "06050480000"
+          "roll": "06093153900"
         },
         {
           "snapshot": "2025-02-26",
-          "roll": "06093153900"
+          "roll": "06050480000"
+        }
+      ],
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "roll": "06050480000"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "roll": "06093480630"
         }
       ]
     },
-    "06050480000": {
-      "snapshot": "2025-02-26",
-      "type": "consolidation",
+    "06093480630": {
+      "snapshot": "2026-07-01",
+      "type": "reconfiguration",
       "confidence": 0.77,
-      "predecessors": null,
-      "successors": [
+      "predecessors": [
         {
-          "snapshot": "2026-06-07",
-          "roll": "06093480630"
+          "snapshot": "2025-02-26",
+          "roll": "06093153900"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "06050480000"
         }
       ]
     },
     "06093153900": {
       "snapshot": "2025-02-26",
-      "type": "consolidation",
+      "type": "reconfiguration",
       "confidence": 0.77,
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
+          "roll": "06050480000"
+        },
+        {
+          "snapshot": "2026-07-01",
           "roll": "06093480630"
         }
       ]
     },
     "06093480770": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "replacement",
       "confidence": 1,
       "predecessors": [
@@ -352,7 +373,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "06093480770"
         }
       ]

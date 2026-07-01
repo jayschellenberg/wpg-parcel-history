@@ -4,8 +4,8 @@
   "key_field": "roll_number",
   "neighbourhood": "Sir John Franklin",
   "slug": "SIR-JOHN-FRANKLIN",
-  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
-  "generated": "2026-06-07T17:27:51-0500",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-07-01"],
+  "generated": "2026-07-01T12:45:23-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -121,7 +121,7 @@
     {
       "type": "subdivision",
       "from_snapshot": "2025-02-26",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 5108,
@@ -143,7 +143,7 @@
     {
       "type": "subdivision",
       "from_snapshot": "2025-02-26",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 6528,
@@ -165,7 +165,7 @@
     {
       "type": "consolidation",
       "from_snapshot": "2025-02-26",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 11881,
@@ -247,7 +247,7 @@
     {
       "type": "subdivision",
       "from_snapshot": "2025-02-26",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 5097,
@@ -459,7 +459,7 @@
       ]
     },
     "12097810050": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.5,
       "predecessors": [
@@ -470,7 +470,7 @@
       ]
     },
     "12097810055": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.5,
       "predecessors": [
@@ -487,17 +487,17 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "12097810050"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "12097810055"
         }
       ]
     },
     "12097810085": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.5,
       "predecessors": [
@@ -508,7 +508,7 @@
       ]
     },
     "12097810090": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.5,
       "predecessors": [
@@ -525,17 +525,17 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "12097810085"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "12097810090"
         }
       ]
     },
     "12097810100": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "consolidation",
       "confidence": 1,
       "predecessors": [
@@ -616,7 +616,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "12097810100"
         }
       ]
@@ -628,7 +628,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "12097810100"
         }
       ]
@@ -640,7 +640,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "12097810100"
         }
       ]
@@ -652,7 +652,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "12097810100"
         }
       ]
@@ -664,7 +664,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "12097810100"
         }
       ]
@@ -676,7 +676,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "12097810100"
         }
       ]
@@ -688,7 +688,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "12097810100"
         }
       ]
@@ -700,7 +700,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "12097810100"
         }
       ]
@@ -712,7 +712,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "12097810100"
         }
       ]
@@ -724,7 +724,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "12097810100"
         }
       ]
@@ -736,7 +736,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "12097810100"
         }
       ]
@@ -748,7 +748,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "12097810100"
         }
       ]
@@ -760,7 +760,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "12097810100"
         }
       ]
@@ -772,7 +772,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "12097810100"
         }
       ]
@@ -784,7 +784,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "12097810100"
         }
       ]
@@ -796,7 +796,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "12097810100"
         }
       ]
@@ -808,13 +808,13 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "12097810100"
         }
       ]
     },
     "12097810135": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.5,
       "predecessors": [
@@ -825,7 +825,7 @@
       ]
     },
     "12097810130": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.5,
       "predecessors": [
@@ -842,11 +842,11 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "12097810135"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "12097810130"
         }
       ]

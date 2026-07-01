@@ -4,8 +4,8 @@
   "key_field": "roll_number",
   "neighbourhood": "Wellington Crescent",
   "slug": "WELLINGTON-CRESCENT",
-  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
-  "generated": "2026-06-07T17:27:51-0500",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-07-01"],
+  "generated": "2026-07-01T12:45:23-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -37,50 +37,104 @@
         }
       ],
       "confidence": 1
+    },
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-07-01",
+      "from": [
+        {
+          "area_sqft": 6158,
+          "roll": "12097809805"
+        },
+        {
+          "area_sqft": 6158,
+          "roll": "12097809810"
+        },
+        {
+          "area_sqft": 6158,
+          "roll": "12097809815"
+        },
+        {
+          "area_sqft": 6158,
+          "roll": "12097809820"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 6158,
+          "roll": "12097809800"
+        }
+      ],
+      "confidence": 1
     }
   ],
   "by_roll": {
     "12097809805": {
       "snapshot": "2025-02-26",
-      "type": "subdivision",
+      "type": "consolidation",
       "confidence": 1,
       "predecessors": [
         {
           "snapshot": "2023-11-13",
           "roll": "12061445000"
+        }
+      ],
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "roll": "12097809800"
         }
       ]
     },
     "12097809810": {
       "snapshot": "2025-02-26",
-      "type": "subdivision",
+      "type": "consolidation",
       "confidence": 1,
       "predecessors": [
         {
           "snapshot": "2023-11-13",
           "roll": "12061445000"
+        }
+      ],
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "roll": "12097809800"
         }
       ]
     },
     "12097809815": {
       "snapshot": "2025-02-26",
-      "type": "subdivision",
+      "type": "consolidation",
       "confidence": 1,
       "predecessors": [
         {
           "snapshot": "2023-11-13",
           "roll": "12061445000"
         }
+      ],
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "roll": "12097809800"
+        }
       ]
     },
     "12097809820": {
       "snapshot": "2025-02-26",
-      "type": "subdivision",
+      "type": "consolidation",
       "confidence": 1,
       "predecessors": [
         {
           "snapshot": "2023-11-13",
           "roll": "12061445000"
+        }
+      ],
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "roll": "12097809800"
         }
       ]
     },
@@ -90,6 +144,29 @@
       "confidence": 1,
       "predecessors": null,
       "successors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "12097809805"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "12097809810"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "12097809815"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "12097809820"
+        }
+      ]
+    },
+    "12097809800": {
+      "snapshot": "2026-07-01",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
         {
           "snapshot": "2025-02-26",
           "roll": "12097809805"

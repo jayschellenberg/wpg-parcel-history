@@ -4,14 +4,14 @@
   "key_field": "id",
   "neighbourhood": "Kildonan Drive",
   "slug": "KILDONAN-DRIVE",
-  "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T17:27:51-0500",
+  "snapshots": ["2025-03-14", "2026-07-01"],
+  "generated": "2026-07-01T12:45:23-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
       "type": "consolidation",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 3713,
@@ -33,7 +33,29 @@
     {
       "type": "consolidation",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
+      "from": [
+        {
+          "area_sqft": 9435,
+          "survey_id": "215804"
+        },
+        {
+          "area_sqft": 7497,
+          "survey_id": "215813"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 16932,
+          "survey_id": "658157"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 17950,
@@ -67,7 +89,7 @@
     {
       "type": "replacement",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 2389,
@@ -85,7 +107,7 @@
     {
       "type": "replacement",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 2067,
@@ -103,7 +125,7 @@
   ],
   "by_survey_id": {
     "657694": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "consolidation",
       "confidence": 1,
       "predecessors": [
@@ -124,7 +146,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657694"
         }
       ]
@@ -136,13 +158,52 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657694"
         }
       ]
     },
+    "658157": {
+      "snapshot": "2026-07-01",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "215804"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "215813"
+        }
+      ]
+    },
+    "215804": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658157"
+        }
+      ]
+    },
+    "215813": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658157"
+        }
+      ]
+    },
     "657146": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "consolidation",
       "confidence": 1,
       "predecessors": [
@@ -175,7 +236,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657146"
         }
       ]
@@ -187,7 +248,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657146"
         }
       ]
@@ -199,7 +260,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657146"
         }
       ]
@@ -211,7 +272,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657146"
         }
       ]
@@ -223,13 +284,13 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657146"
         }
       ]
     },
     "657147": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "replacement",
       "confidence": 1,
       "predecessors": [
@@ -246,13 +307,13 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657147"
         }
       ]
     },
     "657148": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "replacement",
       "confidence": 1,
       "predecessors": [
@@ -269,7 +330,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657148"
         }
       ]

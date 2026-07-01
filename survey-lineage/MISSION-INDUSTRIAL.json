@@ -4,14 +4,14 @@
   "key_field": "id",
   "neighbourhood": "Mission Industrial",
   "slug": "MISSION-INDUSTRIAL",
-  "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T17:27:51-0500",
+  "snapshots": ["2025-03-14", "2026-07-01"],
+  "generated": "2026-07-01T12:45:23-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
       "type": "replacement",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 40909,
@@ -29,7 +29,7 @@
     {
       "type": "consolidation",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 7197,
@@ -63,7 +63,7 @@
     {
       "type": "replacement",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 24911,
@@ -81,7 +81,7 @@
     {
       "type": "replacement",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 29573,
@@ -99,7 +99,7 @@
     {
       "type": "consolidation",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 21138,
@@ -121,7 +121,7 @@
     {
       "type": "replacement",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 17964,
@@ -139,7 +139,7 @@
     {
       "type": "consolidation",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 330,
@@ -173,7 +173,7 @@
     {
       "type": "consolidation",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 2517,
@@ -227,7 +227,7 @@
     {
       "type": "consolidation",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 3888,
@@ -249,7 +249,7 @@
   ],
   "by_survey_id": {
     "657460": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "replacement",
       "confidence": 0.82,
       "predecessors": [
@@ -266,13 +266,13 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657460"
         }
       ]
     },
     "657459": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "consolidation",
       "confidence": 0.86,
       "predecessors": [
@@ -305,7 +305,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657459"
         }
       ]
@@ -317,7 +317,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657459"
         }
       ]
@@ -329,7 +329,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657459"
         }
       ]
@@ -341,7 +341,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657459"
         }
       ]
@@ -353,13 +353,13 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657459"
         }
       ]
     },
     "656631": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "replacement",
       "confidence": 1,
       "predecessors": [
@@ -376,13 +376,13 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656631"
         }
       ]
     },
     "656632": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "replacement",
       "confidence": 0.89,
       "predecessors": [
@@ -399,13 +399,13 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656632"
         }
       ]
     },
     "656332": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "consolidation",
       "confidence": 1,
       "predecessors": [
@@ -426,7 +426,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656332"
         }
       ]
@@ -438,13 +438,13 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656332"
         }
       ]
     },
     "656424": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "replacement",
       "confidence": 0.51,
       "predecessors": [
@@ -461,13 +461,13 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656424"
         }
       ]
     },
     "656426": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "consolidation",
       "confidence": 0.51,
       "predecessors": [
@@ -500,7 +500,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656426"
         }
       ]
@@ -512,7 +512,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656426"
         }
       ]
@@ -524,7 +524,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656426"
         }
       ]
@@ -536,7 +536,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656426"
         }
       ]
@@ -548,13 +548,13 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656426"
         }
       ]
     },
     "656425": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "consolidation",
       "confidence": 0.73,
       "predecessors": [
@@ -607,7 +607,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656425"
         }
       ]
@@ -619,7 +619,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656425"
         }
       ]
@@ -631,7 +631,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656425"
         }
       ]
@@ -643,7 +643,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656425"
         }
       ]
@@ -655,7 +655,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656425"
         }
       ]
@@ -667,7 +667,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656425"
         }
       ]
@@ -679,7 +679,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656425"
         }
       ]
@@ -691,7 +691,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656425"
         }
       ]
@@ -703,7 +703,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656425"
         }
       ]
@@ -715,13 +715,13 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656425"
         }
       ]
     },
     "657691": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "consolidation",
       "confidence": 1,
       "predecessors": [
@@ -742,7 +742,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657691"
         }
       ]
@@ -754,7 +754,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657691"
         }
       ]

@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Legislature",
+  "slug": "LEGISLATURE",
+  "snapshots": ["2025-03-14", "2026-07-01"],
+  "generated": "2026-07-01T12:45:23-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-07-01",
+      "from": [
+        {
+          "area_sqft": 20870,
+          "survey_id": "348075"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 19108,
+          "survey_id": "657737"
+        }
+      ],
+      "confidence": 0.52
+    }
+  ],
+  "by_survey_id": {
+    "657737": {
+      "snapshot": "2026-07-01",
+      "type": "replacement",
+      "confidence": 0.52,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "348075"
+        }
+      ]
+    },
+    "348075": {
+      "snapshot": "2025-03-14",
+      "type": "replacement",
+      "confidence": 0.52,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657737"
+        }
+      ]
+    }
+  }
+}

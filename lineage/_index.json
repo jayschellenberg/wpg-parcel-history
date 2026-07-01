@@ -2,9 +2,9 @@
   "schema": 1,
   "layer": "assessment",
   "key_field": "roll_number",
-  "generated": "2026-06-07T17:27:51-0500",
+  "generated": "2026-07-01T12:45:23-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
-  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-07-01"],
   "neighbourhoods": {
     "AIRPORT": {
       "events": 3
@@ -61,7 +61,7 @@
       "events": 1
     },
     "DUGALD": {
-      "events": 1
+      "events": 2
     },
     "EAGLEMERE": {
       "events": 2
@@ -79,13 +79,13 @@
       "events": 3
     },
     "FORT-RICHMOND": {
-      "events": 2
+      "events": 3
     },
     "FRAIPONT": {
       "events": 5
     },
     "GLENWOOD": {
-      "events": 20
+      "events": 21
     },
     "GRANT-PARK": {
       "events": 2
@@ -94,13 +94,13 @@
       "events": 1
     },
     "GRIFFIN": {
-      "events": 1
+      "events": 2
     },
     "HOLDEN": {
       "events": 1
     },
     "INKSTER-GARDENS": {
-      "events": 1
+      "events": 2
     },
     "INKSTER-INDUSTRIAL-PARK": {
       "events": 2
@@ -348,11 +348,14 @@
     "VIALOUX": {
       "events": 3
     },
+    "VICTORIA-WEST": {
+      "events": 1
+    },
     "WAVERLEY-WEST-B": {
       "events": 8
     },
     "WELLINGTON-CRESCENT": {
-      "events": 1
+      "events": 2
     },
     "WEST-ALEXANDER": {
       "events": 2

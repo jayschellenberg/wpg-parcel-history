@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Munroe West",
+  "slug": "MUNROE-WEST",
+  "snapshots": ["2025-03-14", "2026-07-01"],
+  "generated": "2026-07-01T12:45:23-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-07-01",
+      "from": [
+        {
+          "area_sqft": 117330,
+          "survey_id": "253735"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 98934,
+          "survey_id": "657742"
+        }
+      ],
+      "confidence": 0.84
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-07-01",
+      "from": [
+        {
+          "area_sqft": 25533,
+          "survey_id": "253738"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 43929,
+          "survey_id": "657741"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_survey_id": {
+    "657742": {
+      "snapshot": "2026-07-01",
+      "type": "replacement",
+      "confidence": 0.84,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "253735"
+        }
+      ]
+    },
+    "253735": {
+      "snapshot": "2025-03-14",
+      "type": "replacement",
+      "confidence": 0.84,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657742"
+        }
+      ]
+    },
+    "657741": {
+      "snapshot": "2026-07-01",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "253738"
+        }
+      ]
+    },
+    "253738": {
+      "snapshot": "2025-03-14",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657741"
+        }
+      ]
+    }
+  }
+}

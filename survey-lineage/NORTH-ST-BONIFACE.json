@@ -4,14 +4,40 @@
   "key_field": "id",
   "neighbourhood": "North St. Boniface",
   "slug": "NORTH-ST-BONIFACE",
-  "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T17:27:51-0500",
+  "snapshots": ["2025-03-14", "2026-07-01"],
+  "generated": "2026-07-01T12:45:23-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
       "type": "consolidation",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
+      "from": [
+        {
+          "area_sqft": 3708,
+          "survey_id": "315374"
+        },
+        {
+          "area_sqft": 8728,
+          "survey_id": "315371"
+        },
+        {
+          "area_sqft": 3699,
+          "survey_id": "315372"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 18333,
+          "survey_id": "657828"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 6114,
@@ -41,7 +67,7 @@
     {
       "type": "consolidation",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 5992,
@@ -59,11 +85,88 @@
         }
       ],
       "confidence": 1
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-07-01",
+      "from": [
+        {
+          "area_sqft": 5416,
+          "survey_id": "302240"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2742,
+          "survey_id": "657813"
+        },
+        {
+          "area_sqft": 2674,
+          "survey_id": "657812"
+        }
+      ],
+      "confidence": 0.51
     }
   ],
   "by_survey_id": {
+    "657828": {
+      "snapshot": "2026-07-01",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "315374"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "315371"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "315372"
+        }
+      ]
+    },
+    "315374": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657828"
+        }
+      ]
+    },
+    "315371": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657828"
+        }
+      ]
+    },
+    "315372": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657828"
+        }
+      ]
+    },
     "656296": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "consolidation",
       "confidence": 1,
       "predecessors": [
@@ -92,7 +195,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656296"
         }
       ]
@@ -104,7 +207,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656296"
         }
       ]
@@ -116,7 +219,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656296"
         }
       ]
@@ -128,13 +231,13 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656296"
         }
       ]
     },
     "655197": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "consolidation",
       "confidence": 1,
       "predecessors": [
@@ -155,7 +258,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "655197"
         }
       ]
@@ -167,8 +270,46 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "655197"
+        }
+      ]
+    },
+    "657813": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.51,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "302240"
+        }
+      ]
+    },
+    "657812": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.51,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "302240"
+        }
+      ]
+    },
+    "302240": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.51,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657813"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657812"
         }
       ]
     }

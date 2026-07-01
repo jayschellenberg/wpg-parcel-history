@@ -4,14 +4,32 @@
   "key_field": "id",
   "neighbourhood": "Prairie Pointe",
   "slug": "PRAIRIE-POINTE",
-  "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T17:27:51-0500",
+  "snapshots": ["2025-03-14", "2026-07-01"],
+  "generated": "2026-07-01T12:45:23-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
       "type": "replacement",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
+      "from": [
+        {
+          "area_sqft": 4524,
+          "survey_id": "654408"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 4524,
+          "survey_id": "657970"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 184773,
@@ -29,7 +47,7 @@
     {
       "type": "replacement",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 70596,
@@ -47,7 +65,25 @@
     {
       "type": "replacement",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
+      "from": [
+        {
+          "area_sqft": 448511,
+          "survey_id": "605804"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 447550,
+          "survey_id": "657962"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 146783,
@@ -63,9 +99,81 @@
       "confidence": 0.96
     },
     {
+      "type": "replacement",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-07-01",
+      "from": [
+        {
+          "area_sqft": 6050,
+          "survey_id": "654380"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 6050,
+          "survey_id": "657973"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-07-01",
+      "from": [
+        {
+          "area_sqft": 4252,
+          "survey_id": "654526"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 4252,
+          "survey_id": "657971"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-07-01",
+      "from": [
+        {
+          "area_sqft": 4601,
+          "survey_id": "654412"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 4601,
+          "survey_id": "657969"
+        }
+      ],
+      "confidence": 1
+    },
+    {
+      "type": "replacement",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-07-01",
+      "from": [
+        {
+          "area_sqft": 4493,
+          "survey_id": "654392"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 4493,
+          "survey_id": "657972"
+        }
+      ],
+      "confidence": 1
+    },
+    {
       "type": "subdivision",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 200902,
@@ -83,11 +191,772 @@
         }
       ],
       "confidence": 0.55
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-07-01",
+      "from": [
+        {
+          "area_sqft": 169402,
+          "survey_id": "605810"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 4068,
+          "survey_id": "658109"
+        },
+        {
+          "area_sqft": 4068,
+          "survey_id": "658079"
+        },
+        {
+          "area_sqft": 4068,
+          "survey_id": "658078"
+        },
+        {
+          "area_sqft": 6231,
+          "survey_id": "658085"
+        },
+        {
+          "area_sqft": 6102,
+          "survey_id": "658101"
+        },
+        {
+          "area_sqft": 14068,
+          "survey_id": "658140"
+        },
+        {
+          "area_sqft": 4068,
+          "survey_id": "658077"
+        },
+        {
+          "area_sqft": 5574,
+          "survey_id": "658134"
+        },
+        {
+          "area_sqft": 6281,
+          "survey_id": "658057"
+        },
+        {
+          "area_sqft": 5574,
+          "survey_id": "658136"
+        },
+        {
+          "area_sqft": 6231,
+          "survey_id": "658059"
+        },
+        {
+          "area_sqft": 6231,
+          "survey_id": "658083"
+        },
+        {
+          "area_sqft": 5574,
+          "survey_id": "658135"
+        },
+        {
+          "area_sqft": 5350,
+          "survey_id": "658137"
+        },
+        {
+          "area_sqft": 7294,
+          "survey_id": "658138"
+        },
+        {
+          "area_sqft": 4161,
+          "survey_id": "658111"
+        },
+        {
+          "area_sqft": 3829,
+          "survey_id": "658108"
+        },
+        {
+          "area_sqft": 9761,
+          "survey_id": "658115"
+        },
+        {
+          "area_sqft": 7395,
+          "survey_id": "658113"
+        },
+        {
+          "area_sqft": 4068,
+          "survey_id": "658110"
+        },
+        {
+          "area_sqft": 9179,
+          "survey_id": "658139"
+        },
+        {
+          "area_sqft": 6231,
+          "survey_id": "658081"
+        },
+        {
+          "area_sqft": 4398,
+          "survey_id": "658080"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-07-01",
+      "from": [
+        {
+          "area_sqft": 168461,
+          "survey_id": "654508"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 4068,
+          "survey_id": "658075"
+        },
+        {
+          "area_sqft": 4334,
+          "survey_id": "658066"
+        },
+        {
+          "area_sqft": 3351,
+          "survey_id": "658104"
+        },
+        {
+          "area_sqft": 4307,
+          "survey_id": "658076"
+        },
+        {
+          "area_sqft": 4089,
+          "survey_id": "658067"
+        },
+        {
+          "area_sqft": 5573,
+          "survey_id": "658127"
+        },
+        {
+          "area_sqft": 3829,
+          "survey_id": "658107"
+        },
+        {
+          "area_sqft": 5574,
+          "survey_id": "658131"
+        },
+        {
+          "area_sqft": 5573,
+          "survey_id": "658128"
+        },
+        {
+          "area_sqft": 3350,
+          "survey_id": "658094"
+        },
+        {
+          "area_sqft": 5902,
+          "survey_id": "658132"
+        },
+        {
+          "area_sqft": 5574,
+          "survey_id": "658130"
+        },
+        {
+          "area_sqft": 3350,
+          "survey_id": "658096"
+        },
+        {
+          "area_sqft": 3350,
+          "survey_id": "658102"
+        },
+        {
+          "area_sqft": 3350,
+          "survey_id": "658098"
+        },
+        {
+          "area_sqft": 5900,
+          "survey_id": "658123"
+        },
+        {
+          "area_sqft": 3350,
+          "survey_id": "658095"
+        },
+        {
+          "area_sqft": 5902,
+          "survey_id": "658133"
+        },
+        {
+          "area_sqft": 5573,
+          "survey_id": "658125"
+        },
+        {
+          "area_sqft": 3350,
+          "survey_id": "658097"
+        },
+        {
+          "area_sqft": 5573,
+          "survey_id": "658129"
+        },
+        {
+          "area_sqft": 4097,
+          "survey_id": "658065"
+        },
+        {
+          "area_sqft": 5573,
+          "survey_id": "658126"
+        },
+        {
+          "area_sqft": 3351,
+          "survey_id": "658099"
+        },
+        {
+          "area_sqft": 4086,
+          "survey_id": "658068"
+        },
+        {
+          "area_sqft": 3350,
+          "survey_id": "658106"
+        },
+        {
+          "area_sqft": 4069,
+          "survey_id": "658072"
+        },
+        {
+          "area_sqft": 3350,
+          "survey_id": "658103"
+        },
+        {
+          "area_sqft": 3350,
+          "survey_id": "658105"
+        },
+        {
+          "area_sqft": 4080,
+          "survey_id": "658070"
+        },
+        {
+          "area_sqft": 3351,
+          "survey_id": "658100"
+        },
+        {
+          "area_sqft": 4076,
+          "survey_id": "658071"
+        },
+        {
+          "area_sqft": 5901,
+          "survey_id": "658124"
+        },
+        {
+          "area_sqft": 4323,
+          "survey_id": "658069"
+        },
+        {
+          "area_sqft": 4312,
+          "survey_id": "658073"
+        }
+      ],
+      "confidence": 0.64
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-07-01",
+      "from": [
+        {
+          "area_sqft": 163448,
+          "survey_id": "654461"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 4426,
+          "survey_id": "658029"
+        },
+        {
+          "area_sqft": 4156,
+          "survey_id": "658014"
+        },
+        {
+          "area_sqft": 4208,
+          "survey_id": "658049"
+        },
+        {
+          "area_sqft": 4169,
+          "survey_id": "658036"
+        },
+        {
+          "area_sqft": 4158,
+          "survey_id": "658025"
+        },
+        {
+          "area_sqft": 4205,
+          "survey_id": "658050"
+        },
+        {
+          "area_sqft": 4192,
+          "survey_id": "658043"
+        },
+        {
+          "area_sqft": 4157,
+          "survey_id": "658027"
+        },
+        {
+          "area_sqft": 4156,
+          "survey_id": "658023"
+        },
+        {
+          "area_sqft": 4156,
+          "survey_id": "658017"
+        },
+        {
+          "area_sqft": 4162,
+          "survey_id": "658034"
+        },
+        {
+          "area_sqft": 4426,
+          "survey_id": "658009"
+        },
+        {
+          "area_sqft": 4156,
+          "survey_id": "658013"
+        },
+        {
+          "area_sqft": 4189,
+          "survey_id": "658042"
+        },
+        {
+          "area_sqft": 4186,
+          "survey_id": "658041"
+        },
+        {
+          "area_sqft": 4157,
+          "survey_id": "658011"
+        },
+        {
+          "area_sqft": 4156,
+          "survey_id": "658018"
+        },
+        {
+          "area_sqft": 3912,
+          "survey_id": "658010"
+        },
+        {
+          "area_sqft": 4156,
+          "survey_id": "658012"
+        },
+        {
+          "area_sqft": 4157,
+          "survey_id": "658024"
+        },
+        {
+          "area_sqft": 4200,
+          "survey_id": "658045"
+        },
+        {
+          "area_sqft": 4196,
+          "survey_id": "658046"
+        },
+        {
+          "area_sqft": 4155,
+          "survey_id": "658019"
+        },
+        {
+          "area_sqft": 4156,
+          "survey_id": "658028"
+        },
+        {
+          "area_sqft": 4157,
+          "survey_id": "658026"
+        },
+        {
+          "area_sqft": 4477,
+          "survey_id": "658052"
+        },
+        {
+          "area_sqft": 4206,
+          "survey_id": "658047"
+        },
+        {
+          "area_sqft": 4437,
+          "survey_id": "658033"
+        },
+        {
+          "area_sqft": 4176,
+          "survey_id": "658038"
+        },
+        {
+          "area_sqft": 4173,
+          "survey_id": "658037"
+        },
+        {
+          "area_sqft": 4207,
+          "survey_id": "658048"
+        },
+        {
+          "area_sqft": 4155,
+          "survey_id": "658020"
+        },
+        {
+          "area_sqft": 4196,
+          "survey_id": "658044"
+        },
+        {
+          "area_sqft": 4156,
+          "survey_id": "658022"
+        },
+        {
+          "area_sqft": 4155,
+          "survey_id": "658021"
+        },
+        {
+          "area_sqft": 4179,
+          "survey_id": "658039"
+        },
+        {
+          "area_sqft": 3957,
+          "survey_id": "658051"
+        },
+        {
+          "area_sqft": 4182,
+          "survey_id": "658040"
+        },
+        {
+          "area_sqft": 4166,
+          "survey_id": "658035"
+        },
+        {
+          "area_sqft": 4156,
+          "survey_id": "658015"
+        }
+      ],
+      "confidence": 0.55
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-07-01",
+      "from": [
+        {
+          "area_sqft": 257759,
+          "survey_id": "654378"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 8195,
+          "survey_id": "657978"
+        },
+        {
+          "area_sqft": 4845,
+          "survey_id": "657998"
+        },
+        {
+          "area_sqft": 4459,
+          "survey_id": "658007"
+        },
+        {
+          "area_sqft": 964,
+          "survey_id": "658054"
+        },
+        {
+          "area_sqft": 10384,
+          "survey_id": "657976"
+        },
+        {
+          "area_sqft": 4464,
+          "survey_id": "657990"
+        },
+        {
+          "area_sqft": 6401,
+          "survey_id": "657997"
+        },
+        {
+          "area_sqft": 8031,
+          "survey_id": "657984"
+        },
+        {
+          "area_sqft": 6272,
+          "survey_id": "657991"
+        },
+        {
+          "area_sqft": 4723,
+          "survey_id": "658032"
+        },
+        {
+          "area_sqft": 6917,
+          "survey_id": "658003"
+        },
+        {
+          "area_sqft": 4459,
+          "survey_id": "658005"
+        },
+        {
+          "area_sqft": 10908,
+          "survey_id": "657981"
+        },
+        {
+          "area_sqft": 4460,
+          "survey_id": "658030"
+        },
+        {
+          "area_sqft": 4459,
+          "survey_id": "658006"
+        },
+        {
+          "area_sqft": 8234,
+          "survey_id": "657985"
+        },
+        {
+          "area_sqft": 4721,
+          "survey_id": "658008"
+        },
+        {
+          "area_sqft": 6763,
+          "survey_id": "657987"
+        },
+        {
+          "area_sqft": 11690,
+          "survey_id": "657977"
+        },
+        {
+          "area_sqft": 5239,
+          "survey_id": "657999"
+        },
+        {
+          "area_sqft": 8353,
+          "survey_id": "657979"
+        },
+        {
+          "area_sqft": 4452,
+          "survey_id": "657992"
+        },
+        {
+          "area_sqft": 7711,
+          "survey_id": "657980"
+        },
+        {
+          "area_sqft": 4841,
+          "survey_id": "658053"
+        },
+        {
+          "area_sqft": 4590,
+          "survey_id": "657994"
+        },
+        {
+          "area_sqft": 5213,
+          "survey_id": "657989"
+        },
+        {
+          "area_sqft": 8211,
+          "survey_id": "657983"
+        },
+        {
+          "area_sqft": 5325,
+          "survey_id": "658001"
+        },
+        {
+          "area_sqft": 4459,
+          "survey_id": "658004"
+        },
+        {
+          "area_sqft": 8256,
+          "survey_id": "657974"
+        },
+        {
+          "area_sqft": 4949,
+          "survey_id": "657995"
+        },
+        {
+          "area_sqft": 5301,
+          "survey_id": "657993"
+        },
+        {
+          "area_sqft": 5246,
+          "survey_id": "657996"
+        },
+        {
+          "area_sqft": 9952,
+          "survey_id": "657982"
+        },
+        {
+          "area_sqft": 4460,
+          "survey_id": "658031"
+        },
+        {
+          "area_sqft": 4722,
+          "survey_id": "658016"
+        },
+        {
+          "area_sqft": 5613,
+          "survey_id": "657988"
+        },
+        {
+          "area_sqft": 5799,
+          "survey_id": "657986"
+        },
+        {
+          "area_sqft": 5592,
+          "survey_id": "658002"
+        },
+        {
+          "area_sqft": 7829,
+          "survey_id": "657975"
+        },
+        {
+          "area_sqft": 4983,
+          "survey_id": "658000"
+        }
+      ],
+      "confidence": 0.89
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-07-01",
+      "from": [
+        {
+          "area_sqft": 165821,
+          "survey_id": "654468"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 6867,
+          "survey_id": "658117"
+        },
+        {
+          "area_sqft": 5572,
+          "survey_id": "658121"
+        },
+        {
+          "area_sqft": 4068,
+          "survey_id": "658087"
+        },
+        {
+          "area_sqft": 5572,
+          "survey_id": "658120"
+        },
+        {
+          "area_sqft": 4112,
+          "survey_id": "658061"
+        },
+        {
+          "area_sqft": 4346,
+          "survey_id": "658063"
+        },
+        {
+          "area_sqft": 3829,
+          "survey_id": "658089"
+        },
+        {
+          "area_sqft": 4012,
+          "survey_id": "658082"
+        },
+        {
+          "area_sqft": 6094,
+          "survey_id": "658112"
+        },
+        {
+          "area_sqft": 3829,
+          "survey_id": "658091"
+        },
+        {
+          "area_sqft": 4161,
+          "survey_id": "658088"
+        },
+        {
+          "area_sqft": 4249,
+          "survey_id": "658058"
+        },
+        {
+          "area_sqft": 5572,
+          "survey_id": "658119"
+        },
+        {
+          "area_sqft": 4248,
+          "survey_id": "658074"
+        },
+        {
+          "area_sqft": 4101,
+          "survey_id": "658064"
+        },
+        {
+          "area_sqft": 4451,
+          "survey_id": "658060"
+        },
+        {
+          "area_sqft": 4013,
+          "survey_id": "658056"
+        },
+        {
+          "area_sqft": 10330,
+          "survey_id": "658114"
+        },
+        {
+          "area_sqft": 8653,
+          "survey_id": "658116"
+        },
+        {
+          "area_sqft": 4010,
+          "survey_id": "658084"
+        },
+        {
+          "area_sqft": 5393,
+          "survey_id": "658118"
+        },
+        {
+          "area_sqft": 4108,
+          "survey_id": "658062"
+        },
+        {
+          "area_sqft": 3781,
+          "survey_id": "658086"
+        },
+        {
+          "area_sqft": 5900,
+          "survey_id": "658122"
+        },
+        {
+          "area_sqft": 3350,
+          "survey_id": "658093"
+        },
+        {
+          "area_sqft": 4611,
+          "survey_id": "658090"
+        },
+        {
+          "area_sqft": 4032,
+          "survey_id": "658055"
+        },
+        {
+          "area_sqft": 3829,
+          "survey_id": "658092"
+        }
+      ],
+      "confidence": 0.79
     }
   ],
   "by_survey_id": {
+    "657970": {
+      "snapshot": "2026-07-01",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654408"
+        }
+      ]
+    },
+    "654408": {
+      "snapshot": "2025-03-14",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657970"
+        }
+      ]
+    },
     "656873": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "replacement",
       "confidence": 0.88,
       "predecessors": [
@@ -104,13 +973,13 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656873"
         }
       ]
     },
     "656874": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "replacement",
       "confidence": 1,
       "predecessors": [
@@ -127,13 +996,36 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656874"
         }
       ]
     },
+    "657962": {
+      "snapshot": "2026-07-01",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "605804"
+        }
+      ]
+    },
+    "605804": {
+      "snapshot": "2025-03-14",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657962"
+        }
+      ]
+    },
     "656872": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "replacement",
       "confidence": 0.96,
       "predecessors": [
@@ -150,13 +1042,105 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656872"
         }
       ]
     },
+    "657973": {
+      "snapshot": "2026-07-01",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654380"
+        }
+      ]
+    },
+    "654380": {
+      "snapshot": "2025-03-14",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657973"
+        }
+      ]
+    },
+    "657971": {
+      "snapshot": "2026-07-01",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654526"
+        }
+      ]
+    },
+    "654526": {
+      "snapshot": "2025-03-14",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657971"
+        }
+      ]
+    },
+    "657969": {
+      "snapshot": "2026-07-01",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654412"
+        }
+      ]
+    },
+    "654412": {
+      "snapshot": "2025-03-14",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657969"
+        }
+      ]
+    },
+    "657972": {
+      "snapshot": "2026-07-01",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654392"
+        }
+      ]
+    },
+    "654392": {
+      "snapshot": "2025-03-14",
+      "type": "replacement",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657972"
+        }
+      ]
+    },
     "657437": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.55,
       "predecessors": [
@@ -167,7 +1151,7 @@
       ]
     },
     "657436": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.55,
       "predecessors": [
@@ -184,12 +1168,2557 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657437"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657436"
+        }
+      ]
+    },
+    "658109": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.92,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "605810"
+        }
+      ]
+    },
+    "658079": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.92,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "605810"
+        }
+      ]
+    },
+    "658078": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.92,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "605810"
+        }
+      ]
+    },
+    "658085": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.92,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "605810"
+        }
+      ]
+    },
+    "658101": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.92,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "605810"
+        }
+      ]
+    },
+    "658140": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.92,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "605810"
+        }
+      ]
+    },
+    "658077": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.92,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "605810"
+        }
+      ]
+    },
+    "658134": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.92,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "605810"
+        }
+      ]
+    },
+    "658057": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.92,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "605810"
+        }
+      ]
+    },
+    "658136": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.92,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "605810"
+        }
+      ]
+    },
+    "658059": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.92,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "605810"
+        }
+      ]
+    },
+    "658083": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.92,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "605810"
+        }
+      ]
+    },
+    "658135": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.92,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "605810"
+        }
+      ]
+    },
+    "658137": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.92,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "605810"
+        }
+      ]
+    },
+    "658138": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.92,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "605810"
+        }
+      ]
+    },
+    "658111": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.92,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "605810"
+        }
+      ]
+    },
+    "658108": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.92,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "605810"
+        }
+      ]
+    },
+    "658115": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.92,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "605810"
+        }
+      ]
+    },
+    "658113": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.92,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "605810"
+        }
+      ]
+    },
+    "658110": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.92,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "605810"
+        }
+      ]
+    },
+    "658139": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.92,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "605810"
+        }
+      ]
+    },
+    "658081": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.92,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "605810"
+        }
+      ]
+    },
+    "658080": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.92,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "605810"
+        }
+      ]
+    },
+    "605810": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.92,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658109"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658079"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658078"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658085"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658101"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658140"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658077"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658134"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658057"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658136"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658059"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658083"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658135"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658137"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658138"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658111"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658108"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658115"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658113"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658110"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658139"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658081"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658080"
+        }
+      ]
+    },
+    "658075": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "658066": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "658104": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "658076": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "658067": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "658127": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "658107": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "658131": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "658128": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "658094": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "658132": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "658130": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "658096": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "658102": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "658098": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "658123": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "658095": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "658133": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "658125": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "658097": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "658129": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "658065": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "658126": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "658099": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "658068": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "658106": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "658072": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "658103": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "658105": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "658070": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "658100": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "658071": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "658124": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "658069": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "658073": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654508"
+        }
+      ]
+    },
+    "654508": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.64,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658075"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658066"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658104"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658076"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658067"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658127"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658107"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658131"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658128"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658094"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658132"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658130"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658096"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658102"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658098"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658123"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658095"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658133"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658125"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658097"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658129"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658065"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658126"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658099"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658068"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658106"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658072"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658103"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658105"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658070"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658100"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658071"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658124"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658069"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658073"
+        }
+      ]
+    },
+    "658029": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658014": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658049": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658036": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658025": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658050": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658043": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658027": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658023": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658017": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658034": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658009": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658013": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658042": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658041": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658011": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658018": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658010": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658012": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658024": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658045": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658046": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658019": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658028": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658026": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658052": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658047": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658033": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658038": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658037": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658048": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658020": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658044": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658022": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658021": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658039": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658051": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658040": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658035": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "658015": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654461"
+        }
+      ]
+    },
+    "654461": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.55,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658029"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658014"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658049"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658036"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658025"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658050"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658043"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658027"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658023"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658017"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658034"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658009"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658013"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658042"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658041"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658011"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658018"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658010"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658012"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658024"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658045"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658046"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658019"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658028"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658026"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658052"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658047"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658033"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658038"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658037"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658048"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658020"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658044"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658022"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658021"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658039"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658051"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658040"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658035"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658015"
+        }
+      ]
+    },
+    "657978": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "657998": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "658007": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "658054": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "657976": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "657990": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "657997": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "657984": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "657991": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "658032": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "658003": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "658005": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "657981": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "658030": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "658006": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "657985": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "658008": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "657987": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "657977": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "657999": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "657979": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "657992": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "657980": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "658053": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "657994": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "657989": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "657983": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "658001": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "658004": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "657974": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "657995": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "657993": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "657996": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "657982": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "658031": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "658016": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "657988": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "657986": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "658002": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "657975": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "658000": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654378"
+        }
+      ]
+    },
+    "654378": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.89,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657978"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657998"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658007"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658054"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657976"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657990"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657997"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657984"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657991"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658032"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658003"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658005"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657981"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658030"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658006"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657985"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658008"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657987"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657977"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657999"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657979"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657992"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657980"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658053"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657994"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657989"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657983"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658001"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658004"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657974"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657995"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657993"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657996"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657982"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658031"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658016"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657988"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657986"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658002"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657975"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658000"
+        }
+      ]
+    },
+    "658117": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.79,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654468"
+        }
+      ]
+    },
+    "658121": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.79,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654468"
+        }
+      ]
+    },
+    "658087": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.79,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654468"
+        }
+      ]
+    },
+    "658120": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.79,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654468"
+        }
+      ]
+    },
+    "658061": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.79,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654468"
+        }
+      ]
+    },
+    "658063": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.79,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654468"
+        }
+      ]
+    },
+    "658089": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.79,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654468"
+        }
+      ]
+    },
+    "658082": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.79,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654468"
+        }
+      ]
+    },
+    "658112": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.79,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654468"
+        }
+      ]
+    },
+    "658091": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.79,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654468"
+        }
+      ]
+    },
+    "658088": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.79,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654468"
+        }
+      ]
+    },
+    "658058": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.79,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654468"
+        }
+      ]
+    },
+    "658119": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.79,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654468"
+        }
+      ]
+    },
+    "658074": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.79,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654468"
+        }
+      ]
+    },
+    "658064": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.79,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654468"
+        }
+      ]
+    },
+    "658060": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.79,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654468"
+        }
+      ]
+    },
+    "658056": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.79,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654468"
+        }
+      ]
+    },
+    "658114": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.79,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654468"
+        }
+      ]
+    },
+    "658116": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.79,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654468"
+        }
+      ]
+    },
+    "658084": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.79,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654468"
+        }
+      ]
+    },
+    "658118": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.79,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654468"
+        }
+      ]
+    },
+    "658062": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.79,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654468"
+        }
+      ]
+    },
+    "658086": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.79,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654468"
+        }
+      ]
+    },
+    "658122": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.79,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654468"
+        }
+      ]
+    },
+    "658093": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.79,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654468"
+        }
+      ]
+    },
+    "658090": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.79,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654468"
+        }
+      ]
+    },
+    "658055": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.79,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654468"
+        }
+      ]
+    },
+    "658092": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.79,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "654468"
+        }
+      ]
+    },
+    "654468": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.79,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658117"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658121"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658087"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658120"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658061"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658063"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658089"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658082"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658112"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658091"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658088"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658058"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658119"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658074"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658064"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658060"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658056"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658114"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658116"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658084"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658118"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658062"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658086"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658122"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658093"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658090"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658055"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658092"
         }
       ]
     }

@@ -4,14 +4,58 @@
   "key_field": "id",
   "neighbourhood": "Sir John Franklin",
   "slug": "SIR-JOHN-FRANKLIN",
-  "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T17:27:51-0500",
+  "snapshots": ["2025-03-14", "2026-07-01"],
+  "generated": "2026-07-01T12:45:23-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-07-01",
+      "from": [
+        {
+          "area_sqft": 3300,
+          "survey_id": "363778"
+        },
+        {
+          "area_sqft": 3300,
+          "survey_id": "363781"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 6599,
+          "survey_id": "657782"
+        }
+      ],
+      "confidence": 1
+    },
+    {
       "type": "subdivision",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
+      "from": [
+        {
+          "area_sqft": 6531,
+          "survey_id": "368698"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 3265,
+          "survey_id": "657824"
+        },
+        {
+          "area_sqft": 3265,
+          "survey_id": "657825"
+        }
+      ],
+      "confidence": 0.5
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 6528,
@@ -32,8 +76,85 @@
     }
   ],
   "by_survey_id": {
+    "657782": {
+      "snapshot": "2026-07-01",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "363778"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "363781"
+        }
+      ]
+    },
+    "363778": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657782"
+        }
+      ]
+    },
+    "363781": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657782"
+        }
+      ]
+    },
+    "657824": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "368698"
+        }
+      ]
+    },
+    "657825": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "368698"
+        }
+      ]
+    },
+    "368698": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657824"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657825"
+        }
+      ]
+    },
     "657138": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.5,
       "predecessors": [
@@ -44,7 +165,7 @@
       ]
     },
     "657137": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.5,
       "predecessors": [
@@ -61,11 +182,11 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657138"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657137"
         }
       ]

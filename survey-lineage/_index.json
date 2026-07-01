@@ -2,9 +2,9 @@
   "schema": 1,
   "layer": "survey",
   "key_field": "id",
-  "generated": "2026-06-07T17:27:51-0500",
+  "generated": "2026-07-01T12:45:23-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
-  "snapshots": ["2025-03-14", "2026-06-07"],
+  "snapshots": ["2025-03-14", "2026-07-01"],
   "neighbourhoods": {
     "BETSWORTH": {
       "events": 2
@@ -28,7 +28,7 @@
       "events": 1
     },
     "CENTRAL-ST-BONIFACE": {
-      "events": 1
+      "events": 2
     },
     "CHALMERS": {
       "events": 6
@@ -73,10 +73,13 @@
       "events": 1
     },
     "KILDONAN-DRIVE": {
-      "events": 4
+      "events": 5
     },
     "KING-EDWARD": {
       "events": 2
+    },
+    "LEGISLATURE": {
+      "events": 1
     },
     "LEILA-NORTH": {
       "events": 1
@@ -114,17 +117,26 @@
     "MUNROE-EAST": {
       "events": 1
     },
+    "MUNROE-WEST": {
+      "events": 2
+    },
     "NORBERRY": {
       "events": 1
     },
     "NORTH-INKSTER-INDUSTRIAL": {
       "events": 3
     },
+    "NORTH-POINT-DOUGLAS": {
+      "events": 1
+    },
     "NORTH-RIVER-HEIGHTS": {
       "events": 4
     },
     "NORTH-ST-BONIFACE": {
-      "events": 2
+      "events": 4
+    },
+    "NORWOOD-WEST": {
+      "events": 1
     },
     "OAK-POINT-HIGHWAY": {
       "events": 1
@@ -139,25 +151,28 @@
       "events": 2
     },
     "PORTAGE-ELLICE": {
-      "events": 1
+      "events": 2
     },
     "PORTAGE-MAIN": {
       "events": 1
     },
     "PRAIRIE-POINTE": {
-      "events": 4
+      "events": 15
     },
     "RIDGEWOOD-SOUTH": {
       "events": 1
     },
     "RIVER-EAST": {
-      "events": 2
+      "events": 3
     },
     "RIVER-OSBORNE": {
       "events": 1
     },
     "RIVER-PARK-SOUTH": {
       "events": 2
+    },
+    "RIVERVIEW": {
+      "events": 1
     },
     "ROBLIN-PARK": {
       "events": 1
@@ -181,13 +196,16 @@
       "events": 4
     },
     "SIR-JOHN-FRANKLIN": {
-      "events": 1
+      "events": 3
     },
     "SOUTHLAND-PARK": {
       "events": 1
     },
     "SPENCE": {
       "events": 2
+    },
+    "SPRINGFIELD-NORTH": {
+      "events": 1
     },
     "ST-BONIFACE-INDUSTRIAL-PARK": {
       "events": 1
@@ -196,7 +214,7 @@
       "events": 2
     },
     "ST-JAMES-INDUSTRIAL": {
-      "events": 2
+      "events": 3
     },
     "ST-MATTHEWS": {
       "events": 1
@@ -225,8 +243,11 @@
     "VARSITY-VIEW": {
       "events": 1
     },
+    "VIALOUX": {
+      "events": 1
+    },
     "WAVERLEY-WEST-B": {
-      "events": 56
+      "events": 58
     },
     "WELLINGTON-CRESCENT": {
       "events": 3
@@ -238,6 +259,9 @@
       "events": 3
     },
     "WEST-KILDONAN-INDUSTRIAL": {
+      "events": 1
+    },
+    "WEST-WOLSELEY": {
       "events": 1
     },
     "WESTON": {

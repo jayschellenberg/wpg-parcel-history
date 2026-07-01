@@ -4,8 +4,8 @@
   "key_field": "roll_number",
   "neighbourhood": "Fort Richmond",
   "slug": "FORT-RICHMOND",
-  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
-  "generated": "2026-06-07T17:27:51-0500",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-07-01"],
+  "generated": "2026-07-01T12:45:23-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -41,7 +41,7 @@
     {
       "type": "consolidation",
       "from_snapshot": "2025-02-26",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 540840,
@@ -59,50 +59,104 @@
         }
       ],
       "confidence": 1
+    },
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-07-01",
+      "from": [
+        {
+          "area_sqft": 5068,
+          "roll": "03093017185"
+        },
+        {
+          "area_sqft": 5068,
+          "roll": "03093017190"
+        },
+        {
+          "area_sqft": 5068,
+          "roll": "03093017195"
+        },
+        {
+          "area_sqft": 5068,
+          "roll": "03093017200"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 5068,
+          "roll": "03093017180"
+        }
+      ],
+      "confidence": 1
     }
   ],
   "by_roll": {
     "03093017185": {
       "snapshot": "2025-02-26",
-      "type": "subdivision",
+      "type": "consolidation",
       "confidence": 1,
       "predecessors": [
         {
           "snapshot": "2023-11-13",
           "roll": "03091516500"
+        }
+      ],
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "roll": "03093017180"
         }
       ]
     },
     "03093017190": {
       "snapshot": "2025-02-26",
-      "type": "subdivision",
+      "type": "consolidation",
       "confidence": 1,
       "predecessors": [
         {
           "snapshot": "2023-11-13",
           "roll": "03091516500"
+        }
+      ],
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "roll": "03093017180"
         }
       ]
     },
     "03093017195": {
       "snapshot": "2025-02-26",
-      "type": "subdivision",
+      "type": "consolidation",
       "confidence": 1,
       "predecessors": [
         {
           "snapshot": "2023-11-13",
           "roll": "03091516500"
         }
+      ],
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "roll": "03093017180"
+        }
       ]
     },
     "03093017200": {
       "snapshot": "2025-02-26",
-      "type": "subdivision",
+      "type": "consolidation",
       "confidence": 1,
       "predecessors": [
         {
           "snapshot": "2023-11-13",
           "roll": "03091516500"
+        }
+      ],
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "roll": "03093017180"
         }
       ]
     },
@@ -131,7 +185,7 @@
       ]
     },
     "03093018830": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "consolidation",
       "confidence": 1,
       "predecessors": [
@@ -152,7 +206,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018830"
         }
       ]
@@ -164,8 +218,31 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018830"
+        }
+      ]
+    },
+    "03093017180": {
+      "snapshot": "2026-07-01",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "03093017185"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "03093017190"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "03093017195"
+        },
+        {
+          "snapshot": "2025-02-26",
+          "roll": "03093017200"
         }
       ]
     }

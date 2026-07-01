@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "layer": "assessment",
+  "key_field": "roll_number",
+  "neighbourhood": "Victoria West",
+  "slug": "VICTORIA-WEST",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-07-01"],
+  "generated": "2026-07-01T12:45:23-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-02-26",
+      "to_snapshot": "2026-07-01",
+      "from": [
+        {
+          "area_sqft": 5400,
+          "roll": "09000580500"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 2700,
+          "roll": "09010480715"
+        },
+        {
+          "area_sqft": 2700,
+          "roll": "09010480720"
+        }
+      ],
+      "confidence": 0.5
+    }
+  ],
+  "by_roll": {
+    "09010480715": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "09000580500"
+        }
+      ]
+    },
+    "09010480720": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": [
+        {
+          "snapshot": "2025-02-26",
+          "roll": "09000580500"
+        }
+      ]
+    },
+    "09000580500": {
+      "snapshot": "2025-02-26",
+      "type": "subdivision",
+      "confidence": 0.5,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "roll": "09010480715"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "roll": "09010480720"
+        }
+      ]
+    }
+  }
+}

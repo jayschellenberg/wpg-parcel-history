@@ -4,14 +4,14 @@
   "key_field": "id",
   "neighbourhood": "River East",
   "slug": "RIVER-EAST",
-  "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T17:27:51-0500",
+  "snapshots": ["2025-03-14", "2026-07-01"],
+  "generated": "2026-07-01T12:45:23-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
       "type": "reconfiguration",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 799,
@@ -35,9 +35,31 @@
       "confidence": 0.51
     },
     {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-07-01",
+      "from": [
+        {
+          "area_sqft": 6369,
+          "survey_id": "213404"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 3443,
+          "survey_id": "657814"
+        },
+        {
+          "area_sqft": 2926,
+          "survey_id": "657815"
+        }
+      ],
+      "confidence": 0.54
+    },
+    {
       "type": "consolidation",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 10138,
@@ -59,7 +81,7 @@
   ],
   "by_survey_id": {
     "656637": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "reconfiguration",
       "confidence": 0.51,
       "predecessors": [
@@ -74,7 +96,7 @@
       ]
     },
     "656636": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "reconfiguration",
       "confidence": 0.51,
       "predecessors": [
@@ -95,11 +117,11 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656637"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656636"
         }
       ]
@@ -111,17 +133,55 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656637"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "656636"
         }
       ]
     },
+    "657814": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.54,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "213404"
+        }
+      ]
+    },
+    "657815": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.54,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "213404"
+        }
+      ]
+    },
+    "213404": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.54,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657814"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657815"
+        }
+      ]
+    },
     "657690": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "consolidation",
       "confidence": 1,
       "predecessors": [
@@ -142,7 +202,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657690"
         }
       ]
@@ -154,7 +214,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "657690"
         }
       ]

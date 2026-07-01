@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "Springfield North",
+  "slug": "SPRINGFIELD-NORTH",
+  "snapshots": ["2025-03-14", "2026-07-01"],
+  "generated": "2026-07-01T12:45:23-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-07-01",
+      "from": [
+        {
+          "area_sqft": 29045,
+          "survey_id": "221393"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 14783,
+          "survey_id": "657740"
+        },
+        {
+          "area_sqft": 12888,
+          "survey_id": "657739"
+        }
+      ],
+      "confidence": 0.51
+    }
+  ],
+  "by_survey_id": {
+    "657740": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.51,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "221393"
+        }
+      ]
+    },
+    "657739": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 0.51,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "221393"
+        }
+      ]
+    },
+    "221393": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 0.51,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657740"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657739"
+        }
+      ]
+    }
+  }
+}

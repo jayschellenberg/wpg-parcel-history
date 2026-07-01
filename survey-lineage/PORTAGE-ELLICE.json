@@ -4,14 +4,14 @@
   "key_field": "id",
   "neighbourhood": "Portage-Ellice",
   "slug": "PORTAGE-ELLICE",
-  "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T17:27:51-0500",
+  "snapshots": ["2025-03-14", "2026-07-01"],
+  "generated": "2026-07-01T12:45:23-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
       "type": "consolidation",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 2682,
@@ -33,11 +33,61 @@
         }
       ],
       "confidence": 1
+    },
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-07-01",
+      "from": [
+        {
+          "area_sqft": 20145,
+          "survey_id": "314468"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 572,
+          "survey_id": "657839"
+        },
+        {
+          "area_sqft": 176,
+          "survey_id": "657842"
+        },
+        {
+          "area_sqft": 52,
+          "survey_id": "657841"
+        },
+        {
+          "area_sqft": 8633,
+          "survey_id": "657843"
+        },
+        {
+          "area_sqft": 851,
+          "survey_id": "657840"
+        },
+        {
+          "area_sqft": 758,
+          "survey_id": "657836"
+        },
+        {
+          "area_sqft": 6661,
+          "survey_id": "657844"
+        },
+        {
+          "area_sqft": 31,
+          "survey_id": "657838"
+        },
+        {
+          "area_sqft": 2410,
+          "survey_id": "657837"
+        }
+      ],
+      "confidence": 1
     }
   ],
   "by_survey_id": {
     "655196": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "consolidation",
       "confidence": 1,
       "predecessors": [
@@ -62,7 +112,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "655196"
         }
       ]
@@ -74,7 +124,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "655196"
         }
       ]
@@ -86,8 +136,151 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "655196"
+        }
+      ]
+    },
+    "657839": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "314468"
+        }
+      ]
+    },
+    "657842": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "314468"
+        }
+      ]
+    },
+    "657841": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "314468"
+        }
+      ]
+    },
+    "657843": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "314468"
+        }
+      ]
+    },
+    "657840": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "314468"
+        }
+      ]
+    },
+    "657836": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "314468"
+        }
+      ]
+    },
+    "657844": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "314468"
+        }
+      ]
+    },
+    "657838": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "314468"
+        }
+      ]
+    },
+    "657837": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "314468"
+        }
+      ]
+    },
+    "314468": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657839"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657842"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657841"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657843"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657840"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657836"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657844"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657838"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657837"
         }
       ]
     }

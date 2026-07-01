@@ -4,8 +4,8 @@
   "key_field": "roll_number",
   "neighbourhood": "Prairie Pointe",
   "slug": "PRAIRIE-POINTE",
-  "snapshots": ["2023-11-13", "2025-02-26", "2026-06-07"],
-  "generated": "2026-06-07T17:27:51-0500",
+  "snapshots": ["2023-11-13", "2025-02-26", "2026-07-01"],
+  "generated": "2026-07-01T12:45:23-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
@@ -1043,7 +1043,7 @@
     {
       "type": "replacement",
       "from_snapshot": "2025-02-26",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 159577,
@@ -1061,7 +1061,7 @@
     {
       "type": "replacement",
       "from_snapshot": "2025-02-26",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 167496,
@@ -1079,7 +1079,7 @@
     {
       "type": "replacement",
       "from_snapshot": "2025-02-26",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 164694,
@@ -1097,7 +1097,7 @@
     {
       "type": "subdivision",
       "from_snapshot": "2025-02-26",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 303528,
@@ -1151,7 +1151,7 @@
     {
       "type": "subdivision",
       "from_snapshot": "2025-02-26",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 236658,
@@ -1353,7 +1353,7 @@
     {
       "type": "subdivision",
       "from_snapshot": "2025-02-26",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 115690,
@@ -1471,7 +1471,7 @@
     {
       "type": "subdivision",
       "from_snapshot": "2025-02-26",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 287095,
@@ -5268,7 +5268,7 @@
       ]
     },
     "03093017960": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "replacement",
       "confidence": 1,
       "predecessors": [
@@ -5285,13 +5285,13 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017960"
         }
       ]
     },
     "03093017965": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "replacement",
       "confidence": 1,
       "predecessors": [
@@ -5308,13 +5308,13 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017965"
         }
       ]
     },
     "03093018380": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "replacement",
       "confidence": 0.98,
       "predecessors": [
@@ -5331,13 +5331,13 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018380"
         }
       ]
     },
     "03093018385": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.86,
       "predecessors": [
@@ -5348,7 +5348,7 @@
       ]
     },
     "03093018335": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.86,
       "predecessors": [
@@ -5359,7 +5359,7 @@
       ]
     },
     "03093018340": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.86,
       "predecessors": [
@@ -5370,7 +5370,7 @@
       ]
     },
     "03093018345": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.86,
       "predecessors": [
@@ -5381,7 +5381,7 @@
       ]
     },
     "03093018350": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.86,
       "predecessors": [
@@ -5392,7 +5392,7 @@
       ]
     },
     "03093018355": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.86,
       "predecessors": [
@@ -5403,7 +5403,7 @@
       ]
     },
     "03093018360": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.86,
       "predecessors": [
@@ -5414,7 +5414,7 @@
       ]
     },
     "03093018365": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.86,
       "predecessors": [
@@ -5425,7 +5425,7 @@
       ]
     },
     "03093018370": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.86,
       "predecessors": [
@@ -5436,7 +5436,7 @@
       ]
     },
     "03093018375": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.86,
       "predecessors": [
@@ -5453,49 +5453,49 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018385"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018335"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018340"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018345"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018350"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018355"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018360"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018365"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018370"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018375"
         }
       ]
     },
     "03093017970": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5506,7 +5506,7 @@
       ]
     },
     "03093017975": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5517,7 +5517,7 @@
       ]
     },
     "03093017980": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5528,7 +5528,7 @@
       ]
     },
     "03093017985": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5539,7 +5539,7 @@
       ]
     },
     "03093017990": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5550,7 +5550,7 @@
       ]
     },
     "03093017995": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5561,7 +5561,7 @@
       ]
     },
     "03093018000": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5572,7 +5572,7 @@
       ]
     },
     "03093018005": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5583,7 +5583,7 @@
       ]
     },
     "03093018010": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5594,7 +5594,7 @@
       ]
     },
     "03093018015": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5605,7 +5605,7 @@
       ]
     },
     "03093018020": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5616,7 +5616,7 @@
       ]
     },
     "03093018025": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5627,7 +5627,7 @@
       ]
     },
     "03093018030": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5638,7 +5638,7 @@
       ]
     },
     "03093018035": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5649,7 +5649,7 @@
       ]
     },
     "03093018040": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5660,7 +5660,7 @@
       ]
     },
     "03093018045": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5671,7 +5671,7 @@
       ]
     },
     "03093018050": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5682,7 +5682,7 @@
       ]
     },
     "03093018055": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5693,7 +5693,7 @@
       ]
     },
     "03093018060": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5704,7 +5704,7 @@
       ]
     },
     "03093018065": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5715,7 +5715,7 @@
       ]
     },
     "03093018070": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5726,7 +5726,7 @@
       ]
     },
     "03093018075": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5737,7 +5737,7 @@
       ]
     },
     "03093018080": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5748,7 +5748,7 @@
       ]
     },
     "03093018085": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5759,7 +5759,7 @@
       ]
     },
     "03093018090": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5770,7 +5770,7 @@
       ]
     },
     "03093018095": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5781,7 +5781,7 @@
       ]
     },
     "03093018100": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5792,7 +5792,7 @@
       ]
     },
     "03093018105": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5803,7 +5803,7 @@
       ]
     },
     "03093018110": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5814,7 +5814,7 @@
       ]
     },
     "03093018115": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5825,7 +5825,7 @@
       ]
     },
     "03093018120": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5836,7 +5836,7 @@
       ]
     },
     "03093018125": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5847,7 +5847,7 @@
       ]
     },
     "03093018130": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5858,7 +5858,7 @@
       ]
     },
     "03093018135": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5869,7 +5869,7 @@
       ]
     },
     "03093018140": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5880,7 +5880,7 @@
       ]
     },
     "03093018145": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5891,7 +5891,7 @@
       ]
     },
     "03093018150": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5902,7 +5902,7 @@
       ]
     },
     "03093018155": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5913,7 +5913,7 @@
       ]
     },
     "03093018160": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5924,7 +5924,7 @@
       ]
     },
     "03093018165": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5935,7 +5935,7 @@
       ]
     },
     "03093018170": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5946,7 +5946,7 @@
       ]
     },
     "03093018175": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5957,7 +5957,7 @@
       ]
     },
     "03093018180": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5968,7 +5968,7 @@
       ]
     },
     "03093018185": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5979,7 +5979,7 @@
       ]
     },
     "03093018190": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -5990,7 +5990,7 @@
       ]
     },
     "03093018195": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -6001,7 +6001,7 @@
       ]
     },
     "03093018200": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.62,
       "predecessors": [
@@ -6018,197 +6018,197 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017970"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017975"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017980"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017985"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017990"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017995"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018000"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018005"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018010"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018015"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018020"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018025"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018030"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018035"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018040"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018045"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018050"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018055"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018060"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018065"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018070"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018075"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018080"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018085"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018090"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018095"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018100"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018105"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018110"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018115"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018120"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018125"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018130"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018135"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018140"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018145"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018150"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018155"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018160"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018165"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018170"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018175"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018180"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018185"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018190"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018195"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018200"
         }
       ]
     },
     "03093018205": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.99,
       "predecessors": [
@@ -6219,7 +6219,7 @@
       ]
     },
     "03093018210": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.99,
       "predecessors": [
@@ -6230,7 +6230,7 @@
       ]
     },
     "03093018215": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.99,
       "predecessors": [
@@ -6241,7 +6241,7 @@
       ]
     },
     "03093018220": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.99,
       "predecessors": [
@@ -6252,7 +6252,7 @@
       ]
     },
     "03093018225": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.99,
       "predecessors": [
@@ -6263,7 +6263,7 @@
       ]
     },
     "03093018230": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.99,
       "predecessors": [
@@ -6274,7 +6274,7 @@
       ]
     },
     "03093018235": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.99,
       "predecessors": [
@@ -6285,7 +6285,7 @@
       ]
     },
     "03093018240": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.99,
       "predecessors": [
@@ -6296,7 +6296,7 @@
       ]
     },
     "03093018245": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.99,
       "predecessors": [
@@ -6307,7 +6307,7 @@
       ]
     },
     "03093018250": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.99,
       "predecessors": [
@@ -6318,7 +6318,7 @@
       ]
     },
     "03093018255": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.99,
       "predecessors": [
@@ -6329,7 +6329,7 @@
       ]
     },
     "03093018260": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.99,
       "predecessors": [
@@ -6340,7 +6340,7 @@
       ]
     },
     "03093018265": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.99,
       "predecessors": [
@@ -6351,7 +6351,7 @@
       ]
     },
     "03093018270": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.99,
       "predecessors": [
@@ -6362,7 +6362,7 @@
       ]
     },
     "03093018275": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.99,
       "predecessors": [
@@ -6373,7 +6373,7 @@
       ]
     },
     "03093018280": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.99,
       "predecessors": [
@@ -6384,7 +6384,7 @@
       ]
     },
     "03093018285": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.99,
       "predecessors": [
@@ -6395,7 +6395,7 @@
       ]
     },
     "03093018290": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.99,
       "predecessors": [
@@ -6406,7 +6406,7 @@
       ]
     },
     "03093018295": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.99,
       "predecessors": [
@@ -6417,7 +6417,7 @@
       ]
     },
     "03093018300": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.99,
       "predecessors": [
@@ -6428,7 +6428,7 @@
       ]
     },
     "03093018305": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.99,
       "predecessors": [
@@ -6439,7 +6439,7 @@
       ]
     },
     "03093018310": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.99,
       "predecessors": [
@@ -6450,7 +6450,7 @@
       ]
     },
     "03093018315": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.99,
       "predecessors": [
@@ -6461,7 +6461,7 @@
       ]
     },
     "03093018320": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.99,
       "predecessors": [
@@ -6472,7 +6472,7 @@
       ]
     },
     "03093018325": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.99,
       "predecessors": [
@@ -6483,7 +6483,7 @@
       ]
     },
     "03093018330": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.99,
       "predecessors": [
@@ -6500,113 +6500,113 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018205"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018210"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018215"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018220"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018225"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018230"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018235"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018240"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018245"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018250"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018255"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018260"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018265"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018270"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018275"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018280"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018285"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018290"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018295"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018300"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018305"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018310"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018315"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018320"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018325"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093018330"
         }
       ]
     },
     "03093017735": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6617,7 +6617,7 @@
       ]
     },
     "03093017740": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6628,7 +6628,7 @@
       ]
     },
     "03093017745": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6639,7 +6639,7 @@
       ]
     },
     "03093017750": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6650,7 +6650,7 @@
       ]
     },
     "03093017755": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6661,7 +6661,7 @@
       ]
     },
     "03093017760": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6672,7 +6672,7 @@
       ]
     },
     "03093017765": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6683,7 +6683,7 @@
       ]
     },
     "03093017770": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6694,7 +6694,7 @@
       ]
     },
     "03093017775": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6705,7 +6705,7 @@
       ]
     },
     "03093017780": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6716,7 +6716,7 @@
       ]
     },
     "03093017785": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6727,7 +6727,7 @@
       ]
     },
     "03093017790": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6738,7 +6738,7 @@
       ]
     },
     "03093017795": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6749,7 +6749,7 @@
       ]
     },
     "03093017800": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6760,7 +6760,7 @@
       ]
     },
     "03093017805": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6771,7 +6771,7 @@
       ]
     },
     "03093017810": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6782,7 +6782,7 @@
       ]
     },
     "03093017815": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6793,7 +6793,7 @@
       ]
     },
     "03093017820": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6804,7 +6804,7 @@
       ]
     },
     "03093017825": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6815,7 +6815,7 @@
       ]
     },
     "03093017830": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6826,7 +6826,7 @@
       ]
     },
     "03093017835": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6837,7 +6837,7 @@
       ]
     },
     "03093017840": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6848,7 +6848,7 @@
       ]
     },
     "03093017845": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6859,7 +6859,7 @@
       ]
     },
     "03093017850": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6870,7 +6870,7 @@
       ]
     },
     "03093017855": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6881,7 +6881,7 @@
       ]
     },
     "03093017860": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6892,7 +6892,7 @@
       ]
     },
     "03093017865": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6903,7 +6903,7 @@
       ]
     },
     "03093017870": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6914,7 +6914,7 @@
       ]
     },
     "03093017875": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6925,7 +6925,7 @@
       ]
     },
     "03093017880": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6936,7 +6936,7 @@
       ]
     },
     "03093017885": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6947,7 +6947,7 @@
       ]
     },
     "03093017890": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6958,7 +6958,7 @@
       ]
     },
     "03093017895": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6969,7 +6969,7 @@
       ]
     },
     "03093017900": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6980,7 +6980,7 @@
       ]
     },
     "03093017905": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -6991,7 +6991,7 @@
       ]
     },
     "03093017910": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -7002,7 +7002,7 @@
       ]
     },
     "03093017915": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -7013,7 +7013,7 @@
       ]
     },
     "03093017920": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -7024,7 +7024,7 @@
       ]
     },
     "03093017925": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -7035,7 +7035,7 @@
       ]
     },
     "03093017930": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -7046,7 +7046,7 @@
       ]
     },
     "03093017935": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -7057,7 +7057,7 @@
       ]
     },
     "03093017940": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -7068,7 +7068,7 @@
       ]
     },
     "03093017945": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -7079,7 +7079,7 @@
       ]
     },
     "03093017950": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -7090,7 +7090,7 @@
       ]
     },
     "03093017955": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "subdivision",
       "confidence": 0.74,
       "predecessors": [
@@ -7107,183 +7107,183 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017735"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017740"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017745"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017750"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017755"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017760"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017765"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017770"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017775"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017780"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017785"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017790"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017795"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017800"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017805"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017810"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017815"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017820"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017825"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017830"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017835"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017840"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017845"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017850"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017855"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017860"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017865"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017870"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017875"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017880"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017885"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017890"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017895"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017900"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017905"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017910"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017915"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017920"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017925"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017930"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017935"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017940"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017945"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017950"
         },
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "roll": "03093017955"
         }
       ]

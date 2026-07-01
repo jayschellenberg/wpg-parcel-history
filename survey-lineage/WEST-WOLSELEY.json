@@ -1,0 +1,115 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "West Wolseley",
+  "slug": "WEST-WOLSELEY",
+  "snapshots": ["2025-03-14", "2026-07-01"],
+  "generated": "2026-07-01T12:45:23-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-07-01",
+      "from": [
+        {
+          "area_sqft": 5801,
+          "survey_id": "354239"
+        },
+        {
+          "area_sqft": 5005,
+          "survey_id": "354241"
+        },
+        {
+          "area_sqft": 2608,
+          "survey_id": "354242"
+        },
+        {
+          "area_sqft": 49788,
+          "survey_id": "631996"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 66969,
+          "survey_id": "657823"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_survey_id": {
+    "657823": {
+      "snapshot": "2026-07-01",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "354239"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "354241"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "354242"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "631996"
+        }
+      ]
+    },
+    "354239": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657823"
+        }
+      ]
+    },
+    "354241": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657823"
+        }
+      ]
+    },
+    "354242": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657823"
+        }
+      ]
+    },
+    "631996": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657823"
+        }
+      ]
+    }
+  }
+}

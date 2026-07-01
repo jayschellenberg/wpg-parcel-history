@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "layer": "survey",
+  "key_field": "id",
+  "neighbourhood": "North Point Douglas",
+  "slug": "NORTH-POINT-DOUGLAS",
+  "snapshots": ["2025-03-14", "2026-07-01"],
+  "generated": "2026-07-01T12:45:23-0500",
+  "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
+  "events": [
+    {
+      "type": "subdivision",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-07-01",
+      "from": [
+        {
+          "area_sqft": 4246,
+          "survey_id": "270167"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 524,
+          "survey_id": "658155"
+        },
+        {
+          "area_sqft": 506,
+          "survey_id": "658156"
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "by_survey_id": {
+    "658155": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "270167"
+        }
+      ]
+    },
+    "658156": {
+      "snapshot": "2026-07-01",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "270167"
+        }
+      ]
+    },
+    "270167": {
+      "snapshot": "2025-03-14",
+      "type": "subdivision",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658155"
+        },
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "658156"
+        }
+      ]
+    }
+  }
+}

@@ -4,14 +4,14 @@
   "key_field": "id",
   "neighbourhood": "St. James Industrial",
   "slug": "ST-JAMES-INDUSTRIAL",
-  "snapshots": ["2025-03-14", "2026-06-07"],
-  "generated": "2026-06-07T17:27:51-0500",
+  "snapshots": ["2025-03-14", "2026-07-01"],
+  "generated": "2026-07-01T12:45:23-0500",
   "disclaimer": "Inferred from geometry overlap of public parcel snapshots — NOT authoritative lineage. Verify against registered plans of subdivision / consolidation and certificates of title.",
   "events": [
     {
       "type": "consolidation",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 52197,
@@ -33,7 +33,7 @@
     {
       "type": "consolidation",
       "from_snapshot": "2025-03-14",
-      "to_snapshot": "2026-06-07",
+      "to_snapshot": "2026-07-01",
       "from": [
         {
           "area_sqft": 7933,
@@ -55,6 +55,44 @@
         }
       ],
       "confidence": 1
+    },
+    {
+      "type": "consolidation",
+      "from_snapshot": "2025-03-14",
+      "to_snapshot": "2026-07-01",
+      "from": [
+        {
+          "area_sqft": 4913,
+          "survey_id": "303311"
+        },
+        {
+          "area_sqft": 3267,
+          "survey_id": "303312"
+        },
+        {
+          "area_sqft": 16366,
+          "survey_id": "303314"
+        },
+        {
+          "area_sqft": 2346,
+          "survey_id": "303321"
+        },
+        {
+          "area_sqft": 35205,
+          "survey_id": "303329"
+        },
+        {
+          "area_sqft": 2346,
+          "survey_id": "303316"
+        }
+      ],
+      "to": [
+        {
+          "area_sqft": 64441,
+          "survey_id": "657752"
+        }
+      ],
+      "confidence": 1
     }
   ],
   "by_survey_id": {
@@ -65,13 +103,13 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "655202"
         }
       ]
     },
     "655900": {
-      "snapshot": "2026-06-07",
+      "snapshot": "2026-07-01",
       "type": "consolidation",
       "confidence": 1,
       "predecessors": [
@@ -96,7 +134,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "655900"
         }
       ]
@@ -108,7 +146,7 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "655900"
         }
       ]
@@ -120,8 +158,111 @@
       "predecessors": null,
       "successors": [
         {
-          "snapshot": "2026-06-07",
+          "snapshot": "2026-07-01",
           "survey_id": "655900"
+        }
+      ]
+    },
+    "657752": {
+      "snapshot": "2026-07-01",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": [
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "303311"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "303312"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "303314"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "303321"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "303329"
+        },
+        {
+          "snapshot": "2025-03-14",
+          "survey_id": "303316"
+        }
+      ]
+    },
+    "303311": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657752"
+        }
+      ]
+    },
+    "303312": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657752"
+        }
+      ]
+    },
+    "303314": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657752"
+        }
+      ]
+    },
+    "303321": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657752"
+        }
+      ]
+    },
+    "303329": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657752"
+        }
+      ]
+    },
+    "303316": {
+      "snapshot": "2025-03-14",
+      "type": "consolidation",
+      "confidence": 1,
+      "predecessors": null,
+      "successors": [
+        {
+          "snapshot": "2026-07-01",
+          "survey_id": "657752"
         }
       ]
     }
