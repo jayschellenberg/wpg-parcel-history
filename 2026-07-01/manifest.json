@@ -1,10 +1,10 @@
 {
   "schema": 2,
   "snapshot_id": "2026-07-01",
-  "generated": "2026-07-01T12:44:55-0500",
+  "generated": "2026-07-10T10:40:23-0500",
   "generator": {
     "script": "build_historical_shards.R",
-    "commit": "2df0d98",
+    "commit": "edd6b4d",
     "crs": "EPSG:4326",
     "shard_key": "official Winnipeg neighbourhood (representative-point-in-polygon)",
     "simplify_tolerance_deg": 3e-05,
@@ -24,7 +24,7 @@
       "source_url": "https://data.winnipeg.ca/resource/d4mq-wa44",
       "license": "City of Winnipeg Open Data — verify current terms",
       "neighbourhoods": 235,
-      "features": 245081
+      "features": 245080
     },
     "survey": {
       "source_file": "SurveyParcels_20260701.gpkg",
@@ -37,7 +37,20 @@
       "source_url": "https://data.winnipeg.ca/resource/sjjm-nj47",
       "license": "City of Winnipeg Open Data — verify current terms",
       "neighbourhoods": 235,
-      "features": 262753
+      "features": 262752
+    },
+    "zoning": {
+      "source_file": "Zoning_20260701.gpkg",
+      "source_date": "2026-07-01",
+      "retrieved_at": "2026-07-01T12:07:52-0500",
+      "retrieved_at_inferred": false,
+      "source_crs": "EPSG:4326 (WGS 84)",
+      "sha256": "b7de976e75102b4ac1d70ae76d026ebcbf9091aa4f6a84bfb96e79b504bfd1ac",
+      "bytes": 25874432,
+      "source_url": "https://data.winnipeg.ca/resource/dxrp-w6re",
+      "license": "City of Winnipeg Open Data — verify current terms",
+      "neighbourhoods": null,
+      "features": 18425
     }
   },
   "neighbourhoods": {

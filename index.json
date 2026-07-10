@@ -1,7 +1,7 @@
 {
   "dataset": "wpg-parcel-history",
   "schema": 2,
-  "generated": "2026-07-01T12:56:44-0500",
+  "generated": "2026-07-10T10:45:26-0500",
   "cdn": "https://cdn.jsdelivr.net/gh/jayschellenberg/wpg-parcel-history@main",
   "snapshots": {
     "2026-07-01": {
@@ -9,11 +9,15 @@
       "layers": {
         "parcels": {
           "source_date": "2026-07-01",
-          "features": 245081
+          "features": 245080
         },
         "survey": {
           "source_date": "2026-07-01",
-          "features": 262753
+          "features": 262752
+        },
+        "zoning": {
+          "source_date": "2026-07-01",
+          "features": 18425
         }
       },
       "neighbourhood_count": 235
@@ -23,7 +27,7 @@
       "layers": {
         "survey": {
           "source_date": "2025-03-14",
-          "features": 262006
+          "features": 262005
         }
       },
       "neighbourhood_count": 235
@@ -33,7 +37,7 @@
       "layers": {
         "parcels": {
           "source_date": "2025-02-26",
-          "features": 244007
+          "features": 244006
         }
       },
       "neighbourhood_count": 235
@@ -43,7 +47,7 @@
       "layers": {
         "parcels": {
           "source_date": "2023-11-13",
-          "features": 241306
+          "features": 241305
         }
       },
       "neighbourhood_count": 235
