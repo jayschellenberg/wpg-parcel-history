@@ -1,5 +1,7 @@
 # wpg-parcel-history
 
+Status: Maintained | Next: tbd | Blocked: none | Updated: 2026-11-01
+
 Per-neighbourhood historical snapshots of **City of Winnipeg** parcels —
 assessment rolls and survey lots — behind the "as-of-date" compare view in
 [winnipeg-opendata-parcelsearch](https://github.com/jayschellenberg/winnipeg-opendata-parcelsearch).
